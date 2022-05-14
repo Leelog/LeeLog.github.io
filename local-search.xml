@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>mRNA原液的制备工艺和质量控制</title>
+    <link href="/2022/05/14/post/"/>
+    <url>/2022/05/14/post/</url>
+    
+    <content type="html"><![CDATA[<p>诺唯赞公司生物医药部门研发经理金博的一场线上分享会，介绍了mRNA原液的生产和质控内容，内容不长但干货满满，分享了很多他们在实验中摸索得出的具有借鉴意义的数据。写个博客mark一下~</p><p>mRNA疫苗的生产工艺主要有DNA原液的制备，mRNA原液的制备，以及制剂包封、灌装等。mRNA原液制备的主要工艺环节包括将线性化质粒DNA转录为mRNA，化学修饰，分离纯化，mRNA原液分装冻存。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E5%8E%9F%E6%B6%B2%E7%94%9F%E4%BA%A71.png"></p><ol><li><p>菌种筛选中poly A尾丢失的问题。在之前几个mRNA项目中，菌种poly A尾丢失的问题很是麻烦，通过转化多个感受态细胞，降低培养温度，再测序验证仍然无法有效解决，筛选到高比例保留A尾长度的菌种概率很低。再后来，直接将菌液进行涂布平板——挑克隆——测序，A尾的长度仍然只有15A~30A。在这场直播分享中，不少听众也提出A尾丢失的问题，但最终金博也没能给出行之有效的解决方法，说到底，还是多挑克隆——筛！</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220514223520544.png" alt="image-20220514223520544"></p><p>但金博提到，用PCR快速粗略检测A尾长度的方法：在A尾上下游设计一对引物，对质粒或者菌液进行PCR扩增，再进行电泳验证。这个方法没有测序条件的实验室就可以完成，不一定再初期筛选阶段就大规模的送测序筛选，一来浪费经费，而来外包测序耗费时间较长，等结果回来菌液生长活性已经降低。不过PCR测A尾也会有问题，比如poly结构PCR保真性低，A尾差异也就是几十到一百之间，电泳检测分辨率较低。我猜测，通过PCR反应体系（比如dNTP的比例，buffer等）和反应条件的优化，聚合酶的选择，引物和扩增片段的优化，电泳缓冲液和凝胶的筛选，或是通过DNA毛细管电泳（Q-Sep，安捷伦2100&#x2F;5300），可建立起利用PCR法进行A尾长度的粗略检测，在前期筛选过程中，将有广泛的应用场景。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E8%8F%8C%E7%A7%8DA%E5%B0%BE%E7%AD%9B%E9%80%89.png" style="zoom: 50%;"></li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>mRNA</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>【updating~】编码RBD的mRNA疫苗或优于Spike全长？</title>
     <link href="/2022/05/08/%5B%E6%96%87%E7%8C%AE%E5%AD%A6%E4%B9%A0%5DRBD%E7%9A%84mRNA%E7%96%AB%E8%8B%97%E6%88%96%E4%BC%98%E4%BA%8ESpike%E5%85%A8%E9%95%BF%EF%BC%9F/"/>
     <url>/2022/05/08/%5B%E6%96%87%E7%8C%AE%E5%AD%A6%E4%B9%A0%5DRBD%E7%9A%84mRNA%E7%96%AB%E8%8B%97%E6%88%96%E4%BC%98%E4%BA%8ESpike%E5%85%A8%E9%95%BF%EF%BC%9F/</url>
