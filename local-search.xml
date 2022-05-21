@@ -71,13 +71,21 @@
   
   
   <entry>
-    <title>considerations for the development of LNP using microfluidics</title>
+    <title>Considerations for the development of LNP using microfluidics</title>
     <link href="/2022/05/16/considerations-for-the-development-of-lnp-using-microfluidics/"/>
     <url>/2022/05/16/considerations-for-the-development-of-lnp-using-microfluidics/</url>
     
-    <content type="html"><![CDATA[<p>1</p><p>LNP递送系统在预防性核酸疫苗研发、肿瘤治疗等领域进展迅猛，临床和真实世界数据结果优异，具有广阔的应用前景。LNP包封技术虽然可追溯较早，但也是近几年才迎来蓬勃发展，关于LNP制剂工艺方面的文章很少，各公司的工艺技术都是高度保密内容。</p><p>为研究LNP制剂过程中各参数、处方对结果的影响，研究者分别采用两种阳离子脂质（DOTAP、DOAB）和两种可离子化脂质（MC3、GenVoy-ILM-iLNP），分别包封聚腺苷酸（poly A)，单链DNA，mRNA ，探讨了总流速TFR、流速比FRR、脂质组分的摩尔比等对包封产物的粒径，PDI，Zeta点位及包封率的影响。</p><p>文章主要方法参数如下：水相的缓冲液主要采用pH6 100mM的柠檬酸缓冲液，在缓冲液的探讨部分引入了TRIS进行对比。采用透析的方法进行纯化，cLNPs用TRIS缓冲液透析，iLNPs用PBS透析。</p><ol><li><strong>总流速（total flow rate，TFR）增大（5-20ml&#x2F;min），粒径减小</strong>，在总流速为10-20ml&#x2F;min时粒径趋于稳定，但PDI始终维持在0.2以下，且纯化对粒径没有影响。</li><li><strong>流速比（flow rate ratio）增大（1：1-1：5），粒径减小，</strong></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>LNP递送系统在预防性核酸疫苗研发、肿瘤治疗等领域进展迅猛，临床和真实世界数据结果优异，具有广阔的应用前景。LNP包封技术虽然可追溯较早，但也是近几年才迎来蓬勃发展，关于LNP制剂工艺方面的文章很少，各公司的工艺技术都是高度保密内容。</p><p>加拿大的Precision nanosystems公司在MDPI-Pharmaceutics上发表了一篇研究论文，为研究LNP制剂过程中各参数、处方对结果的影响，研究者分别采用两种阳离子脂质（DOTAP、DOAB）和两种可离子化脂质（MC3、GenVoy-ILM-iLNP），分别包封聚腺苷酸（poly A)，单链DNA，mRNA ，探讨了总流速TFR、流速比FRR、脂质组分的摩尔比等对包封产物的粒径，PDI，Zeta点位及包封率的影响。</p><p>文章主要方法参数如下：水相的缓冲液主要采用pH6 100mM的柠檬酸缓冲液，在缓冲液的探讨部分引入了TRIS进行对比。采用透析的方法进行纯化，cLNPs用TRIS缓冲液透析，iLNPs用PBS透析。</p><ol><li><p><strong>总流速（total flow rate，TFR）增大（5-20ml&#x2F;min），粒径减小</strong>，在总流速为10-20ml&#x2F;min时粒径趋于稳定，但PDI始终维持在0.2以下，且纯化对粒径没有影响。【👀Note：①此处纯化方法为透析，透析介质分别为pH 7.4的TRIS和pH 7.3的PBS，所以在纯化过程中应伴随着pH的升高，是否会影响离子化脂质带正负电荷的情况和对核酸的包封效率②为何cLNP与iLNP的透析介质不同？③除了粒径，流速是否影响包封率？】</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/TFR%E5%AF%B9%E7%B2%92%E5%BE%84%E7%9A%84%E5%BD%B1%E5%93%8D.png" style="zoom:67%;"></li><li><p><strong>流速比（flow rate ratio,FRR）增大（1：1-1：5），粒径减小，</strong>具体来看，应是在FRR在1：3及1：5时为理想范围内的粒径大小，且PDI也显著收紧。其中，MC3-LNP在FRR1：1在透析后粒径由200nm上升至接近700nm，PDI也明显增大，但实际操作中很少会采用1：1FRR。【🙋‍♂️：是否与N&#x2F;P有关】</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/FRR%E5%AF%B9%E7%B2%92%E5%BE%84%E7%9A%84%E5%BD%B1%E5%93%8D.png" alt="FRR对粒径的影响" style="zoom:67%;"></li><li><p><strong>摩尔比对粒径及zeta点位的影响</strong>。LNP通常由四种组成成分，分别为阳离子脂质（或可离子化脂质）、胆固醇、磷脂及PEG。阳离子脂质（或是可离子化脂质）能够促进与带负电荷的核酸的静电相互作用，并且在内体逃逸中发挥重要作用。磷脂（如DSPC）具有较高的转变温度，能够增加膜的刚性，降低膜的渗透性。当胆固醇含量较低时（&lt;10 molar%），PDI较高；当提高胆固醇含量，同时降低阳离子脂质的含量，PDI显著降低，同时粒径减小；当胆固醇含量提高至50%时，纯化前后粒径大小保持一致，但从图上看，PDI也显著增加，但基本可保持在0.2以下。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E6%91%A9%E5%B0%94%E6%AF%94%E7%9A%84%E5%BD%B1%E5%93%8D.png" alt="摩尔比的影响" style="zoom:67%;"></li></ol>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>mRNA</tag>
+      
+      <tag>LNP</tag>
+      
+    </tags>
     
   </entry>
   
