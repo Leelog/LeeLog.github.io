@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>黄病毒属经典构建方案</title>
+    <link href="/2022/06/01/%E9%BB%84%E7%97%85%E6%AF%92%E5%B1%9E%E7%BB%8F%E5%85%B8%E6%9E%84%E5%BB%BA%E6%96%B9%E6%A1%88/"/>
+    <url>/2022/06/01/%E9%BB%84%E7%97%85%E6%AF%92%E5%B1%9E%E7%BB%8F%E5%85%B8%E6%9E%84%E5%BB%BA%E6%96%B9%E6%A1%88/</url>
+    
+    <content type="html"><![CDATA[<p>黄病毒属（Flavivirus）是一大群具有包膜的单正链RNA病毒。该类病毒通过吸血的节肢动物（蚊、蜱、白蛉等）传播而引起感染，在我国主要流行的黄病毒有<a href="https://baike.baidu.com/item/%E4%B9%99%E5%9E%8B%E8%84%91%E7%82%8E%E7%97%85%E6%AF%92/53668122">乙型脑炎病毒</a>、森林脑炎病毒和登革病毒。黄病毒属基因组全长约11kb，包含5’UTR，3‘UTR和一个开放阅读框ORF。ORF编码三个结构蛋白，分别为衣壳（capsid，C）蛋白、前膜蛋白（premembrane，prM）蛋白、包膜（envelope，E）蛋白和7 个非结构（non⁃structural，NS）蛋白：NS1、NS2A、NS2B、NS3、NS4A、NS4B、NS5。</p><p>当前黄病毒属的经典嵌合方案主要采用反向遗传学的技术，以黄病毒属减毒株为载体或病毒骨架，将外源基因嵌合入减毒骨架，在体外包装成病毒，从而借助减毒株的复制增殖，表达目的抗原。</p><p>一、以黄热病毒减毒株YF-17D为骨架的嵌合病毒</p><p>1927年，通过将非洲一名患者的血液接种给恒河猴，研究者首次从恒河猴体内分离出黄热病毒（yellow fever virus, YF），命名为Asibi。该毒株对猴致死率高达95%，引发较高水平的病毒血症。该毒株经过在多种组织和细胞中传代176代，得到减毒株YF-17D，已开发成为黄热减毒活疫苗，在多个国家有超过70年的应用历史。研究者利用YF-17D作为病毒骨架，已开发针对多种病原体的减毒候选疫苗。</p><ol><li><p>Nature：以YF-17D为骨架的单针新冠候选疫苗。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E6%8D%95%E8%8E%B7.PNG" alt="捕获" style="zoom:67%;"><p>（1）抗原设计：3个候选抗原，S1&#x2F;2抗原为Spike全长抗原（aa14-1273），可切割产生S1和S2亚单位；S0为不可切割的Spike全长（aa14-1273），S1为Spike aa14-722，Spike基因来自于GenBank: MN908947.3，经过密码子优化。</p><p>（2）目的抗原基因插入位点为E和NS1之间，为了保证S抗原和YF17D载体的拓扑构象，在插入抗原的C端细胞质结构域引入了西尼罗河病毒的部分基因（浅灰色标注）</p><p>（3) 转染方案：BHK21J细胞，采用TransIT-LT1试剂转染，4天后收获病毒。</p><ol start="2"><li><p>MDPI-vaccines：以冠状病毒的目的抗原取代YF-17D的prM和E基因，但保留prM的前4-6个基因，并在插入片段末端连接SINV的TMA（跨膜锚定域）。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220601220702148.png" alt="image-20220601220702148" style="zoom:67%;"></li></ol></li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>黄病毒属</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Mindmaster免疫学基本原理篇</title>
     <link href="/2022/05/18/%E3%80%90%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E3%80%91%E5%85%8D%E7%96%AB%E5%AD%A6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E7%AF%87/"/>
     <url>/2022/05/18/%E3%80%90%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E3%80%91%E5%85%8D%E7%96%AB%E5%AD%A6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E7%AF%87/</url>
@@ -60,9 +79,9 @@
       
       <tag>思维导图</tag>
       
-      <tag>生物化学</tag>
-      
       <tag>学习笔记</tag>
+      
+      <tag>生物化学</tag>
       
     </tags>
     
@@ -81,9 +100,9 @@
     
     <tags>
       
-      <tag>LNP</tag>
-      
       <tag>mRNA</tag>
+      
+      <tag>LNP</tag>
       
     </tags>
     
