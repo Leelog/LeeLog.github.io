@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>PanCoronavirus</title>
+    <title>【学习笔记】新冠变异株疫苗及广谱疫苗研究</title>
     <link href="/2022/06/14/Pan-Coronavirus/"/>
     <url>/2022/06/14/Pan-Coronavirus/</url>
     
-    <content type="html"><![CDATA[<p>‘</p><p>Background：</p><p>病毒种属：引起COVID-19的病毒SARS-CoV-2属于</p><p>冠状病毒科（<a href="https://en.wikipedia.org/wiki/Coronaviridae">Coronaviridae</a>）是一类导致哺乳动物和鸟类疾病的相关RNA病毒，可引起人和鸟类从轻微到致命的呼吸道感染。冠状病毒科共有4个病毒属，分别为Alphacoronavirus, Betacoronavirus, Gammacoronavirus和Deltacoronavirus，其中Betacoronavirus（Group 2 CoV）又分为subgroup&#x2F;subgenera A（<em>Embecovirus</em>），B（<em>Sarbecovirus</em>），C（<em>Merbecovirus</em>），D（<em>Nobecovirus</em>），近些年新增了<em>Hibecovirus</em>亚属。2002-2004年大流行的SARS-CoV，以及当前的SARS-CoV-2均属于Betacoronavirus的lineage B——Sarbecovirus。</p>]]></content>
+    <content type="html"><![CDATA[<p>冠状病毒科（<a href="https://en.wikipedia.org/wiki/Coronaviridae">Coronaviridae</a>）是一类导致哺乳动物和鸟类疾病的相关RNA病毒，可引起人和鸟类从轻微到致命的呼吸道感染。冠状病毒科共有4个病毒属，分别为Alphacoronavirus, Betacoronavirus, Gammacoronavirus和Deltacoronavirus，其中Betacoronavirus（Group 2 CoV）又分为subgroup&#x2F;subgenera A（<em>Embecovirus</em>），B（<em>Sarbecovirus</em>），C（<em>Merbecovirus</em>），D（<em>Nobecovirus</em>），近些年新增了<em>Hibecovirus</em>亚属。2002-2004年大流行的SARS-CoV，以及当前的SARS-CoV-2均属于Betacoronavirus的lineage B——Sarbecovirus。SARS-CoV-2的诸多变异株是全球防疫的主要阻力，导致接种人群中的突破性感染增加。WHO 将变异株分为三类：variants of concern(VOCs)、variants of interest(VOI) 和variants under monitoring (VUM)。 前四种 VOCs 包括 Alpha (B.1.1.7)、Beta (B.1.351)、Gamma (P.1) 和 Delta (B.1.617.2)。 2021年11月26日，WHO确认Omicron（B.1.1.529）为第五种VOC，与野生型(WT)相比，Omicron在其刺突蛋白上携带多达30个单点突变、3个缺失突变和1个插入突变。在Omicron受体结合域(RBD)中观察到15个突变，其中10个位于与人类血管紧张素转换酶2 (ACE2)和大多数单克隆抗体(mab)直接相互作用的受体结合基序(RBM)中【SARS-CoV-2 Omicron RBD shows weaker binding affinity than the currently dominant Delta variant to human ACE2】。</p><p>高福院士团队基于此前ZF2001新冠重组蛋白二聚体疫苗的研发平台，设计开发了prototype-beta以及delta-omicron二聚体疫苗。序列来源如下，prototype SARS-CoV-2 (GenBank: YP_009724390), Beta variant (GISAID: EPI_ISL_736940) and Delta variant (GenBank: OK091006.1)。为了蛋白的分泌，每个抗原的N端均连接了MERS-CoV的S蛋白的信号肽（1-17氨基酸残基）；为了便于后续纯化，C端引入了hexa-His标签。序列均进行过哺乳动物细胞表达密码子优化，由金唯智合成，克隆入pCAGGS载体，并转染Expi293F细胞，5天后收获上清并纯化。</p><p>在进行制备临床前研究及临床试验所需的GMP级样品时，RBD二聚体疫苗采用CHO-K1制备，仍保留信号肽序列，但删除了C端的标签，由安徽智飞龙科马完成纯化。同时Prototype-beta嵌合dimer为一个prototype RBD（S蛋白的R319-K537残基）和一个Beta RBD（S蛋白的V320-K537残基）连接，为避免潜在的蛋白酶切割，删去了R319。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/George.F.Gao%E9%87%8D%E7%BB%84%E8%9B%8B%E7%99%BD%E4%BA%8C%E8%81%9A%E4%BD%93.png"></p><p>新加坡杜克-国立大学王林发团队在NEJM上发表文章，对新加坡既往感染过SARS-CoV-1、SARS-CoV-2的康复者血清，以及接种新冠mRNA疫苗BNT162b2的健康人血清进行了中和抗体研究。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/202206151348064.png" alt="image-20220615134829978" style="zoom:67%;"><p>结果表明，感染过SARS-CoV-1康复者者接种BNT162b2，可诱导产生针对10种sarbecovirus的中和抗体。该研究提供了新的免疫接种策略–单剂量加强接种不同分支冠状病毒疫苗：比如先接种SARS-CoV-2疫苗，加强针接种SARS-CoV-1疫苗，可诱导产生针对Pan-Sarbecovirus中和抗体。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/202206151349785.png" alt="image-20220615134953706" style="zoom:67%;">]]></content>
     
     
     
@@ -113,9 +113,9 @@
     
     <tags>
       
-      <tag>mRNA</tag>
-      
       <tag>LNP</tag>
+      
+      <tag>mRNA</tag>
       
     </tags>
     
