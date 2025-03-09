@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>test111</title>
+    <link href="/2025/03/07/test111/"/>
+    <url>/2025/03/07/test111/</url>
+    
+    <content type="html"><![CDATA[<p>Its jyset fsdfsd</p><p><img src="/2025/03/07/test111/Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250307174849027.png" alt="image-20250307174849027"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2025/03/07/Newpost/"/>
+    <url>/2025/03/07/Newpost/</url>
+    
+    <content type="html"><![CDATA[<p>Its just a test file</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>【学习笔记】黄病毒属经典构建方案</title>
+    <link href="/2025/03/07/%E9%BB%84%E7%97%85%E6%AF%92%E5%B1%9E%E7%BB%8F%E5%85%B8%E6%9E%84%E5%BB%BA%E6%96%B9%E6%A1%88/"/>
+    <url>/2025/03/07/%E9%BB%84%E7%97%85%E6%AF%92%E5%B1%9E%E7%BB%8F%E5%85%B8%E6%9E%84%E5%BB%BA%E6%96%B9%E6%A1%88/</url>
+    
+    <content type="html"><![CDATA[<p>黄病毒属（Flavivirus）是一大群具有包膜的单正链RNA病毒。该类病毒通过吸血的节肢动物（蚊、蜱、白蛉等）传播而引起感染，在我国主要流行的黄病毒有<a href="https://baike.baidu.com/item/%E4%B9%99%E5%9E%8B%E8%84%91%E7%82%8E%E7%97%85%E6%AF%92/53668122">乙型脑炎病毒</a>、森林脑炎病毒和登革病毒。黄病毒属基因组全长约11kb，包含5’UTR，3‘UTR和一个开放阅读框ORF。ORF编码三个结构蛋白，分别为衣壳（capsid，C）蛋白、前膜蛋白（pre-membrane，prM）蛋白、包膜（envelope，E）蛋白和7 个非结构（non⁃structural，NS）蛋白：NS1、NS2A、NS2B、NS3、NS4A、NS4B、NS5<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="van Leur, S. W., Heunis, T., Munnur, D., &amp; Sanyal, S. (2021). Pathogenesis and virulence of flavivirus infections. Virulence, 12(1), 2814–2838. https://doi.org/10.1080/21505594.2021.1996059">[1]</span></a></sup>。</p><p>当前黄病毒属的经典嵌合方案主要采用反向遗传学的技术，以黄病毒属减毒株为载体或病毒骨架，将外源基因嵌合入减毒骨架，在体外包装成病毒，从而借助减毒株的复制增殖，表达目的抗原。反向遗传直接从生物的遗传物质入手来阐述生物表型变化，1957年Colter等首次发现从病毒感染的组织中分离获得的RNA具有直接感染性，推动了分子生物学在病毒学领域的应用。正链RNA病毒的反向遗传学技术发展相对更成熟，一种方法是构建病毒的感染性克隆，并以此为模板合成病毒的RNA，通过转染合适的宿主细胞来拯救病毒。另一种方法是通过将病毒的基因组cDNA克隆到质粒载体，并转染易感细胞获得拯救病毒。Recaniello等通过此方法首次获得与野生型脊髓灰质炎病毒生物学特征相同的感染性病毒，并在甲病毒属的研究中得到进一步应用。</p><p>一、以黄热病毒减毒株YF-17D为骨架的嵌合病毒</p><p>1927年，通过将非洲一名患者的血液接种给恒河猴，研究者首次从恒河猴体内分离出黄热病毒（yellow fever virus, YF），命名为Asibi。该毒株对猴致死率高达95%，引发较高水平的病毒血症。该毒株经过在多种组织和细胞中传代176代，得到减毒株YF-17D，表现出良好的减毒效果，继续传代至195代和204代分别得到YF-17DD，和YF-17D204两个亚株<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="Bonaldo, M. C., Sequeira, P. C., &amp; Galler, R. (2014). The yellow fever 17D virus as a platform for new live attenuated vaccines. Human vaccines &amp; immunotherapeutics, 10(5), 1256–1265. ">[2]</span></a></sup>。WHO已批准美国、法国、巴西、英国、俄罗斯、塞内加尔生产黄热减毒活疫苗，其中巴西采用YF-17DD substrian，而其他国家均采用YF-17D。研究者利用YF-17D作为病毒骨架，已开发针对多种病原体的减毒候选疫苗<sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote"><span class="hint--top hint--rounded" aria-label="Vasconcelos, P. F., Luna, E. J., Galler, R., Silva, L. J., Coimbra, T. L., Barros, V. L., … &amp; Group, F. V. E. (2001). Serious adverse events associated with yellow fever 17DD vaccine in Brazil: a report of two cases. The Lancet, 358(9276), 91-97">[3]</span></a></sup>。</p><p>⒈🔑Nature：以YF-17D为骨架的单针新冠候选疫苗<sup id="fnref:4" class="footnote-ref"><a href="#fn:4" rel="footnote"><span class="hint--top hint--rounded" aria-label="A single-dose live-attenuated YF17Dvectored SARS-CoV-2 vaccine candidate">[4]</span></a></sup>。</p><center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E6%8D%95%E8%8E%B7.PNG" alt="捕获" style="zoom:67%;"></center><p>（1）抗原设计：3个候选抗原，S1&#x2F;2抗原为Spike全长抗原（aa14-1273），可切割产生S1和S2亚单位；S0为不可切割的Spike全长（aa14-1273），S1为Spike aa14-722，Spike基因来自于GenBank: MN908947.3，经过密码子优化。❓[如何设计?]</p><p>（2）目的抗原基因插入位点为E和NS1之间，为了保证S抗原和YF17D载体的拓扑构象，在插入抗原的C端细胞质结构域引入了西尼罗河病毒的部分基因（浅灰色标注）</p><p>（3) 转染方案：BHK21J细胞，采用TransIT-LT1试剂转染，4天后收获病毒。</p><p>2 🚩🚩🚩MDPI-vaccines：基于YF-17D复制子的新型冠状病毒疫苗平台<sup id="fnref:5" class="footnote-ref"><a href="#fn:5" rel="footnote"><span class="hint--top hint--rounded" aria-label="Nogueira, R. T., Nogueira, A. R., Pereira, M. C., Rodrigues, M. M., Galler, R., &amp; Bonaldo, M. C. (2011). Biological and immunological characterization of recombinant Yellow Fever 17D viruses expressing a Trypanosoma cruzi Amastigote Surface Protein-2 CD8+ T cell epitope at two distinct regions of the genome. Virology journal, 8, 127.">[5]</span></a></sup></p><center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220601220702148.png" alt="image-20220601220702148" style="zoom:67%;"></center><p>（1） 抗原设计：以冠状病毒如MERS-CoV、SARS-CoV和MHV的抗原亚单位，取代YF-17D的prM和E基因，但<strong>保留prM的前4-6个基因</strong>，并在插入片段C端连接Sindbis virus(<strong>SINV)的transmembrane anchor</strong>（TMA，跨膜锚定域。📍<font color="orange">SINV -glycoprotein E2 TMA</font>📍）。</p><p>构建重组病毒的重要一点是要维持毒株本身蛋白的膜拓扑学，从而不影响蛋白的水解成熟。其次，如果插入的外源抗原能够表达在细胞表面，将提高抗原的诱导细胞免疫水平。黄热病毒的C蛋白上的TMA基因编码prM的信号肽，同时E蛋白上的TMA基因编码NS1的信号肽。但是当prM和E基因被外源基因所取代时，应将外源基因插入在C蛋白的TMA基因之后，以形成目的膜拓扑学并在内质网内腔完成水解过程。为使外源抗原锚定在膜表面，和下游NS1蛋白的正确表达，应在外源基因的下游保留E蛋白的TMA基因。但是，使用E蛋白的TMA将导致外源蛋白在内质网聚集，而不是在细胞表面。为了实现外源基因在细胞表面的表达，可使用SINV的E2糖蛋白上的TMA基因取代YFV E蛋白的TMA。与YFV在内质网组装不同，SINV在质膜上完成组装，并将糖蛋白E2表达在细胞表面。因此，外源抗原携带SINV E2的TMA序列将有助于实现在细胞表面的表达。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220604205818964.png" alt="image-20220604205818964" style="zoom:67%;"><p>外源基因SARS-CoV及MHV的RBD&#x2F;S1 domain的N端引入了两个连续的V5标签（GKPIPNPLLGLDST），该标签来源于猴副流感病毒5型的RNA聚合酶α亚基的aa95-108，由于在许多不同物种中都可以产生高亲和性的抗体，因而选择该短肽序列设计标签肽。SARS的RBD&#x2F;S1 domain的C端引入了两个连续的HA标签（YPYDVPDYA），该标签来源于人流感病毒血凝素（HA）aa98-106。这两个多肽标签具有商品化的单克隆抗体，引入这这两个标签可便于外源基因表达的验证。</p><p>（2）拯救方案：将构建完成的质粒在3’UTR的下游线性化酶切后，采用mMACHINE™ SP6 Transcription Kit (Invitrogen）进行体外转录得到RNA，说明书推荐37℃，但该研究采用了42℃，2h的孵育方法。采用Amaxa Nucleofector II instrument with kit T and program T20 (Lonza, Bazel, Zwitserland)将RNA电转入BHK-21细胞，1μg RNA转染1×10E6个细胞。</p><p>😀⒊<a href="http://www.virologyj.com/content/8/1/127">Virology Journal</a>：在YF-17D骨架的E200和NS2B和NS3插入诱导rypanosoma cruzi 特异性CD8阳性T细胞免疫应答的TASP-2多肽，以及该重组病毒的免疫学和生物学特性的验证<sup id="fnref:6" class="footnote-ref"><a href="#fn:6" rel="footnote"><span class="hint--top hint--rounded" aria-label="Nogueira, R. T., Nogueira, A. R., Pereira, M., Rodrigues, M. M., Galler, R., &amp; Bonaldo, M. C. (2011). Biological and immunological characterization of recombinant Yellow Fever 17D viruses expressing a Trypanosoma cruzi Amastigote Surface Protein-2 CD8+ T cell epitope at two distinct regions of the genome. Virology journal, 8(1), 1-13.">[6]</span></a></sup>。</p><center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220603223728890.png" style="zoom:67%;"></center><p>(1)抗原设计：目的抗原为Trypanosoma cruzi（克氏锥虫，主要引起Chagas病，也称美洲锥虫病） ASP-2(amastigote surface protein 2) aa320-327多肽TEWETGQI，ASP-2分子量约83kDa，是T.cruzi胞内无鞭毛体的表面蛋白，能够被小鼠和人的毒性T淋巴细胞识别,有研究表明，CD8 + T淋巴细胞可直接作用于ASP-2 aa320-327的H-2Kk限制性免疫优势表位TEWETGQI。</p><p>本文分别在YFV的E蛋白E200位点和NS2B&#x2F;NS3之间插入了目的片段，即YF17D&#x2F;E200&#x2F;Tc，YF17D&#x2F;NS2B3&#x2F;Tc。抗原基因插入至E200不需要引入额外序列，这点与之前报道的在同样位位置插入疟原虫表位设计相似。在构建YF17D&#x2F;NS2B3&#x2F;Tc时，研究者在抗原基因的两侧均设计了病毒蛋白酶切割位点从，其中上游的GGAR&#x2F;S序列为NS2B&#x2F;NS3本身的切割位点，该设计使得插入多肽能够表达并游离在细胞质。抗原表达（免疫荧光实验）结果与以上的抗原设计预期相符合。</p><center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/202206100913814.png" alt="image-20220610091308633" style="zoom:50%;"></center><p>❓Swiss鼠脑内攻毒结果表明，嵌合了目的基因的重组病毒相对YF-17DD vaccine strian有明显较弱的减毒效果。❓[待查阅YF-17DD最早报道及系统评估神经毒力的文献]</p><center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220604212443783.png" alt="image-20220604212443783" style="zoom:67%;"></center><p>另外，该团队尝试在YFV-17D的E和NS1之间插入了更长片段：T.cruiz ASP2 aa261-380，并N端引入了登革病毒4型 DENV-4 E蛋白的跨膜结构域TM1和TM2，并成功拯救出重组病毒YF 17D&#x2F;ENS1&#x2F;Tc<sup id="fnref:7" class="footnote-ref"><a href="#fn:7" rel="footnote"><span class="hint--top hint--rounded" aria-label="Nogueira, R. T., Nogueira, A. R., Pereira, M. C. S., Rodrigues, M. M., Neves, P. C. D. C., Galler, R., &amp; Bonaldo, M. C. (2013). Recombinant yellow fever viruses elicit CD8+ T cell responses and protective immunity against Trypanosoma cruzi. PloS one, 8(3), e59347.">[7]</span></a></sup>。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/202206111419245.png" alt="image-20220611141936130"></p><p>在免疫原性及保护效果评价中，研究人员将重组病毒YF 17D&#x2F;ENS1&#x2F;Tc与YF17D&#x2F;NS2B3&#x2F;Tc免疫A&#x2F;J小鼠，同时还进行了混合处方免疫研究：Fourmulation1-50% of YF17D&#x2F;ENS1&#x2F;Tc and 50% of YF17D&#x2F;NS2B3&#x2F;Tc viruses, Formulation2-75% of YF17D&#x2F;ENS1&#x2F;Tc and 25% of YF17D&#x2F;NS2B3&#x2F;Tc viruses。从细胞免疫结果来看，重组病毒的接种能显著提升A&#x2F;J mice对TEWETGQI epitope stimulation以及T.cruzi challenge的细胞免疫应答。致死剂量的T.cruzi攻击保护结果表明，在攻毒30天后（days post infection,dpi)，YF 17D&#x2F;ENS1&#x2F;Tc与YF17D&#x2F;NS2B3&#x2F;Tc分别能降低16%和25%的死亡率，但在60dpi，小鼠的存活率仅为16%和8%，保护效果十分有限。</p><center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/T。cruzi" style="zoom:67%;"></center><p>😊<strong>4</strong> <strong>以YF-17D为骨架的黄病毒属嵌合病毒</strong>  黄病毒属病毒结构相似，多数以prM-E作为目的抗原，取代YF-17D相应部分，通过病毒拯救获得嵌合病毒，利用YF-17D的减毒骨架表达目的抗原，刺激机体产生免疫应答，基于此策略的登革、乙脑、寨卡嵌合病毒等均有相关文献报道。</p><p>登革热是一种通过受感染蚊子的叮咬传播给人类的登革病毒感染疾病，主要病媒是埃及伊蚊，其次是白纹伊蚊，这些蚊子同样也是基孔肯雅病毒、寨卡病毒、黄热病毒的传播媒介。登革病毒存在四种不同但密切相关的病毒血清型（DENV-1、DENV-2、DENV-3和DENV-4）。感染一种血清型的病毒康复后，对该血清型病毒终生免疫。但是，康复后对其他血清型病毒只有部分和暂时的交叉免疫，后续感染其他血清型（继发感染）会增加患上重症登革热的风险<sup id="fnref:8" class="footnote-ref"><a href="#fn:8" rel="footnote"><span class="hint--top hint--rounded" aria-label="Dengue and dengue fever">[8]</span></a></sup>。</p><p>目前全球唯一在部分地区上市的一款登革热疫苗CYD-TDV（Dengvaxia&#x2F;登瓦夏），为赛诺菲巴斯德公司研发，接种对象为生活在登革热流行地区9-45周岁，至少有过1次登革病毒感染史的人群。CYD-TDV是将四种血清型的登革病毒的prM-E基因分别构建入YF-17D骨架，再利用成熟的黄热病毒减毒活疫苗制备工艺体系制备四价登革热病毒减毒活疫苗。在登革热高发的泰国Ratchaburi的4-11岁的儿童开展的phase Ⅱb临床试验CYD23 (NCT00842530)，临床研究结果表明CYD-TDV针对4中登革病毒的总体有效性为34.9%（intent-to-treat），不同血清型病毒之间差异明显，对DENV-4的有效性为90%，但对DENV-2的有效性仅为3.6%<sup id="fnref:9" class="footnote-ref"><a href="#fn:9" rel="footnote"><span class="hint--top hint--rounded" aria-label="Preclinical and clinical development of YFV 17D-based chimeric vaccines against dengue, West Nile and Japanese encephalitis viruses">[9]</span></a></sup>。在两个关键三期临床CYD14 (NCT01373281)、CYD15(NCT01374516)中的总体有效性分别为56.5%和60.8%，但区分血清型来看，CYD-TDV针对DENV-2的有效性仍相对较低[^10,11]。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220617105857314.png" alt="B. Guy et al. / Vaccine 33 (2015) 7100–7111"></p><p>二、以乙脑减毒株SA14-14-2为骨架的嵌合病毒构建</p><p>🌲参考资料</p><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://doi.org/10.1080/21505594.2021.1996059">van Leur, S. W., Heunis, T., Munnur, D., &amp; Sanyal, S. (2021). Pathogenesis and virulence of flavivirus infections. <em>Virulence</em>, <em>12</em>(1), 2814–2838. https://doi.org/10.1080/21505594.2021.1996059</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://doi.org/10.4161/hv.28117">Bonaldo, M. C., Sequeira, P. C., &amp; Galler, R. (2014). The yellow fever 17D virus as a platform for new live attenuated vaccines. <em>Human vaccines &amp; immunotherapeutics</em>, <em>10</em>(5), 1256–1265. </a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span><a href="https://doi.org/10.1016/s0140-6736(01)05326-0">Vasconcelos, P. F., Luna, E. J., Galler, R., Silva, L. J., Coimbra, T. L., Barros, V. L., … &amp; Group, F. V. E. (2001). Serious adverse events associated with yellow fever 17DD vaccine in Brazil: a report of two cases. <em>The Lancet</em>, <em>358</em>(9276), 91-97</a><a href="#fnref:3" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:4" class="footnote-text"><span><a href="https://doi.org/10.1038/s41586-020-3035-9">A single-dose live-attenuated YF17Dvectored SARS-CoV-2 vaccine candidate</a><a href="#fnref:4" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:5" class="footnote-text"><span><a href="https://doi.org/10.1186/1743-422X-8-127">Nogueira, R. T., Nogueira, A. R., Pereira, M. C., Rodrigues, M. M., Galler, R., &amp; Bonaldo, M. C. (2011). Biological and immunological characterization of recombinant Yellow Fever 17D viruses expressing a Trypanosoma cruzi Amastigote Surface Protein-2 CD8+ T cell epitope at two distinct regions of the genome. <em>Virology journal</em>, <em>8</em>, 127.</a><a href="#fnref:5" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:6" class="footnote-text"><span><a href="https://doi.org/10.1186/1743-422X-8-127">Nogueira, R. T., Nogueira, A. R., Pereira, M., Rodrigues, M. M., Galler, R., &amp; Bonaldo, M. C. (2011). Biological and immunological characterization of recombinant Yellow Fever 17D viruses expressing a Trypanosoma cruzi Amastigote Surface Protein-2 CD8+ T cell epitope at two distinct regions of the genome. <em>Virology journal</em>, <em>8</em>(1), 1-13.</a><a href="#fnref:6" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:7" class="footnote-text"><span><a href="10.1371/journal.pone.0059347">Nogueira, R. T., Nogueira, A. R., Pereira, M. C. S., Rodrigues, M. M., Neves, P. C. D. C., Galler, R., &amp; Bonaldo, M. C. (2013). Recombinant yellow fever viruses elicit CD8+ T cell responses and protective immunity against Trypanosoma cruzi. <em>PloS one</em>, <em>8</em>(3), e59347.</a><a href="#fnref:7" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:8" class="footnote-text"><span><a href="https://www.who.int/en/news-room/fact-sheets/detail/dengue-and-severe-dengue">Dengue and dengue fever</a><a href="#fnref:8" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:9" class="footnote-text"><span><a href="https://pubmed.ncbi.nlm.nih.gov/19808029">Preclinical and clinical development of YFV 17D-based chimeric vaccines against dengue, West Nile and Japanese encephalitis viruses</a><a href="#fnref:9" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:10" class="footnote-text"><span><a href="https://www.sciencedirect.com/science/article/abs/pii/S0140673614610606">Clinical efficacy and safety of a novel tetravalent dengue vaccine in healthy children in Asia: a phase 3, randomised, observer-masked, placebo-controlled trial </a><a href="#fnref:10" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:11" class="footnote-text"><span><a href="https://pubmed.ncbi.nlm.nih.gov/25365753/">Efficacy of a tetravalent dengue vaccine in children in Latin America</a><a href="#fnref:11" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>黄病毒属</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2025/03/07/%E6%B3%B0%E5%9B%BD%E6%9C%B1%E6%8B%89%E9%9A%86%E5%8A%9F%E5%A4%A7%E5%AD%A6%E6%96%B0%E5%86%A0mRNA%E7%96%AB%E8%8B%97ChulaCoV19%E5%8A%A8%E7%89%A9%E5%AE%9E%E9%AA%8C%EF%BC%88Mice%EF%BC%89/"/>
+    <url>/2025/03/07/%E6%B3%B0%E5%9B%BD%E6%9C%B1%E6%8B%89%E9%9A%86%E5%8A%9F%E5%A4%A7%E5%AD%A6%E6%96%B0%E5%86%A0mRNA%E7%96%AB%E8%8B%97ChulaCoV19%E5%8A%A8%E7%89%A9%E5%AE%9E%E9%AA%8C%EF%BC%88Mice%EF%BC%89/</url>
+    
+    <content type="html"><![CDATA[<p>泰国朱拉隆功大学新冠mRNA疫苗ChulaCoV19动物实验（Mice）</p><p>ChulaCoV19是泰国朱拉隆功大学医学院疫苗研发卓越中心（ChulaVRC）基于Wuhan-HU-1株Spike研发的新冠mRNA疫苗，在2020年9月就已进入临床实验。2023年4月23日，ChulaVRC在Nat comm发表动物实验(Mice)数据。通讯作者包含Drew Wessiman, mRNA-LNP方法部分引用了Wessiman此前的文章。</p><p>前言逻辑：自2019年12月底COVID-19大流行以来，全球出现了多达10种病毒变种，其中5种（Alpha、Beta、Gamma、Delta和Omicron）被世卫组织认定为需关注的变种。目前，至少有11种已批准的疫苗，包括mRNA、灭活病毒、病毒载体和重组蛋白等技术平台。尽管现有疫苗无法完全防止感染，但它们在减轻感染者的严重症状方面是有效的。然而，疫苗的有效性随时间而降低，同时还出现了新的需关注变种，因此需要增加加强剂。mRNA疫苗在诱导高水平的免疫应答和保护免受严重症状方面最为有效，且mRNA生产平台具有可大规模生产和快速适应新变种的优势。然而，疫苗不平等问题仍然是全球的挑战。发展高效疫苗平台，如mRNA技术，以应对COVID-19大流行和未来的大流行病，对低收入和中等收入国家至关重要。</p><p>疫苗设计：编码抗原为Wuhan-Hu-1株的S蛋白（aa1-1210），MN908947.1，基因由金斯瑞公司合成，克隆至质粒中，质粒使用Stbl3制备。通过T7启动子，体外转录制备mRNA。掺入m1Ψ，Clean cap，均来自Trilink公司。T7 RNA聚合酶来自MegaScript（ThermoFisher ScientificC29）。LNP方法引用了Weissman此前的文章，该文章中的LNP为摩尔比为50:10:38.5:1.5的四脂质配方。</p><p>动物实验结果：</p><ol><li>剂量依赖性明显，但10μg与30μg剂量对中和抗体滴度的提升已不明显。两针低剂量明显优于一针高剂量的mRNA疫苗，与我们此前的研究、其他文献的报道相一致。</li></ol><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20230501212631170.png" alt="image-20230501212631170"></p><ol start="2"><li><p>2针5μg对Wt、Alpha、Beta、Delta的中和抗体滴度分别为13512，13512，7760，2941，但对Omicron株的中和抗体滴度下降十分明显，针对BA.1、BA.4&#x2F;5分别为656，185。但总是优于灭活疫苗CoronaVac和腺病毒载体疫苗AZD1222。从中和抗体水平来看，序贯接种AZD1222&#x2F;ChulaCoV19与2针ChulaCoV19十分接近，但序贯接种AZD1222&#x2F;ChulaCoV19能够诱导显著更高的细胞免疫水平。但不管是诱导体液免疫还是细胞免疫，序贯方案总优于两针灭活疫苗和两针腺病毒载体。这一结果与其他序贯免疫的文章的结果一致。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20230501214418076.png"></p></li></ol><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20230501214936908.png" alt="image-20230501214936908"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2025/03/07/SARS-CoV-2%E5%AF%B9%E4%BA%BA%E7%B1%BB%E7%A5%9E%E7%BB%8F%E5%85%83%E7%9A%84%E6%84%9F%E6%9F%93%E4%B8%8ETMPRSS2%E6%97%A0%E5%85%B3%EF%BC%8C%E9%9C%80%E8%A6%81%E8%BF%9B%E5%85%A5%E5%86%85%E4%BD%93%E7%BB%86%E8%83%9E%EF%BC%8C%E5%B9%B6%E8%83%BD%E8%A2%AB%E5%AE%BF%E4%B8%BB%E7%A3%B7%E9%85%B8%E8%82%8C%E9%86%87-5%E6%BF%80%E9%85%B6%E7%9A%84%E6%8A%91%E5%88%B6%E5%89%82%E6%89%80%E9%98%BB%E6%AD%A2/"/>
+    <url>/2025/03/07/SARS-CoV-2%E5%AF%B9%E4%BA%BA%E7%B1%BB%E7%A5%9E%E7%BB%8F%E5%85%83%E7%9A%84%E6%84%9F%E6%9F%93%E4%B8%8ETMPRSS2%E6%97%A0%E5%85%B3%EF%BC%8C%E9%9C%80%E8%A6%81%E8%BF%9B%E5%85%A5%E5%86%85%E4%BD%93%E7%BB%86%E8%83%9E%EF%BC%8C%E5%B9%B6%E8%83%BD%E8%A2%AB%E5%AE%BF%E4%B8%BB%E7%A3%B7%E9%85%B8%E8%82%8C%E9%86%87-5%E6%BF%80%E9%85%B6%E7%9A%84%E6%8A%91%E5%88%B6%E5%89%82%E6%89%80%E9%98%BB%E6%AD%A2/</url>
+    
+    <content type="html"><![CDATA[<p>SARS-CoV-2对人类神经元的感染与TMPRSS2无关，需要进入内体细胞，并能被宿主磷酸肌醇-5激酶的抑制剂所阻止</p><p>数百万COVID-19患者观察到各种神经症状，这导致了一个假设，即SARS-CoV-2可以感染大脑细胞。这些症状包括疲劳、头痛、注意力和记忆障碍、癫痫发作和脑病。研究还发现了大脑解剖结构的变化。尸检分析发现，死于COVID-19的患者大脑中存在病毒成分。体外细胞培养模型中，SARS-CoV-2可以感染源于人类胚胎干细胞（embryonic stem cells，ESCs）和诱导多能干细胞（induced pluripotent stem cell，iPSCs）的神经元。</p><p>真正确定的嗜神经性病毒，如狂犬病病毒、脊髓灰质炎病毒或蜱传脑炎病毒，会导致严重的神经元感染，影响大脑广泛区域，带来瘫痪或致命后果。但对于SARS-CoV-2，不管是productive感染还是non-productive感染，其是否可以从最初感染的神经元传播尚存争议。</p><p>2023年4月23日，芬兰赫尔辛基大学、澳大利亚昆士兰大学在J Virol发表文章*[Kettunen et al. J Virol 2023]*，该研究揭示了SARS-CoV-2在人类iPSC衍生的类皮质神经元中的感染途径，并证实了神经元而非星形胶质细胞受到感染。病毒依赖ACE2进入细胞，并优先通过内质网-溶酶体途径进入神经元。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/20230501234614.png" style="zoom:80%;">]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>【学习笔记】新冠变异株疫苗及广谱疫苗研究</title>
+    <link href="/2025/03/07/Pan-Coronavirus/"/>
+    <url>/2025/03/07/Pan-Coronavirus/</url>
+    
+    <content type="html"><![CDATA[<p>冠状病毒科（<a href="https://en.wikipedia.org/wiki/Coronaviridae">Coronaviridae</a>）是一类导致哺乳动物和鸟类疾病的相关RNA病毒，可引起人和鸟类从轻微到致命的呼吸道感染。冠状病毒科共有4个病毒属，分别为Alphacoronavirus, Betacoronavirus, Gammacoronavirus和Deltacoronavirus，其中Betacoronavirus（Group 2 CoV）又分为subgroup&#x2F;subgenera A（<em>Embecovirus</em>），B（<em>Sarbecovirus</em>），C（<em>Merbecovirus</em>），D（<em>Nobecovirus</em>），近些年新增了<em>Hibecovirus</em>亚属。2002-2004年大流行的SARS-CoV，以及当前的SARS-CoV-2均属于Betacoronavirus的lineage B—Sarbecovirus<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="维基百科：Coronavirus">[1]</span></a></sup>。</p><p>🚧SARS-CoV-2的诸多变异株是全球防疫的主要阻力，导致接种人群中的突破性感染增加。WHO 将变异株分为三类：variants of concern(VOCs)、variants of interest(VOI) 和variants under monitoring (VUM)。 前四种 VOCs 包括 Alpha (B.1.1.7)、Beta (B.1.351)、Gamma (P.1) 和 Delta (B.1.617.2)。 2021年11月26日，WHO确认Omicron（B.1.1.529）为第五种VOC，与野生型(WT)相比，Omicron在其刺突蛋白上携带多达30个单点突变、3个缺失突变和1个插入突变。在Omicron受体结合域(RBD)中观察到15个突变，其中10个位于与人类血管紧张素转换酶2 (ACE2)和大多数单克隆抗体(mab)直接相互作用的受体结合基序(RBM)中【SARS-CoV-2 Omicron RBD shows weaker binding affinity than the currently dominant Delta variant to human ACE2】。</p><p>🍕2021年12月Nature连发数刊，发现COVID-19的大多数治疗性抗体和天然抗体对omicron株的效力均大幅降低。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220626221007706.png" alt="image-20220626221007706"></p><p>🔴高福院士团队基于此前ZF2001新冠重组蛋白二聚体疫苗的研发平台，设计开发了prototype-beta以及delta-omicron二聚体疫苗。序列来源如下，prototype SARS-CoV-2 (GenBank: YP_009724390), Beta variant (GISAID: EPI_ISL_736940) and Delta variant (GenBank: OK091006.1)。为了蛋白的分泌，每个抗原的N端均连接了MERS-CoV的S蛋白的信号肽（1-17氨基酸残基）；为了便于后续纯化，C端引入了hexa-His标签。序列均进行过哺乳动物细胞表达密码子优化，由金唯智合成，克隆入pCAGGS载体，并转染Expi293F细胞，5天后收获上清并纯化。</p><p>在进行制备临床前研究及临床试验所需的GMP级样品时，RBD二聚体疫苗采用CHO-K1制备，仍保留信号肽序列，但删除了C端的标签，由安徽智飞龙科马完成纯化。同时Prototype-beta嵌合dimer为一个prototype RBD（S蛋白的R319-K537残基）和一个Beta RBD（S蛋白的V320-K537残基）连接，为避免潜在的蛋白酶切割，删去了R319。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/George.F.Gao%E9%87%8D%E7%BB%84%E8%9B%8B%E7%99%BD%E4%BA%8C%E8%81%9A%E4%BD%93.png"></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220626220035688.png" alt="image-20220626220035688"></p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220626215859243.png" alt="image-20220626215859243" style="zoom: 80%;"><p>🔴蓝鹊&#x2F;上海复旦预印本：抗原突变设计如下，其中粉色来源于B.1.1.7 variant，蓝色来源于B.1.351 variant，红色为共有，标*的位点同时也存在于B.1.1.529 variant。另外，弗林酶切割位点RRAR替换为GSAS，<strong>并删除了末端18个氨基酸。</strong>目前mRNA疫苗RQ3013已进入一期临床。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/202206162111354.png"></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220626215234949.png" alt="image-20220626215234949"></p><p>🔴中科大王育才团队设计的两款新冠mRNA疫苗相关成果已上传预印本，分别是与BNT162b2序列相同的基于野毒株设计的S_WT-2P mRNA疫苗，以及基于Omicron株设计的<font color="red">S_Omicron-6P mRNA疫苗</font>。S_WT-2P在WA1株（GenBank MN908947.3）的Spike全长基础上，设计了2个脯氨酸突变即K986P和V987P，来稳定spike的融合前构象。S_Omicron-6P抗原设计序列基于omicron株（B.1.1.529，GISAID: GR&#x2F;484A）的Spike引入了6个脯氨酸突变，分别为F817P, A892P, A899P, A942P, K986P和V987P。Jason S. McLellan团队2013年即发现通过设计突变，将RSV的F protein锁定在融合前构象可显著提高其诱导中和抗体水平的能力。该团队2020年在Science发表文章Structure-based design of prefusion-stabilized SARS-CoV-2 spikes，设计了6个脯氨酸突变的<strong>HexaPro</strong>，提升了Spike在哺乳动物细胞中的产量和稳定性，通过电镜证实了该设计能够将Spike稳定的锁定在融合前构象，从而增强其诱导中和抗体水平。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220626092632347.png" alt="image-20220626092632347"></p><p>该研究在假毒和真毒上分别进行了中和抗体滴度测定，结果表明，Omicron-6P诱导针对Omicron的中和抗体水平（NT50&#x2F;VNT50）优于当前已获批的新冠灭活疫苗及亚单位疫苗。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220625153754216.png" alt="image-20220625153754216" style="zoom: 67%;"><p>该研究对免疫两针的叙利亚仓鼠进行Omicron攻毒实验，并分别通过RT-qPCR和空斑实验检测其鼻腔、左右肺的病毒载量，结果表明Omicron-6P可有效保护仓鼠感染Omicron株，且疫苗诱导仓鼠产生的中和抗体与接种剂量表现出良好的相关性。但攻毒后的RT-qPCR检测鼻腔病毒载量数据表明，仅50μg的剂量免疫可显著降低仓鼠鼻腔中的病毒载量，采用空斑实验检测鼻腔中的病毒载量的检出量与RT-qPCR数据明显不符。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220625162522741.png" alt="image-20220625162522741" style="zoom: 67%;"><p>该研究分别给恒河猴接种了20μg和100μg的Omicron-S6P mRNA疫苗，发现单针接种该疫苗时，仅有1只高剂量组的恒河猴血清针对Omicron假毒的中和抗体阳转，但第二针接种后7天，两种剂量的所有血清针对多种变异株的中和抗体水平均显著提升。该研究给预防新冠变异株的免疫接种策略提供了临床前的数据支持，即两剂Omicron特异性的mRNA疫苗能提供针对omicron株较高滴度的抗体水平和良好的保护效果。</p><p>🔴耶鲁大学医学院基于Omicron BA.1（GISAID EpiCoV: EPI_ISL_6826713 and EPI_ISL_6826714）全长Spike抗原，引入了HexaPro的S 6P突变位点来提高S蛋白的稳定性并维持融合前构象。S蛋白上的RRAR也突变为GSAS，从而使得S蛋白不被弗林蛋白酶切割为S1和S2。</p><p>初步免疫原性研究结果表明，该款omicron mRNA以10μg剂量间隔14天接种1针或2针均可诱导B6小鼠产生高滴度的omicron RBD结合抗体、假毒、活毒中和抗体，且2针接种免疫原性提升明显。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220702122711340.png" alt="YALE medical HEXAPRO omicron homolog"></p><p>考虑到当前西方国家人口接种新冠疫苗主要以2针的WT mRNA疫苗为主，该团队进一步研究了WT和omicron的两针免疫、第三针heterologous、homologous booster的不同免疫方案，所诱导小鼠产生的对omicron、delta变异株的中和抗体水平差异。结果表明，①与WA1和Delta RBD相比，WT mRNA-LNP诱导的针对Omicron RBD的结合抗体滴度在35天和&gt;3.5个月时明显较弱，中和抗体水平已下降至PBS基线水平。②序贯接种omicron mRNA疫苗可显著提升针对omicron、delta株的中和抗体水平，针对omicron提升更为显著。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220702131547473.png" alt="image-20220702131547473"></p><p>这篇文章对于制备工艺的介绍也相对详细，Hiscribe T7 ARCA mRNA Kit （with talling，NEB，Cat#E2060S），50% N1甲基化假尿嘧啶，mRNA -80℃保存，制剂采用加拿大的Precision Nanosystems公司的Ignite微流控设备，脂质混合物组分为 46.3% ALC-0315 (MedChemExpress, HY-138170), 1.6% ALC-0159 (MedChemExpress, HY-138300), 9.4% DSPC (Avanti polar lipids, 850365 P), and 42.7% Cholesterol (Avanti polar lipids, 700100 P)。 水相为25mM pH5.2的醋酸钠溶液，LNP：mRNA摩尔比为6:1。通过100kDa Amicon filter（Macrosep，Centrifugal Devices 100K，89131-992）换液为蔗糖PBS溶液。</p><p>was mixed with prepared mRNA in 25 mM sodium acetate at pH 5.2 on Ignite instrument at a molar ratio of 6:1 (LNP: mRNA</p><p>🔴艾博生物👬军科院秦成峰团队Letter：基于ARCoV mRNA疫苗平台，快速开发针对omicron株的mRNA疫苗，从omicron RBD序列到第一手动物免疫原性数据仅用时32天。ARCoV-Omicron作为加强针免疫可诱导小鼠产生针对omicron高水平的中和抗体，且对WT的中和抗体水平更高，相对primary immunization中和抗体水平提升十分显著。</p><center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220627214903357.png" alt="Abogen omicron letter" style="zoom:67%;"></center><p>🔴上海巴斯德研究所黄忠团队设计了分别编码SARS-CoV-2 WT株和omicron株RBD的mRNA疫苗，<strong>采用了IL-10的信号肽序列</strong>。<a href="https://www.uniprot.org/uniprotkb/A2T6Z6/entry">IL-10</a></p><center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220626204100430.png" alt="image-20220626204100430" style="zoom:67%;"></center><p>免疫原性研究结果表明，WT RBD疫苗针对Dleta株的中和抗体水平有所下降，但针对omicron株的中和抗体水平大幅下降至较低水平。omicron RBD疫苗针对omicron株的中和抗体较高，但无法提供针对WT和delta株的中和作用。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220626204222139.png" alt="image-20220626204222139" style="zoom:67%;"><p>🔴新加坡杜克-国立大学王林发团队在NEJM上发表文章，对新加坡既往感染过SARS-CoV-1、SARS-CoV-2的康复者血清，以及接种新冠mRNA疫苗BNT162b2的健康人血清进行了中和抗体研究。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/202206151348064.png" alt="image-20220615134829978" style="zoom:67%;"><p>该研究发现，感染过SARS-CoV-1康复者者接种BNT162b2，可诱导产生针对10种**<font color="cornflowerblue">sarbecovirus</font><strong>的中和抗体。该研究提供了新的免疫接种策略–单剂量加强接种不同分支冠状病毒疫苗：</strong>比如先接种SARS-CoV-2疫苗，加强针接种SARS-CoV-1疫苗，可诱导产生针对Pan-Sarbecovirus中和抗体。**</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/202206151349785.png" alt="image-20220615134953706" style="zoom:67%;"><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://en.wikipedia.org/wiki/Coronaviridae">维基百科：Coronavirus</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2025/03/07/HPLC%E5%AE%9A%E9%87%8F%E8%84%82%E8%B4%A8%E4%BD%93%E7%BB%84%E5%88%86%E4%B8%ADDOTAP%E5%90%AB%E9%87%8F/"/>
+    <url>/2025/03/07/HPLC%E5%AE%9A%E9%87%8F%E8%84%82%E8%B4%A8%E4%BD%93%E7%BB%84%E5%88%86%E4%B8%ADDOTAP%E5%90%AB%E9%87%8F/</url>
+    
+    <content type="html"><![CDATA[<p><strong>HPLC定量脂质体组分中DOTAP含量</strong></p><p>脂质体被广泛应用于mRNA疫苗、DNA疫苗、核酸药物中。阳离子脂质具有带正电荷的头部，能够与带有负电荷的核酸静电吸附，通过与其他脂质体的协同作用将核酸包封在脂质体混合物内部，能够提高核酸的稳定性，促进核酸进入细胞内发挥表达、干扰等作用。</p><p>在将阳离子脂质体与DNA、RNA混合之前，准确测定每个脂质体成分的浓度是至关重要的，以确保脂质体制剂的高重复性。另外，质控、放行阶段也需要对成品进行脂质体组分的鉴别和定量。</p><p>📭有文章公开了采用HPLC（二极管阵列检测器）检测脂质体DOTAP的方法[Meyer et al. European Journal of Pharmaceutics and Biopharmaceutics 2000]。方法描述为：</p><p>使用反相C18 LC ABZ1plus 柱（25 x 0.46 cm，5 μm；Supelcosil，Supelco，Bellefonte，PA）搭配HP1090 HPLC系统（Hewlett-Packard Co.，Camas）。并在进样器和分析柱之间安装了一个防护柱（Supelguard ABZ 1 plus，2 cm，Supelco，货号# 59535-U）。每个脂质体制备的10μL样品与50mL的溶液A（0.15％TFA水溶液）和60mL的溶液B（0.05％TFA异丙醇溶液）稀释。脂质使用线性梯度进行上样和洗脱，从50％流动相A和50％流动相B的开始，10分钟内达到100％流动相B，保持10分钟的100％流动相B，然后在2分钟内返回到初始流动相比例。所有运行都在室温下进行，流速为0.5 ml&#x2F;min，两个连续运行之间间隔10分钟。使用二极管阵列检测器（PAD）在205 nm处进行紫外检测。标准曲线的配制方法：将脂质体粉末称量后，DOPE和DOTAP使用异丙醇溶解，胆固醇使用甲醇溶解，pcTG90使用乙醇&#x2F;水 (90&#x2F;10)溶解。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20230501121303273.png" alt="image-20230501121303273" style="zoom: 80%;"><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20230501123343294.png" alt="image-20230501123343294" style="zoom:80%;"><p>这种方法能够很好的将pcTG90&#x2F;DOPE, DOTAP&#x2F;Chol分开，标曲可信性强。</p><p>📝关于脂质体pcTG90。</p><p>该脂质体的合成发表于1999年*[Nazih et al. Tetrahedron Letters 1999]<em>。在2000年报道与DOPE混合使用能够有效递送表达IFN-β的DNA质粒，优选配方为pcTG90:DOPE&#x3D;摩尔比1：2，N&#x2F;P&#x3D;10</em>[Meyer et al. Gene Ther 2000]*。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20230501122948993.png" alt="image-20230501122948993" style="zoom:67%;"><p>泰国朱拉隆功大学研究人员参考相似的方法用于测定本团队研发的新冠DNA疫苗的DOTAP含量*[Peletta et al. Vaccines 2021]*，方法描述如下：</p><p>使用Waters Acquity系统（Milford，MA，USA），该系统配备了二元溶剂输送泵、样品管理器、自动进样器、柱加热舱和光电二极管阵列（PDA）检测器。分离是在XBridge（伦敦，英国）C18，3.5μm，2.1 x 100mm柱上进行，柱温40°C。脂质采用二元线性梯度进行洗脱，从50％流动相A和50％流动相B开始，1.88分钟内达到100％B，并保持100％流动相B2.08分钟。其中A为0.15％（v&#x2F;v）三氟乙酸（TFA）水溶液，B为0.05％（v&#x2F;v）TFA异丙醇溶液。然后将流动相组成更改回初始溶剂混合物。流动相的流速设定为0.2 mL&#x2F;min。注射样品直接在异丙醇中稀释。使用从1 mg&#x2F;mL到0.015 mg&#x2F;mL的DOTAP标准品按1:1稀释步骤建立校准曲线。使用PDA检测器在205 nm波长处进行紫外检测。通过测量曲线下面积（AUC）来计算DOTAP的浓度。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Mindmaster免疫学基本原理篇</title>
+    <link href="/2022/05/18/%E3%80%90%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E3%80%91%E5%85%8D%E7%96%AB%E5%AD%A6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E7%AF%87/"/>
+    <url>/2022/05/18/%E3%80%90%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E3%80%91%E5%85%8D%E7%96%AB%E5%AD%A6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E7%AF%87/</url>
+    
+    <content type="html"><![CDATA[<p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC11%E7%AB%A0%20%E6%8A%97%E5%8E%9F%E6%8F%90%E5%91%88%E7%BB%86%E8%83%9E%E4%B8%8E%E6%8A%97%E5%8E%9F%E7%9A%84%E5%8A%A0%E5%B7%A5%E6%8F%90%E5%91%88.png" alt="第11章 抗原提呈细胞与抗原的加工提呈"></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC12%E7%AB%A0%20T%E7%BB%86%E8%83%9E%E4%BB%8B%E5%AF%BC%E7%9A%84%E9%80%82%E5%BA%94%E6%80%A7%E5%85%8D%E7%96%AB%E5%BA%94%E7%AD%94.png" alt="第12章 T细胞介导的适应性免疫应答"></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC13%E7%AB%A0%20B%E6%B7%8B%E5%B7%B4%E7%BB%86%E8%83%9E%E4%BB%8B%E5%AF%BC%E7%9A%84%E7%89%B9%E5%BC%82%E6%80%A7%E5%85%8D%E7%96%AB%E5%BA%94%E7%AD%94.png" alt="第13章 B淋巴细胞介导的特异性免疫应答"></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC14%E7%AB%A0%20%E5%9B%BA%E6%9C%89%E5%85%8D%E7%96%AB%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%85%B6%E4%BB%8B%E5%AF%BC%E7%9A%84%E5%85%8D%E7%96%AB%E5%BA%94%E7%AD%94.png" alt="第14章 固有免疫系统及其介导的免疫应答"></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC15%E7%AB%A0%20%E5%85%8D%E7%96%AB%E8%80%90%E5%8F%97.png" alt="第15章 免疫耐受"></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC16%E7%AB%A0%20%E5%85%8D%E7%96%AB%E8%B0%83%E8%8A%82.png" alt="第16章 免疫调节"></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>思维导图</tag>
+      
+      <tag>免疫学</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Mindmaster免疫学基本概念系列</title>
+    <link href="/2022/05/17/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E2%80%94%E5%85%8D%E7%96%AB%E5%AD%A6%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E7%B3%BB%E5%88%97/"/>
+    <url>/2022/05/17/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E2%80%94%E5%85%8D%E7%96%AB%E5%AD%A6%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E7%B3%BB%E5%88%97/</url>
+    
+    <content type="html"><![CDATA[<p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC%E4%BA%8C%E7%AB%A0%EF%BC%9A%E5%85%8D%E7%96%AB%E5%99%A8%E5%AE%98%E5%92%8C%E7%BB%84%E7%BB%87.png"></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC%E4%B8%89%E7%AB%A0%EF%BC%9A%E6%8A%97%E5%8E%9F.png" alt="第三章：抗原"><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC%E5%9B%9B%E7%AB%A0%EF%BC%9A%E6%8A%97%E4%BD%93.png" alt="第四章：抗体"><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC%E4%BA%94%E7%AB%A0%EF%BC%9A%E8%A1%A5%E4%BD%93%E7%B3%BB%E7%BB%9F.png" alt="第五章：补体系统"><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC%E5%85%AD%E7%AB%A0%EF%BC%9A%E7%BB%86%E8%83%9E%E5%9B%A0%E5%AD%90.png" alt="第六章：细胞因子"></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC%E4%B8%83%E7%AB%A0%E7%99%BD%E7%BB%86%E8%83%9E%E5%88%86%E5%8C%96%E6%8A%97%E5%8E%9F.png" alt="第七章白细胞分化抗原"></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC%E5%85%AB%E7%AB%A0%EF%BC%9A%E4%B8%BB%E8%A6%81%E7%BB%84%E7%BB%87%E7%9B%B8%E5%AE%B9%E6%80%A7%E5%A4%8D%E5%90%88%E4%BD%93.png" alt="第八章：主要组织相容性复合体"><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC%E4%B9%9D%E7%AB%A0%EF%BC%9AB%E6%B7%8B%E5%B7%B4%E7%BB%86%E8%83%9E.png" alt="第九章：B淋巴细胞"><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC%E5%8D%81%E7%AB%A0%EF%BC%9AT%E6%B7%8B%E5%B7%B4%E7%BB%86%E8%83%9E.png" alt="第十章：T淋巴细胞"></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>思维导图</tag>
+      
+      <tag>免疫学</tag>
+      
+      <tag>学习笔记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Mindmaster生化学习笔记</title>
+    <link href="/2022/05/17/%E7%94%9F%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Mindmaster/"/>
+    <url>/2022/05/17/%E7%94%9F%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Mindmaster/</url>
+    
+    <content type="html"><![CDATA[<p>【Po一些自己整理的学习资料，分享即快乐】</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/13%E7%AB%A0%20%E7%9C%9F%E6%A0%B8%E5%9F%BA%E5%9B%A0%E4%B8%8E%E5%9F%BA%E5%9B%A0%E7%BB%84.png" alt="13章 真核基因与基因组" style="zoom:67%;"><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC%E4%BA%8C%E7%AB%A0%EF%BC%9A%E6%A0%B8%E9%85%B8%E7%9A%84%E7%BB%93%E6%9E%84%E4%B8%8E%E5%8A%9F%E8%83%BD.png" alt="第二章：核酸的结构与功能"></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0%20%20%20DNA%E7%9A%84%E7%94%9F%E7%89%A9%E5%90%88%E6%88%90.png" alt="第十四章   DNA的生物合成"></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%93%E6%9E%84%E4%B8%8E%E5%8A%9F%E8%83%BD.png" alt="第一章 蛋白质结构与功能"></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>思维导图</tag>
+      
+      <tag>学习笔记</tag>
+      
+      <tag>生物化学</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Considerations for the development of LNP using microfluidics</title>
+    <link href="/2022/05/16/considerations-for-the-development-of-lnp-using-microfluidics/"/>
+    <url>/2022/05/16/considerations-for-the-development-of-lnp-using-microfluidics/</url>
+    
+    <content type="html"><![CDATA[<p>LNP递送系统在预防性核酸疫苗研发、肿瘤治疗等领域进展迅猛，临床和真实世界数据结果优异，具有广阔的应用前景。LNP包封技术虽然可追溯较早，但也是近几年才迎来蓬勃发展，关于LNP制剂工艺方面的文章很少，各公司的工艺技术也都是高度保密内容。</p><p>加拿大的Precision nanosystems公司在MDPI-Pharmaceutics上发表了一篇研究论文，为研究LNP制剂过程中各参数、处方对结果的影响，研究者分别采用两种阳离子脂质（DOTAP、DOAB）和两种可离子化脂质（MC3、GenVoy-ILM-iLNP），分别包封聚腺苷酸（poly A)，单链DNA，mRNA ，探讨了总流速TFR、流速比FRR、脂质组分的摩尔比等对包封产物的粒径，PDI，Zeta点位及包封率的影响。</p><p>文章主要方法参数如下：水相的缓冲液主要采用pH6 100mM的柠檬酸缓冲液，在缓冲液的探讨部分引入了TRIS进行对比。采用透析的方法进行纯化，cLNPs用TRIS缓冲液透析，iLNPs用PBS透析。</p><ol><li><p><strong>总流速（total flow rate，TFR）增大（5-20ml&#x2F;min），粒径减小</strong>，在总流速为10-20ml&#x2F;min时粒径趋于稳定，但PDI始终维持在0.2以下，且纯化对粒径没有影响。【👀Note：①此处纯化方法为透析，透析介质分别为pH 7.4的TRIS和pH 7.3的PBS，所以在纯化过程中应伴随着pH的升高，是否会影响离子化脂质带正负电荷的情况和对核酸的包封效率②为何cLNP与iLNP的透析介质不同？③除了粒径，流速是否影响包封率？】</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/TFR%E5%AF%B9%E7%B2%92%E5%BE%84%E7%9A%84%E5%BD%B1%E5%93%8D.png" style="zoom:67%;"></li><li><p><strong>流速比（flow rate ratio,FRR）增大（1：1-1：5），粒径减小，</strong>具体来看，应是在FRR在1：3及1：5时为理想范围内的粒径大小，且PDI也显著收紧。其中，MC3-LNP在FRR1：1在透析后粒径由200nm上升至接近700nm，PDI也明显增大，但实际操作中很少会采用1：1FRR。【🙋‍♂️：是否与N&#x2F;P有关】</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/FRR%E5%AF%B9%E7%B2%92%E5%BE%84%E7%9A%84%E5%BD%B1%E5%93%8D.png" alt="FRR对粒径的影响" style="zoom:67%;"></li><li><p><strong>摩尔比对粒径及zeta点位的影响</strong>。LNP通常由四种组成成分，分别为阳离子脂质（或可离子化脂质）、胆固醇、磷脂及PEG。阳离子脂质（或是可离子化脂质）能够促进与带负电荷的核酸的静电相互作用，并且在内体逃逸中发挥重要作用。磷脂（如DSPC）具有较高的转变温度，能够增加膜的刚性，降低膜的渗透性。当胆固醇含量较低时（&lt;10 molar%），PDI较高；当提高胆固醇含量，同时降低阳离子脂质的含量，PDI显著降低，同时粒径减小；当胆固醇含量提高至50%时，纯化前后粒径大小保持一致，但从图上看，PDI也显著增加，但基本可保持在0.2以下。相比较而言，MC3-LNP对胆固醇含量的变化并不敏感，且PDI始终在0.2以下，性质较为稳定。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E6%91%A9%E5%B0%94%E6%AF%94%E7%9A%84%E5%BD%B1%E5%93%8D.png" alt="摩尔比的影响" style="zoom:67%;"><ol start="4"><li><p><strong>脂质组分及缓冲液的影响</strong>。HSPC替代DSPC，DMG-PEG2000替代DSPE-PEG200均为观察到粒径PDI及Zeta电位有显著改变。相比之下，缓冲液对于包封产物特征的影响则更大。从图中可以看到，采用10mM pH7.4的TRIS缓冲液，DOTAP-cLNP的粒径只有25nm，PDI也较大。但使用100mM pH6.0的柠檬酸缓冲液，DOTAP-cLNP的粒径~50nm，PDI显著降低。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%BC%93%E5%86%B2%E6%B6%B2%E7%9A%84%E5%BD%B1%E5%93%8D.png" style="zoom:67%;"></li></ol></li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>mRNA</tag>
+      
+      <tag>LNP</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>【学习笔记】mRNA原液的制备工艺和质量控制</title>
+    <link href="/2022/05/14/mRNA%E5%8E%9F%E6%B6%B2%E7%9A%84%E5%88%B6%E5%A4%87%E5%B7%A5%E8%89%BA%E5%92%8C%E8%B4%A8%E9%87%8F%E6%8E%A7%E5%88%B6/"/>
+    <url>/2022/05/14/mRNA%E5%8E%9F%E6%B6%B2%E7%9A%84%E5%88%B6%E5%A4%87%E5%B7%A5%E8%89%BA%E5%92%8C%E8%B4%A8%E9%87%8F%E6%8E%A7%E5%88%B6/</url>
+    
+    <content type="html"><![CDATA[<p>mRNA疫苗的生产工艺主要有DNA原液的制备，mRNA原液的制备，以及制剂包封、灌装等。原液是mRNA疫苗制备的第一环节，主要工艺环节包括将线性化质粒DNA转录为mRNA，化学修饰，分离纯化，mRNA原液分装冻存。与灭活疫苗、减毒活疫苗、腺病毒载体疫苗路线不同，mRNA疫苗的制备过程不涉及病毒的培养，除去菌种发酵，也无其他环节涉及细菌的培养。</p><p>当前主流是采用体外转录（IVT)方法，通过RNA聚合酶识别启动子，进行RNA合成。为降低mRNA的体内免疫原性，需在5‘UTR的上游加上Cap结构，常采用酶法（牛痘病毒加帽酶）或是共转录法完成。poly A尾也同样可通过加尾酶或是共转录，加到序列的3’末端，对mRNA的稳定性和半衰期有显著改善作用，从而提高翻译效率。整个过程用到多种原料酶、buffer等，可能存在残留污染；转录过程也将产生多种副产物，如dsRNA，CAP0或无CAP，转录提前终止，过度延伸产生长片段等，因此需要在原液生产阶段就进行严格的质量控制。</p><p>这篇博客主要总结一下个人在原液环节遇到的一些问题，以及制备和质控过程中的一点心得。</p><p><strong>1.菌种筛选中poly A尾丢失的问题。</strong></p><p>在之前几个mRNA项目中，菌种poly A尾丢失的问题很是麻烦，通过转化多个感受态细胞，降低培养温度，再测序验证仍然无法有效解决，筛选到高比例保留A尾长度的菌种概率很低。再后来，直接将菌液进行涂布平板——挑克隆——测序，A尾的长度仍然只有15A~30A。</p><p>诺唯赞公司生物医药部门研发经理金博的一场线上分享会，介绍了mRNA原液的生产和质控内容，分享了很多他们在实验中摸索得出的具有借鉴意义的数据。写个博客mark一下~</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220514223520544.png" alt="image-20220514223520544"></p><p>在这场直播分享中，不少听众也提出A尾丢失的问题，但最终金博也没能给出行之有效的解决方法，说到底，还是多挑克隆——筛！但金博提到，用PCR快速粗略检测A尾长度的方法：在A尾上下游设计一对引物，对质粒或者菌液进行PCR扩增，再进行电泳验证。这个方法没有测序条件的实验室就可以完成，不一定再初期筛选阶段就大规模的送测序筛选，一来浪费经费，二来外包测序耗费时间较长，等结果回来菌液生长活性已经降低，不能直接冻菌保存，再次活化又可能导致复制不完全的问题。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E5%8E%9F%E6%B6%B2%E7%94%9F%E4%BA%A71.png"></p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E8%8F%8C%E7%A7%8DA%E5%B0%BE%E7%AD%9B%E9%80%89.png" style="zoom: 50%;"><p>但PCR测A尾也会有问题，比如poly结构PCR保真性低，扩增的腺苷酸个数难以反映真实值，A尾差异也就是几十到一百之间，电泳检测分辨率较低。通过PCR反应体系（比如dNTP的比例，buffer等）和反应条件的优化，聚合酶的选择，引物和扩增片段的优化，电泳缓冲液和凝胶的筛选，或是通过DNA毛细管电泳（Q-Sep，安捷伦2100&#x2F;5300），可建立起利用PCR法进行A尾长度的粗略检测，在前期筛选过程中，应用场景广泛。当前已有<a href="https://www.freepatentsonline.com/20110059453.pdf">专利</a>和<a href="https://pubmed.ncbi.nlm.nih.gov/19111191/">文章</a>以及<a href="https://www.thermofisher.cn/order/catalog/product/764551KT">产品</a>可实现PCR法检测poly A尾长度。</p><p>另一方面，优化A尾的设计也是行之有效的方法，BioNTech专利公布了不连续PolyA尾设计，如30A+Linker+70A，A40L60，A60L60。该方法显著提高了mRNA的表达效率，体现在更高的体内和体外活性。</p><p>当前polyA尾测定的金标准仍是LC-MS法。诺华公司公开发表了这一方法专利</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/20221119141610.png"></p><p>RNase T1特异地作用于鸟嘌呤3’端磷酸，切割位点在鸟嘌呤的3’磷酸和相邻核苷酸的5‘羟基之问的磷酸二酯键，反应终产物为3’鸟苷酸和末端带3’鸟苷酸的寡核苷酸片段。原液经RNase T1切割后，采用poly A富集试剂盒可将原液种不同长度的poly A尾富集，再进行液质联用分析，从而计算不同长度的比例。</p><p><strong>2.IVT反应产物的纯化：</strong></p><p>IVT反应体系中含有大量的盐离子、dNTP、酶、cap-analog等杂质，需要经过一步纯化。实验室小试阶段，能够制备mg级mRNA原液，足够做一批动物实验，可采用微柱纯化、磁珠法、层析等对IVT反应产物进行纯化，以获得高纯度的mRNA原液。微柱法的纯化能力受限于单个微柱的承载量，一般在10μg-50μg左右，实际操作中需要分成若干个微柱同时进行，操作起来比较麻烦，但回收率较高。磁珠法可根据反应体系或预估产物量按比例扩大磁珠用量，在不同规格的磁力架上可单管操作，较为方便。产物wash步骤常采用70%-80%乙醇或是异丙醇，醇相比例太高将导致盐离子、蛋白等沉淀吸附，杂质洗涤不完全，而比例太低又将导致RNA的洗脱，回收率降低。在最终洗脱时，可采用无菌无酶水，或是TE溶液进行洗脱，预热洗脱液有利于RNA的溶解。还可采用Oligo-dT亲和层析法进行粗纯，进一步采用RP-HPLC精纯。另外有研究表明，mRNA原液在纯化过程中，除了目的ssRNA的纯度提升，dsRNA含量也会降低。mRNA原液不稳定，长期保存需-80℃冻存。洗脱完成后可使用商品化或根据经验配制的保存溶液对原液进一步稀释，降低RNA在冻融过程中造成的水解或断裂。<img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220525212901830.png" alt="image-20220525212901830"></p><p><strong>3.双链RNA（dsRNA）杂质干扰</strong></p><p>dsRNA可被TLR3、RIG I、melanoma differentiation-associated gene 5 (MDA5)等分子识别，<a href="https://pubmed.ncbi.nlm.nih.gov/25101084">激活TRIF和MAVS分子</a>。进一步介导IFN-1和促炎细胞因子的分泌，从而激活下游信号通路，参与抗病毒免疫蛋白基因的表达，将影响mRNA疫苗的体内表达活性。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220525214202922.png" alt="image-20220525214202922" style="zoom:67%;"><p>有研究表明，dsRNA主要有2种形成机理：一种是RNA聚合酶在不依赖于T7 promoter的情况下，由3‘end错误启动，这种情况可通过poly(A&#x2F;T)的序列设计来避免；另一种更易发生，在转录完成之后，RNA聚合酶未从模板解离，而是以转录产物为模板继续合成。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220525214838974.png" alt="image-20220525214838974" style="zoom:50%;"><p>dsRNA含量可通过均相时间分辨荧光（HTRF）或是ELISA法进行定量分析。两种方法均利用了d2和EU两种抗体，通过标准曲线对dsRNA进行定量。其中，HTRF技术为法国CISBIO公司产品专利，结合了荧光共振能量转移和时间分辨荧光，与ELISA法相比，其操作相对快速，省去了包被和洗板的过程。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220525220636890.png" alt="image-20220525220636890" style="zoom:67%;"><p><strong>4.修饰核苷的问题</strong></p><p>修饰核苷对mRNA疫苗质量提升至关重要，假尿苷化修饰是RNA中普遍存在的一种转录后修饰，是表观遗传学的重要组成，由假尿苷合酶家族PUS实现对RNA上的特异性尿苷位点进行修饰。针对核苷酸的修饰方式目前主要有以下几种：假尿苷（pseudouridine, ψ）、N1-甲基假尿苷（N1-methylpseudouridine, m1ψ）、5-甲氧基尿苷（5-methoxyuridine, mo5U）、2-硫代尿苷（2-thiouridine, s2U）、5-甲基胞苷（5-methylcytidine，m5C）和N6-甲基腺苷（N6-methyladenosine, m6A）等。有研究表明修饰核苷替代后，mRNA翻译效率将显著提高。目前IVT反应常采用 m1ψ来100%替代dUTP，以提高mRNA疫苗在体内的稳定性。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220525221230138.png" alt="image-20220525221230138" style="zoom:67%;">]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>mRNA</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>【学习笔记】编码RBD的mRNA疫苗或优于Spike全长？</title>
+    <link href="/2022/05/08/%5B%E6%96%87%E7%8C%AE%E5%AD%A6%E4%B9%A0%5DRBD%E7%9A%84mRNA%E7%96%AB%E8%8B%97%E6%88%96%E4%BC%98%E4%BA%8ESpike%E5%85%A8%E9%95%BF%EF%BC%9F/"/>
+    <url>/2022/05/08/%5B%E6%96%87%E7%8C%AE%E5%AD%A6%E4%B9%A0%5DRBD%E7%9A%84mRNA%E7%96%AB%E8%8B%97%E6%88%96%E4%BC%98%E4%BA%8ESpike%E5%85%A8%E9%95%BF%EF%BC%9F/</url>
+    
+    <content type="html"><![CDATA[<p>2022年4月15日iScience上发表清华大学刘万里团队的文章“RBD trimer mRNA vaccine elicits broad and protective immune responses against SARS-CoV-2 variants”，团队设计构建了一款基于Wuhan-Hu-1株的新冠RBD三聚体mRNA疫苗，在SARS-CoV-2易感小鼠模型（K18-hACE2）上表现出对野毒株和当前主流变异株良好的保护效果。除了对RBD三聚体疫苗的设计和制剂方案的描述，文章中系统的免疫学评价实验及数据分析方案也非常值得学习。<a href="https://pubmed.ncbi.nlm.nih.gov/35291264/">原文传送</a></p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/article%20cover2.png"></p><p><strong>1.抗原设计、mRNA-LNP制剂</strong></p><p>研究团队采用非复制性型的mRNA疫苗策略，除了包含5’Cap、5’UTR、3’UTR和Poly(A) tail外，仅编码目的抗原。文章共设计了3款开放阅读框（open reading frame，ORF），分别为原始全长Spike（GenBank: MN908947.3），原始RBD（Asn331-Lys529）及在RBD的C端通过2个<font color="red">GGGS</font> linker连接了Foldon sequence（<strong>折叠序列，GYIPEAPRDGQAYVRKDGEWVLLSTFLG</strong>）的三聚体RBD。其mRNA-LNP制剂方法引用了艾博公司的mRNA疫苗的技术路线，即可电离脂质：DSPC：胆固醇：PEG&#x3D;50：10：38.5：1.5，mRNA缓冲液为20mM pH4.0的柠檬酸缓冲液，醇相和水相体积比为1：2。mRNA-LNP候选疫苗的平均粒径大小在75-110nm之间，包封率均&gt;95%。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E5%BA%8F%E5%88%97%E8%AE%BE%E8%AE%A1%E5%9B%BE.png"></p><p><strong>2.结合抗体和中和抗体水平</strong></p><p>结合抗体方面，三款候选疫苗均可诱导产生针对SARS-CoV-2 S trimer及D614假毒较高水平的结合抗体，其中RBD-trimer较另外两组效果更好，native spike组和native RBD组诱导产生的结合抗体水平无显著性差异。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E7%BB%93%E5%90%88%E6%8A%97%E4%BD%93%E6%B0%B4%E5%B9%B3.png" style="zoom:67%;"><p>研究团队在评价中和抗体水平时，将针对当前流行的变异株假毒中和抗体—B.1.1.7，B.1.351，P.1，B.1.617.2与针对WT D614G的中和抗体水平进行比较，以评价候选疫苗针对不同毒株的诱导中和抗体水平能力。结果表明， RBD trimer与native RBD组针对变异株的中和抗体水平较WT影响较小，变异株B.1.1.7及B.1.351的中和抗体水平甚至高于WT。但native spike组对四种变异株的中和抗体水平相对降低更明显，尤其是B.1.351及B.1.617.2。WT D614及B1.351活病毒中和抗体评价也表现出相似的结果，即RBD组诱导产生针对变异株的中和抗体能力要优于spike组。</p><p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E5%8F%98%E5%BC%82%E6%A0%AA%E4%B8%AD%E5%92%8C%E6%8A%97%E4%BD%93%E6%B0%B4%E5%B9%B3%E6%AF%94%E8%BE%83.png"></p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E6%B4%BB%E7%97%85%E6%AF%92%E4%B8%AD%E5%92%8C%E6%8A%97%E4%BD%93.png" style="zoom:67%;"><p><strong>3.mRNA疫苗诱导细胞免疫应答分析</strong></p><p>生发中心 B 细胞（Germinal center B cells，GCBCs）、记忆 B 细胞（Memory B cells，MBCs）和长寿浆细胞（Long-lived plasma cells，LLPCs）的时空协调、生发和分化是疫苗研发的重要检测项目。为了研究 RBD 三聚体 mRNA 疫苗诱导广泛和有效的中和抗体反应能力的细胞基础，研究人员进行了 RBD 特异性 IgG+ GCBCs、MBCs和&#x2F;或 LLPCs在小鼠腹股沟淋巴结、脾脏和骨髓动力学研究。</p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/B_cell_kinetics1.png" style="zoom:67%;"><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/T_cells_bias.png" style="zoom:67%;"><p>从整体结果来看，三聚体RBD mRNA疫苗组在多个组织中诱导这几类B细胞能力能力更强，其次是native RBD，但这些结果仍有一些值得讨论和学习之处。</p><p>（1）   三聚体RBD组诱导产生腹股沟淋巴结的RBD特异性GC细胞比例较native RBD组高，但native RBD组诱导脾分离得到的特异性GC细胞比例明显提升，甚至在Day10和Day21比三聚体RBD组效果更好，在Day35无显著差异。</p><p>（2）   从细胞动力学来看，尽管在Day28加免了第二针，三聚体RBD组诱导腹股沟淋巴结和脾中的GC细胞分别在Day21和Day35达到峰值，并随后降低，至Day105三组已无显著性差异，均处于较低水平，但特异性的记忆B细胞在Day105时仍保持较高比例。</p><p>（3）   RBD 三聚体组具有CD4+T细胞偏向性，可能是其较高中和抗体水平的原因。</p><p>（4）   很重要的一点：在本文中，三聚体RBD诱导中和抗体水平最高，但CD8+T水平最低；相反，Native spike组中和抗体水平最低，但CD8+T细胞水平最高。</p><img src="http://rbawi3t86.hn-bkt.clouddn.com/T_cells_bias.png" style="zoom:80%;">]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>mRNA</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>

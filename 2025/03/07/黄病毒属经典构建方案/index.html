@@ -1,0 +1,717 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Lee">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="黄病毒属（Flavivirus）是一大群具有包膜的单正链RNA病毒。该类病毒通过吸血的节肢动物（蚊、蜱、白蛉等）传播而引起感染，在我国主要流行的黄病毒有乙型脑炎病毒、森林脑炎病毒和登革病毒。黄病毒属基因组全长约11kb，包含5’UTR，3‘UTR和一个开放阅读框ORF。ORF编码三个结构蛋白，分别为衣壳（capsid，C）蛋白、前膜蛋白（pre-membrane，prM）蛋白、包膜（envelop">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【学习笔记】黄病毒属经典构建方案">
+<meta property="og:url" content="http://example.com/2025/03/07/%E9%BB%84%E7%97%85%E6%AF%92%E5%B1%9E%E7%BB%8F%E5%85%B8%E6%9E%84%E5%BB%BA%E6%96%B9%E6%A1%88/index.html">
+<meta property="og:site_name" content="LeeM&#39;s Blog">
+<meta property="og:description" content="黄病毒属（Flavivirus）是一大群具有包膜的单正链RNA病毒。该类病毒通过吸血的节肢动物（蚊、蜱、白蛉等）传播而引起感染，在我国主要流行的黄病毒有乙型脑炎病毒、森林脑炎病毒和登革病毒。黄病毒属基因组全长约11kb，包含5’UTR，3‘UTR和一个开放阅读框ORF。ORF编码三个结构蛋白，分别为衣壳（capsid，C）蛋白、前膜蛋白（pre-membrane，prM）蛋白、包膜（envelop">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/202206121350432.png">
+<meta property="article:published_time" content="2025-03-07T01:35:53.108Z">
+<meta property="article:modified_time" content="2022-07-04T13:43:50.000Z">
+<meta property="article:author" content="Lee">
+<meta property="article:tag" content="黄病毒属">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/202206121350432.png">
+  
+  
+  <title>【学习笔记】黄病毒属经典构建方案 - LeeM&#39;s Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/202206141517853.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="【学习笔记】黄病毒属经典构建方案"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2025-03-07 09:35" pubdate>
+          2025年3月7日 上午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          6.2k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          53 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">【学习笔记】黄病毒属经典构建方案</h1>
+            
+            <div class="markdown-body">
+              
+              <p>黄病毒属（Flavivirus）是一大群具有包膜的单正链RNA病毒。该类病毒通过吸血的节肢动物（蚊、蜱、白蛉等）传播而引起感染，在我国主要流行的黄病毒有<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E4%B9%99%E5%9E%8B%E8%84%91%E7%82%8E%E7%97%85%E6%AF%92/53668122">乙型脑炎病毒</a>、森林脑炎病毒和登革病毒。黄病毒属基因组全长约11kb，包含5’UTR，3‘UTR和一个开放阅读框ORF。ORF编码三个结构蛋白，分别为衣壳（capsid，C）蛋白、前膜蛋白（pre-membrane，prM）蛋白、包膜（envelope，E）蛋白和7 个非结构（non⁃structural，NS）蛋白：NS1、NS2A、NS2B、NS3、NS4A、NS4B、NS5<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="van Leur, S. W., Heunis, T., Munnur, D., &amp; Sanyal, S. (2021). Pathogenesis and virulence of flavivirus infections. Virulence, 12(1), 2814–2838. https://doi.org/10.1080/21505594.2021.1996059
+">[1]</span></a></sup>。</p>
+<p>当前黄病毒属的经典嵌合方案主要采用反向遗传学的技术，以黄病毒属减毒株为载体或病毒骨架，将外源基因嵌合入减毒骨架，在体外包装成病毒，从而借助减毒株的复制增殖，表达目的抗原。反向遗传直接从生物的遗传物质入手来阐述生物表型变化，1957年Colter等首次发现从病毒感染的组织中分离获得的RNA具有直接感染性，推动了分子生物学在病毒学领域的应用。正链RNA病毒的反向遗传学技术发展相对更成熟，一种方法是构建病毒的感染性克隆，并以此为模板合成病毒的RNA，通过转染合适的宿主细胞来拯救病毒。另一种方法是通过将病毒的基因组cDNA克隆到质粒载体，并转染易感细胞获得拯救病毒。Recaniello等通过此方法首次获得与野生型脊髓灰质炎病毒生物学特征相同的感染性病毒，并在甲病毒属的研究中得到进一步应用。</p>
+<p>一、以黄热病毒减毒株YF-17D为骨架的嵌合病毒</p>
+<p>1927年，通过将非洲一名患者的血液接种给恒河猴，研究者首次从恒河猴体内分离出黄热病毒（yellow fever virus, YF），命名为Asibi。该毒株对猴致死率高达95%，引发较高水平的病毒血症。该毒株经过在多种组织和细胞中传代176代，得到减毒株YF-17D，表现出良好的减毒效果，继续传代至195代和204代分别得到YF-17DD，和YF-17D204两个亚株<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="Bonaldo, M. C., Sequeira, P. C., &amp; Galler, R. (2014). The yellow fever 17D virus as a platform for new live attenuated vaccines. Human vaccines &amp; immunotherapeutics, 10(5), 1256–1265. 
+">[2]</span></a></sup>。WHO已批准美国、法国、巴西、英国、俄罗斯、塞内加尔生产黄热减毒活疫苗，其中巴西采用YF-17DD substrian，而其他国家均采用YF-17D。研究者利用YF-17D作为病毒骨架，已开发针对多种病原体的减毒候选疫苗<sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote"><span class="hint--top hint--rounded" aria-label="Vasconcelos, P. F., Luna, E. J., Galler, R., Silva, L. J., Coimbra, T. L., Barros, V. L., … &amp; Group, F. V. E. (2001). Serious adverse events associated with yellow fever 17DD vaccine in Brazil: a report of two cases. The Lancet, 358(9276), 91-97
+">[3]</span></a></sup>。</p>
+<p>⒈🔑Nature：以YF-17D为骨架的单针新冠候选疫苗<sup id="fnref:4" class="footnote-ref"><a href="#fn:4" rel="footnote"><span class="hint--top hint--rounded" aria-label="A single-dose live-attenuated YF17Dvectored SARS-CoV-2 vaccine candidate
+">[4]</span></a></sup>。</p>
+<center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/%E6%8D%95%E8%8E%B7.PNG" srcset="/img/loading.gif" lazyload alt="捕获" style="zoom:67%;"></center>
+
+<p>（1）抗原设计：3个候选抗原，S1&#x2F;2抗原为Spike全长抗原（aa14-1273），可切割产生S1和S2亚单位；S0为不可切割的Spike全长（aa14-1273），S1为Spike aa14-722，Spike基因来自于GenBank: MN908947.3，经过密码子优化。❓[如何设计?]</p>
+<p>（2）目的抗原基因插入位点为E和NS1之间，为了保证S抗原和YF17D载体的拓扑构象，在插入抗原的C端细胞质结构域引入了西尼罗河病毒的部分基因（浅灰色标注）</p>
+<p>（3) 转染方案：BHK21J细胞，采用TransIT-LT1试剂转染，4天后收获病毒。</p>
+<p>2 🚩🚩🚩MDPI-vaccines：基于YF-17D复制子的新型冠状病毒疫苗平台<sup id="fnref:5" class="footnote-ref"><a href="#fn:5" rel="footnote"><span class="hint--top hint--rounded" aria-label="Nogueira, R. T., Nogueira, A. R., Pereira, M. C., Rodrigues, M. M., Galler, R., &amp; Bonaldo, M. C. (2011). Biological and immunological characterization of recombinant Yellow Fever 17D viruses expressing a Trypanosoma cruzi Amastigote Surface Protein-2 CD8+ T cell epitope at two distinct regions of the genome. Virology journal, 8, 127.
+">[5]</span></a></sup></p>
+<center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220601220702148.png" srcset="/img/loading.gif" lazyload alt="image-20220601220702148" style="zoom:67%;"></center>
+
+<p>（1） 抗原设计：以冠状病毒如MERS-CoV、SARS-CoV和MHV的抗原亚单位，取代YF-17D的prM和E基因，但<strong>保留prM的前4-6个基因</strong>，并在插入片段C端连接Sindbis virus(<strong>SINV)的transmembrane anchor</strong>（TMA，跨膜锚定域。📍<font color="orange">SINV -glycoprotein E2 TMA</font>📍）。</p>
+<p>构建重组病毒的重要一点是要维持毒株本身蛋白的膜拓扑学，从而不影响蛋白的水解成熟。其次，如果插入的外源抗原能够表达在细胞表面，将提高抗原的诱导细胞免疫水平。黄热病毒的C蛋白上的TMA基因编码prM的信号肽，同时E蛋白上的TMA基因编码NS1的信号肽。但是当prM和E基因被外源基因所取代时，应将外源基因插入在C蛋白的TMA基因之后，以形成目的膜拓扑学并在内质网内腔完成水解过程。为使外源抗原锚定在膜表面，和下游NS1蛋白的正确表达，应在外源基因的下游保留E蛋白的TMA基因。但是，使用E蛋白的TMA将导致外源蛋白在内质网聚集，而不是在细胞表面。为了实现外源基因在细胞表面的表达，可使用SINV的E2糖蛋白上的TMA基因取代YFV E蛋白的TMA。与YFV在内质网组装不同，SINV在质膜上完成组装，并将糖蛋白E2表达在细胞表面。因此，外源抗原携带SINV E2的TMA序列将有助于实现在细胞表面的表达。</p>
+<img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220604205818964.png" srcset="/img/loading.gif" lazyload alt="image-20220604205818964" style="zoom:67%;">
+
+<p>外源基因SARS-CoV及MHV的RBD&#x2F;S1 domain的N端引入了两个连续的V5标签（GKPIPNPLLGLDST），该标签来源于猴副流感病毒5型的RNA聚合酶α亚基的aa95-108，由于在许多不同物种中都可以产生高亲和性的抗体，因而选择该短肽序列设计标签肽。SARS的RBD&#x2F;S1 domain的C端引入了两个连续的HA标签（YPYDVPDYA），该标签来源于人流感病毒血凝素（HA）aa98-106。这两个多肽标签具有商品化的单克隆抗体，引入这这两个标签可便于外源基因表达的验证。</p>
+<p>（2）拯救方案：将构建完成的质粒在3’UTR的下游线性化酶切后，采用mMACHINE™ SP6 Transcription Kit (Invitrogen）进行体外转录得到RNA，说明书推荐37℃，但该研究采用了42℃，2h的孵育方法。采用Amaxa Nucleofector II instrument with kit T and program T20 (Lonza, Bazel, Zwitserland)将RNA电转入BHK-21细胞，1μg RNA转染1×10E6个细胞。</p>
+<p>😀⒊<a target="_blank" rel="noopener" href="http://www.virologyj.com/content/8/1/127">Virology Journal</a>：在YF-17D骨架的E200和NS2B和NS3插入诱导rypanosoma cruzi 特异性CD8阳性T细胞免疫应答的TASP-2多肽，以及该重组病毒的免疫学和生物学特性的验证<sup id="fnref:6" class="footnote-ref"><a href="#fn:6" rel="footnote"><span class="hint--top hint--rounded" aria-label="Nogueira, R. T., Nogueira, A. R., Pereira, M., Rodrigues, M. M., Galler, R., &amp; Bonaldo, M. C. (2011). Biological and immunological characterization of recombinant Yellow Fever 17D viruses expressing a Trypanosoma cruzi Amastigote Surface Protein-2 CD8+ T cell epitope at two distinct regions of the genome. Virology journal, 8(1), 1-13.
+">[6]</span></a></sup>。</p>
+<center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220603223728890.png" srcset="/img/loading.gif" lazyload style="zoom:67%;"></center>
+
+<p>(1)抗原设计：目的抗原为Trypanosoma cruzi（克氏锥虫，主要引起Chagas病，也称美洲锥虫病） ASP-2(amastigote surface protein 2) aa320-327多肽TEWETGQI，ASP-2分子量约83kDa，是T.cruzi胞内无鞭毛体的表面蛋白，能够被小鼠和人的毒性T淋巴细胞识别,有研究表明，CD8 + T淋巴细胞可直接作用于ASP-2 aa320-327的H-2Kk限制性免疫优势表位TEWETGQI。</p>
+<p>本文分别在YFV的E蛋白E200位点和NS2B&#x2F;NS3之间插入了目的片段，即YF17D&#x2F;E200&#x2F;Tc，YF17D&#x2F;NS2B3&#x2F;Tc。抗原基因插入至E200不需要引入额外序列，这点与之前报道的在同样位位置插入疟原虫表位设计相似。在构建YF17D&#x2F;NS2B3&#x2F;Tc时，研究者在抗原基因的两侧均设计了病毒蛋白酶切割位点从，其中上游的GGAR&#x2F;S序列为NS2B&#x2F;NS3本身的切割位点，该设计使得插入多肽能够表达并游离在细胞质。抗原表达（免疫荧光实验）结果与以上的抗原设计预期相符合。</p>
+<center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/202206100913814.png" srcset="/img/loading.gif" lazyload alt="image-20220610091308633" style="zoom:50%;"></center>
+
+<p>❓Swiss鼠脑内攻毒结果表明，嵌合了目的基因的重组病毒相对YF-17DD vaccine strian有明显较弱的减毒效果。❓[待查阅YF-17DD最早报道及系统评估神经毒力的文献]</p>
+<center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220604212443783.png" srcset="/img/loading.gif" lazyload alt="image-20220604212443783" style="zoom:67%;"></center>
+
+
+
+<p>另外，该团队尝试在YFV-17D的E和NS1之间插入了更长片段：T.cruiz ASP2 aa261-380，并N端引入了登革病毒4型 DENV-4 E蛋白的跨膜结构域TM1和TM2，并成功拯救出重组病毒YF 17D&#x2F;ENS1&#x2F;Tc<sup id="fnref:7" class="footnote-ref"><a href="#fn:7" rel="footnote"><span class="hint--top hint--rounded" aria-label="Nogueira, R. T., Nogueira, A. R., Pereira, M. C. S., Rodrigues, M. M., Neves, P. C. D. C., Galler, R., &amp; Bonaldo, M. C. (2013). Recombinant yellow fever viruses elicit CD8+ T cell responses and protective immunity against Trypanosoma cruzi. PloS one, 8(3), e59347.
+">[7]</span></a></sup>。</p>
+<p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/202206111419245.png" srcset="/img/loading.gif" lazyload alt="image-20220611141936130"></p>
+<p>在免疫原性及保护效果评价中，研究人员将重组病毒YF 17D&#x2F;ENS1&#x2F;Tc与YF17D&#x2F;NS2B3&#x2F;Tc免疫A&#x2F;J小鼠，同时还进行了混合处方免疫研究：Fourmulation1-50% of YF17D&#x2F;ENS1&#x2F;Tc and 50% of YF17D&#x2F;NS2B3&#x2F;Tc viruses, Formulation2-75% of YF17D&#x2F;ENS1&#x2F;Tc and 25% of YF17D&#x2F;NS2B3&#x2F;Tc viruses。从细胞免疫结果来看，重组病毒的接种能显著提升A&#x2F;J mice对TEWETGQI epitope stimulation以及T.cruzi challenge的细胞免疫应答。致死剂量的T.cruzi攻击保护结果表明，在攻毒30天后（days post infection,dpi)，YF 17D&#x2F;ENS1&#x2F;Tc与YF17D&#x2F;NS2B3&#x2F;Tc分别能降低16%和25%的死亡率，但在60dpi，小鼠的存活率仅为16%和8%，保护效果十分有限。</p>
+<center><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/T。cruzi" srcset="/img/loading.gif" lazyload style="zoom:67%;"></center>
+
+<p>😊<strong>4</strong> <strong>以YF-17D为骨架的黄病毒属嵌合病毒</strong>  黄病毒属病毒结构相似，多数以prM-E作为目的抗原，取代YF-17D相应部分，通过病毒拯救获得嵌合病毒，利用YF-17D的减毒骨架表达目的抗原，刺激机体产生免疫应答，基于此策略的登革、乙脑、寨卡嵌合病毒等均有相关文献报道。</p>
+<p>登革热是一种通过受感染蚊子的叮咬传播给人类的登革病毒感染疾病，主要病媒是埃及伊蚊，其次是白纹伊蚊，这些蚊子同样也是基孔肯雅病毒、寨卡病毒、黄热病毒的传播媒介。登革病毒存在四种不同但密切相关的病毒血清型（DENV-1、DENV-2、DENV-3和DENV-4）。感染一种血清型的病毒康复后，对该血清型病毒终生免疫。但是，康复后对其他血清型病毒只有部分和暂时的交叉免疫，后续感染其他血清型（继发感染）会增加患上重症登革热的风险<sup id="fnref:8" class="footnote-ref"><a href="#fn:8" rel="footnote"><span class="hint--top hint--rounded" aria-label="Dengue and dengue fever
+">[8]</span></a></sup>。</p>
+<p>目前全球唯一在部分地区上市的一款登革热疫苗CYD-TDV（Dengvaxia&#x2F;登瓦夏），为赛诺菲巴斯德公司研发，接种对象为生活在登革热流行地区9-45周岁，至少有过1次登革病毒感染史的人群。CYD-TDV是将四种血清型的登革病毒的prM-E基因分别构建入YF-17D骨架，再利用成熟的黄热病毒减毒活疫苗制备工艺体系制备四价登革热病毒减毒活疫苗。在登革热高发的泰国Ratchaburi的4-11岁的儿童开展的phase Ⅱb临床试验CYD23 (NCT00842530)，临床研究结果表明CYD-TDV针对4中登革病毒的总体有效性为34.9%（intent-to-treat），不同血清型病毒之间差异明显，对DENV-4的有效性为90%，但对DENV-2的有效性仅为3.6%<sup id="fnref:9" class="footnote-ref"><a href="#fn:9" rel="footnote"><span class="hint--top hint--rounded" aria-label="Preclinical and clinical development of YFV 17D-based chimeric vaccines against dengue, West Nile and Japanese encephalitis viruses
+">[9]</span></a></sup>。在两个关键三期临床CYD14 (NCT01373281)、CYD15(NCT01374516)中的总体有效性分别为56.5%和60.8%，但区分血清型来看，CYD-TDV针对DENV-2的有效性仍相对较低[^10,11]。</p>
+<p><img src="https://leelog-1311924286.cos.ap-nanjing.myqcloud.com/image-20220617105857314.png" srcset="/img/loading.gif" lazyload alt="B. Guy et al. / Vaccine 33 (2015) 7100–7111"></p>
+<p>二、以乙脑减毒株SA14-14-2为骨架的嵌合病毒构建</p>
+<p>🌲参考资料</p>
+<section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://doi.org/10.1080/21505594.2021.1996059">van Leur, S. W., Heunis, T., Munnur, D., &amp; Sanyal, S. (2021). Pathogenesis and virulence of flavivirus infections. <em>Virulence</em>, <em>12</em>(1), 2814–2838. https://doi.org/10.1080/21505594.2021.1996059</a>
+<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://doi.org/10.4161/hv.28117">Bonaldo, M. C., Sequeira, P. C., &amp; Galler, R. (2014). The yellow fever 17D virus as a platform for new live attenuated vaccines. <em>Human vaccines &amp; immunotherapeutics</em>, <em>10</em>(5), 1256–1265. </a>
+<a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://doi.org/10.1016/s0140-6736(01)05326-0">Vasconcelos, P. F., Luna, E. J., Galler, R., Silva, L. J., Coimbra, T. L., Barros, V. L., … &amp; Group, F. V. E. (2001). Serious adverse events associated with yellow fever 17DD vaccine in Brazil: a report of two cases. <em>The Lancet</em>, <em>358</em>(9276), 91-97</a>
+<a href="#fnref:3" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:4" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://doi.org/10.1038/s41586-020-3035-9">A single-dose live-attenuated YF17Dvectored SARS-CoV-2 vaccine candidate</a>
+<a href="#fnref:4" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:5" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://doi.org/10.1186/1743-422X-8-127">Nogueira, R. T., Nogueira, A. R., Pereira, M. C., Rodrigues, M. M., Galler, R., &amp; Bonaldo, M. C. (2011). Biological and immunological characterization of recombinant Yellow Fever 17D viruses expressing a Trypanosoma cruzi Amastigote Surface Protein-2 CD8+ T cell epitope at two distinct regions of the genome. <em>Virology journal</em>, <em>8</em>, 127.</a>
+<a href="#fnref:5" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:6" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://doi.org/10.1186/1743-422X-8-127">Nogueira, R. T., Nogueira, A. R., Pereira, M., Rodrigues, M. M., Galler, R., &amp; Bonaldo, M. C. (2011). Biological and immunological characterization of recombinant Yellow Fever 17D viruses expressing a Trypanosoma cruzi Amastigote Surface Protein-2 CD8+ T cell epitope at two distinct regions of the genome. <em>Virology journal</em>, <em>8</em>(1), 1-13.</a>
+<a href="#fnref:6" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:7" class="footnote-text"><span><a href="10.1371/journal.pone.0059347">Nogueira, R. T., Nogueira, A. R., Pereira, M. C. S., Rodrigues, M. M., Neves, P. C. D. C., Galler, R., &amp; Bonaldo, M. C. (2013). Recombinant yellow fever viruses elicit CD8+ T cell responses and protective immunity against Trypanosoma cruzi. <em>PloS one</em>, <em>8</em>(3), e59347.</a>
+<a href="#fnref:7" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:8" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://www.who.int/en/news-room/fact-sheets/detail/dengue-and-severe-dengue">Dengue and dengue fever</a>
+<a href="#fnref:8" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:9" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/19808029">Preclinical and clinical development of YFV 17D-based chimeric vaccines against dengue, West Nile and Japanese encephalitis viruses</a>
+<a href="#fnref:9" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:10" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://www.sciencedirect.com/science/article/abs/pii/S0140673614610606">Clinical efficacy and safety of a novel tetravalent dengue vaccine in healthy children in Asia: a phase 3, randomised, observer-masked, placebo-controlled trial </a>
+<a href="#fnref:10" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:11" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/25365753/">Efficacy of a tetravalent dengue vaccine in children in Latin America</a>
+<a href="#fnref:11" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>
+              
+            </div>
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E9%BB%84%E7%97%85%E6%AF%92%E5%B1%9E/">#黄病毒属</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>【学习笔记】黄病毒属经典构建方案</div>
+      <div>http://example.com/2025/03/07/黄病毒属经典构建方案/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Lee</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2025年3月7日</div>
+        </div>
+      
+      
+      <div class="license-meta-item">
+        <div>许可协议</div>
+        <div>
+          
+            
+            
+              <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+              <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                <i class="iconfont icon-by"></i>
+              </span>
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2025/03/07/Newpost/" title="">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2025/03/07/%E6%B3%B0%E5%9B%BD%E6%9C%B1%E6%8B%89%E9%9A%86%E5%8A%9F%E5%A4%A7%E5%AD%A6%E6%96%B0%E5%86%A0mRNA%E7%96%AB%E8%8B%97ChulaCoV19%E5%8A%A8%E7%89%A9%E5%AE%9E%E9%AA%8C%EF%BC%88Mice%EF%BC%89/" title="">
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      collapseDepth   : CONFIG.toc.collapseDepth || 0,
+      scrollSmooth    : true,
+      headingsOffset  : -boardTop
+    });
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+  });
+</script>
+
+
+  <script>
+  (function() {
+    var enableLang = CONFIG.code_language.enable && CONFIG.code_language.default;
+    var enableCopy = CONFIG.copy_btn;
+    if (!enableLang && !enableCopy) {
+      return;
+    }
+
+    function getBgClass(ele) {
+      return Fluid.utils.getBackgroundLightness(ele) >= 0 ? 'code-widget-light' : 'code-widget-dark';
+    }
+
+    var copyTmpl = '';
+    copyTmpl += '<div class="code-widget">';
+    copyTmpl += 'LANG';
+    copyTmpl += '</div>';
+    jQuery('.markdown-body pre').each(function() {
+      var $pre = jQuery(this);
+      if ($pre.find('code.mermaid').length > 0) {
+        return;
+      }
+      if ($pre.find('span.line').length > 0) {
+        return;
+      }
+
+      var lang = '';
+
+      if (enableLang) {
+        lang = CONFIG.code_language.default;
+        if ($pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2 && $pre.children().hasClass('hljs')) {
+          lang = $pre[0].children[0].classList[1];
+        } else if ($pre[0].getAttribute('data-language')) {
+          lang = $pre[0].getAttribute('data-language');
+        } else if ($pre.parent().hasClass('sourceCode') && $pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2) {
+          lang = $pre[0].children[0].classList[1];
+          $pre.parent().addClass('code-wrapper');
+        } else if ($pre.parent().hasClass('markdown-body') && $pre[0].classList.length === 0) {
+          $pre.wrap('<div class="code-wrapper"></div>');
+        }
+        lang = lang.toUpperCase().replace('NONE', CONFIG.code_language.default);
+      }
+      $pre.append(copyTmpl.replace('LANG', lang).replace('code-widget">',
+        getBgClass($pre[0]) + (enableCopy ? ' code-widget copy-btn" data-clipboard-snippet><i class="iconfont icon-copy"></i>' : ' code-widget">')));
+
+      if (enableCopy) {
+        Fluid.utils.createScript('https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js', function() {
+          var clipboard = new window.ClipboardJS('.copy-btn', {
+            target: function(trigger) {
+              var nodes = trigger.parentNode.childNodes;
+              for (var i = 0; i < nodes.length; i++) {
+                if (nodes[i].tagName === 'CODE') {
+                  return nodes[i];
+                }
+              }
+            }
+          });
+          clipboard.on('success', function(e) {
+            e.clearSelection();
+            e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-copy', 'icon-success');
+            setTimeout(function() {
+              e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-success', 'icon-copy');
+            }, 2000);
+          });
+        });
+      }
+    });
+  })();
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
