@@ -58,3 +58,9 @@ collections:
         editor:
           preview: true
         fields: *ref_0
+      - name: 随记25.3.md
+        label: Hello World
+        file: source\随记25.3.md
+        editor:
+          preview: true
+        fields: *ref_0

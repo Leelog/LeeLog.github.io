@@ -4,6 +4,38 @@
   
   
   <entry>
+    <title>Nat.Nanobiotech：精准清除肿瘤线粒体，T细胞免疫疗法“战力飙升”</title>
+    <link href="/2025/07/25/NatNanobiotech_%E7%B2%BE%E5%87%86%E6%B8%85%E9%99%A4%E8%82%BF%E7%98%A4%E7%BA%BF%E7%B2%92%E4%BD%93_%E6%8F%90%E5%8D%87T%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB%E7%96%97%E6%B3%95/"/>
+    <url>/2025/07/25/NatNanobiotech_%E7%B2%BE%E5%87%86%E6%B8%85%E9%99%A4%E8%82%BF%E7%98%A4%E7%BA%BF%E7%B2%92%E4%BD%93_%E6%8F%90%E5%8D%87T%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB%E7%96%97%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<p>近年来，CD8⁺ T细胞为核心的肿瘤免疫疗法（包括过继T细胞输注、CAR-T疗法等）在血液系统肿瘤中展现出突破性疗效，但在实体瘤治疗中却屡屡受限。一个关键难题在于：肿瘤微环境中的免疫抑制因素严重削弱了T细胞的识别与杀伤功能。令人关注的是，肿瘤细胞的线粒体含量也被证实与免疫疗法响应呈负相关——线粒体越多，越难杀死。然而，这一“线粒体盾牌”背后的机制尚未被系统剖析。</p><p>2025年5月，CAS聂广军和王海团队在Nat.Nanobiotech发文，首次从代谢角度切入，揭示了线粒体在调控肿瘤细胞免疫耐受中的关键作用。更重要的是，作者开发出一种纳米诱导剂（mitoNIDs），通过精准诱导肿瘤细胞线粒体选择性降解，显著增强了CD8⁺ T细胞、CAR-T细胞及mRNA肿瘤疫苗的抗瘤效果。这一策略为解决“实体瘤耐药、免疫冷瘤”问题提供了新方向。</p><p><strong>🔍 T细胞更偏爱线粒体少的肿瘤细胞</strong></p><p>研究发现，CD8⁺ T细胞在不同效应靶细胞比（E:T）下更容易杀死线粒体含量较低的肿瘤细胞（B16-OVA 和 A549）。幸存下来的细胞显示出更高的线粒体标记（NAO、Tom20），说明线粒体丰富可能保护肿瘤细胞免受T细胞攻击。</p><p><img src="/2025/07/25/NatNanobiotech_%E7%B2%BE%E5%87%86%E6%B8%85%E9%99%A4%E8%82%BF%E7%98%A4%E7%BA%BF%E7%B2%92%E4%BD%93_%E6%8F%90%E5%8D%87T%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB%E7%96%97%E6%B3%95/20250725225731139.png"></p><p><strong>⚙️ mitoNIDs：精准“诱导”线粒体被自噬吞噬</strong></p><p>研究者设计的mitoNIDs通过连接线粒体靶向肽和LC3结合肽，能“牵线搭桥”，诱导线粒体进入自噬溶酶体降解通道。电子显微镜图像显示，大量线粒体被包裹进入自噬体，mtDNA含量和线粒体功能显著下降。</p><p><img src="/2025/07/25/NatNanobiotech_%E7%B2%BE%E5%87%86%E6%B8%85%E9%99%A4%E8%82%BF%E7%98%A4%E7%BA%BF%E7%B2%92%E4%BD%93_%E6%8F%90%E5%8D%87T%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB%E7%96%97%E6%B3%95/20250725225828378.png"></p><p><strong>🧬 与T细胞合用，抑瘤率提升至78.4%！</strong></p><p>小鼠实验证明，单独用T细胞或mitoNIDs抑瘤效果有限，但二者联用肿瘤生长明显被抑制，组织切片显示广泛坏死。生存期显著延长，肿瘤组织内的CD8⁺T细胞、IFNγ与TNF水平同步上升。</p><p><img src="/2025/07/25/NatNanobiotech_%E7%B2%BE%E5%87%86%E6%B8%85%E9%99%A4%E8%82%BF%E7%98%A4%E7%BA%BF%E7%B2%92%E4%BD%93_%E6%8F%90%E5%8D%87T%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB%E7%96%97%E6%B3%95/20250725225910439.png"></p><p><strong>🛡️ 强化CAR-T疗法，对抗实体瘤</strong></p><p>在A549和HCC827肺癌模型中，mitoNIDs显著增强EGFR-CAR-T细胞的抗瘤能力，肿瘤体积缩小一半以上，肺转移显著减少。组织分析证实：线粒体下降，T细胞浸润上升，IFNγ与TNF大量分泌。</p><p><img src="/2025/07/25/NatNanobiotech_%E7%B2%BE%E5%87%86%E6%B8%85%E9%99%A4%E8%82%BF%E7%98%A4%E7%BA%BF%E7%B2%92%E4%BD%93_%E6%8F%90%E5%8D%87T%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB%E7%96%97%E6%B3%95/20250725225948430.png"></p><p>🔔增强mRNA肿瘤疫苗的治疗效果</p><p>结合mitoNIDs的mRNA疫苗（编码ADPGK突变抗原+R848佐剂）显著增强MC38肿瘤小鼠的免疫反应。与单独疫苗相比，CD8⁺和IFNγ⁺T细胞数量翻倍，Tom20明显降低。</p><p><img src="/2025/07/25/NatNanobiotech_%E7%B2%BE%E5%87%86%E6%B8%85%E9%99%A4%E8%82%BF%E7%98%A4%E7%BA%BF%E7%B2%92%E4%BD%93_%E6%8F%90%E5%8D%87T%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB%E7%96%97%E6%B3%95/20250725230042209.png"></p><p>📈 机制探索：提高抗原呈递+代谢重编程</p><p>代谢组学显示，mitoNID处理后，LPI类脂分子增加，能激活GPR55-ERK信号增强T细胞增殖与毒性。同时，上调MHC-I表达、下调BCL-XL，使肿瘤细胞更易被杀。更惊喜的是，NK细胞杀伤力也同步增强。</p><p><img src="/2025/07/25/NatNanobiotech_%E7%B2%BE%E5%87%86%E6%B8%85%E9%99%A4%E8%82%BF%E7%98%A4%E7%BA%BF%E7%B2%92%E4%BD%93_%E6%8F%90%E5%8D%87T%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB%E7%96%97%E6%B3%95/20250725230120261.png"></p><p>一些思考：本研究提出了一个极具前瞻性的概念：肿瘤细胞的线粒体不仅提供能量，更是抵御免疫杀伤的“代谢屏障”。通过靶向性诱导线粒体降解（mitophagy），研究者成功“削弱”了肿瘤细胞的免疫防御，从而增强了CD8⁺ T细胞、CAR-T细胞及mRNA疫苗的疗效。这种靶向线粒体的策略，为“免疫冷瘤”“实体瘤免疫抵抗”等长期瓶颈提供了全新的干预视角。</p><p>原文链接：<a href="https://doi.org/10.1038/s41565-025-01909-0">https://doi.org/10.1038/s41565-025-01909-0</a>  </p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>肿瘤</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>吉林大学陈妍_序贯免疫狂犬病灭活疫苗与mRNA疫苗</title>
+    <link href="/2025/03/25/%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A6%E9%99%88%E5%A6%8D_%E5%BA%8F%E8%B4%AF%E5%85%8D%E7%96%AB%E7%8B%82%E7%8A%AC%E7%97%85%E7%81%AD%E6%B4%BB%E7%96%AB%E8%8B%97%E4%B8%8EmRNA%E7%96%AB%E8%8B%97/"/>
+    <url>/2025/03/25/%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A6%E9%99%88%E5%A6%8D_%E5%BA%8F%E8%B4%AF%E5%85%8D%E7%96%AB%E7%8B%82%E7%8A%AC%E7%97%85%E7%81%AD%E6%B4%BB%E7%96%AB%E8%8B%97%E4%B8%8EmRNA%E7%96%AB%E8%8B%97/</url>
+    
+    <content type="html"><![CDATA[<p>狂犬病是由狂犬病毒（RABV）引起的一种人畜共患疾病。RABV是狂犬病毒科狂犬病毒属成员，单负链RNA病毒，有包膜和蛋白质衣壳在感染后，RABV主要破坏人类或动物的中枢神经系统，致死率几乎为100%，接种狂犬病疫苗和免疫球蛋白是预防狂犬病有效手段，目前国内市售的狂犬病疫苗均为细胞基质灭活疫苗。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Ad26.RSV.preF完全保护小牛活病毒(bRSV)攻击/2023 npj vaccine</title>
     <link href="/2025/03/15/%E6%9D%A8%E6%A3%AEandModerna_Ad26-preF%E7%89%9B%E6%94%BB%E5%87%BB%E4%BF%9D%E6%8A%A4/"/>
     <url>/2025/03/15/%E6%9D%A8%E6%A3%AEandModerna_Ad26-preF%E7%89%9B%E6%94%BB%E5%87%BB%E4%BF%9D%E6%8A%A4/</url>
@@ -11,6 +43,12 @@
     <content type="html"><![CDATA[<p>Ad26.RSV.preF是强生公司开发的腺病毒载体Ad26疫苗，表达RSV A2的preF构象蛋白。部分临床数据已发表，能够诱导成年人产生体液和细胞免疫应答，诱导小鼠产生th1-biased免疫应答。</p><p>本研究的目的是评价Ad26.RSV.preF在血清阴性的小牛体内的对疫苗异源毒株牛RSV(bRSV)的免疫原性、保护作用以及安全性<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote">&lt;span class&#x3D;”hint–top hint–rounded” aria-label&#x3D;”van der Fits, L., de Jong, R., Dijkman, K. et al. Ad26.RSV.preF completely protects calves from severe respiratory disease induced by bovine RSV challenge. npj Vaccines 9, 235 (2024). https://doi.org/10.1038/s41541-024-01024-6</a></sup></p><p>“&gt;[1]。研究表明，preF具有免疫原性，可诱导有效的bRSV 交叉中和抗体反应，并可预防由bRSV诱导的严重呼吸道疾病，但没有任何疫苗介导的VAERD易感性的迹象。<strong>尤其可借鉴本文对VAERD的评价方法。</strong></p><ol><li>Ad26.RSV.preF诱导小牛的体液和细胞免疫反应。</li></ol><p><img src="/2025/03/15/%E6%9D%A8%E6%A3%AEandModerna_Ad26-preF%E7%89%9B%E6%94%BB%E5%87%BB%E4%BF%9D%E6%8A%A4/image-20250318111338266.png" alt="image-20250318111338266"></p><p>在第一次接种后28天的小牛血清中，Ad26.RSV.preF可诱导高水平的hRSV preF结合和hRSV中和抗体。中和抗体反应在增强免疫2周后显著升高，<strong>并具有对bRSV的交叉中和作用。</strong></p><ol start="2"><li><p>Ad26.RSV..preF疫苗可预防由bRSV攻击引起的严重或致命呼吸道疾病。</p><p>在首次接种Ad26.RSV 56天后 （二免后28天），用6.3 × 10E3 TCID50雾化bRSV感染小牛，并持续采集血液、肺泡灌洗液、鼻咽拭子进行如下分析。</p><p><img src="/2025/03/15/%E6%9D%A8%E6%A3%AEandModerna_Ad26-preF%E7%89%9B%E6%94%BB%E5%87%BB%E4%BF%9D%E6%8A%A4/image-20250318111351553.png" alt="image-20250318111351553"></p></li></ol><p>结果表明：<strong>通常情况下，小牛的实验性bRSV感染会导致全身性疾病，其特征是食欲丧失、嗜睡和发热，以及上呼吸道和下呼吸道疾病症状，这些症状在攻击后10 ~ 12天消失。实验性bRSV病可能与显著的呼吸窘迫相关，但通常只观察到有限的死亡率。然而在这项研究中，bRSV激发的结局异常严重，8只安慰剂组动物中有5只需要按照预先设定的人道终点提前终止试验，8只安慰剂组动物中有2只意外死亡。</strong>为了排除病毒、细菌或支原体合并感染的可能干扰，研究者们回顾性进行了其他检测，这些检测证实 BAL中不存在其他主要牛呼吸道病原体，或者血清中不存在病原体特异性抗体（仅描述，文中未给出数据）。</p><p>抛开这些，本研究支持接种了Ad26.RSV.preF 疫苗的动物都不会染上严重或致命的疾病。所有接种安慰剂的动物在感染过程中都出现发烧（直肠温度&gt;39.5°C）和体重下降，但在Ad26.RSV中几乎没有这种情况。从结果来看，动物的发烧发生在感染后第4天，在第6天开始出现死亡。</p><p>相似的，Fig.4表明Ad26.RSV.preF可有效降低小牛感染bRSV后的鼻咽拭子、肺泡灌洗液中的病毒载量（TCID50+qPCR）</p><p><img src="/2025/03/15/%E6%9D%A8%E6%A3%AEandModerna_Ad26-preF%E7%89%9B%E6%94%BB%E5%87%BB%E4%BF%9D%E6%8A%A4/image-20250318111448682.png" alt="image-20250318111448682"></p><ol start="3"><li><p>Ad26.RSV.preF可预防bRSV引起的上呼吸道和下呼吸道疾病。</p><p><strong>该部分在动物水平上通过临床症状的评分进行了上呼吸道和下呼吸道疾病的评价。</strong></p><p>此前文章中报道小牛接种FI-bRSV后导致了VAERD，肺部伴有强烈的<strong>嗜酸性粒细胞内流</strong>，与临床研究中接种FI-RSV的婴儿群体类似<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote">&lt;span class&#x3D;”hint–top hint–rounded” aria-label&#x3D;”Antonis, A. F. et al. Vaccine-induced immunopathology during bovine respiratory syncytial virus infection: exploring the parameters of pathogenesis. J. Virol. 77, 12067–12073 (2003)</a></sup></p></li></ol><p>“&gt;[2]。本研究中，攻毒前五天，Ad26疫苗组与安慰剂组BAL中细胞数量没有明显差异，大部分为巨噬细胞和中性粒细胞，只有少量的淋巴细胞和嗜酸性粒细胞。而在攻毒后，疫苗组和对照组的嗜酸性粒细胞也没有明显的增多&#x2F;内流，一定程度上提示Ad26.RSV.preF区别于FI-RSV的感染后表征。</p>   <img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250318154753111.png">   <p>   攻毒后的第13天，研究人员处死动物后取肺组织进行宏观观察、病理组化&#x2F;HE Stain，需要注意的是，对照组的8只小鼠在攻毒后的第6天、7天、9天死亡或是达到处死标准，则解剖在终点前进行（终点前）。结果表明，7只终点前小鼠的肺实变（Consolidation）达到了50%-70%，存活至实验终点（攻毒后第13天）的1只对照组小鼠的肺实变为4%；Ad26.RSV.preF疫苗组8只小鼠全部存活，肺实变均不超过0.3%。组织切片&#x2F;HE染色显示，安慰剂组肺泡炎和支气管内膜炎评分高达12分（满分），并伴随严重的间质细胞浸润；而疫苗组仅1例出现轻微肺泡炎（评分2分），支气管内膜炎评分不超过4分，且炎症类型以单核细胞为主，未见病理性嗜酸性粒细胞浸润。这些结果直接表明，疫苗几乎完全阻断了病毒对肺组织的破坏性损伤。</p><p>   <img src="/2025/03/15/%E6%9D%A8%E6%A3%AEandModerna_Ad26-preF%E7%89%9B%E6%94%BB%E5%87%BB%E4%BF%9D%E6%8A%A4/20250318160412398.png"></p><p>   这三类病变共同反映RSV感染对肺部的多层次破坏：</p><ul><li><strong>Endobronchitis</strong> → 气道黏膜损伤（直接病毒效应）；</li><li><strong>Peribronchitis</strong> → 周围组织继发炎症（免疫反应扩散）；</li><li><strong>Interstitial Infiltration</strong> → 气体交换障碍（结构功能受损）。</li></ul><p>   Discussion：</p><p>   中和抗体和攻毒保护验证了Ad26.RSV.preF候选疫苗的有效性。安全性方面，原文系统了福尔马林灭活RSV疫苗（FI-RSV）的历史教训与疫苗增强性呼吸道疾病（VAERD）的病理机制，并以此为对照论证了Ad26.RSV.preF疫苗的安全性。FI-RSV疫苗因1960年代临床试验中诱发VAERD而失败，接种婴幼儿感染野生型RSV后重症率显著升高，其机制与异常免疫应答相关：灭活疫苗诱导低效价、非中和性抗体，引发Th2型免疫偏倚（IL-4、IL-5升高）及肺部嗜酸性粒细胞浸润，导致免疫病理损伤而非保护。与此形成鲜明对比，Ad26.RSV.preF采用腺病毒载体递送预融合F蛋白（preF），通过双重机制规避VAERD风险：一方面，腺病毒载体Ad26天然激活Th1&#x2F;Th17免疫轴，诱导高水平的RSV特异性中和抗体（针对preF构象表位）和IFN-γ主导的细胞免疫，抑制Th2极化；另一方面，preF抗原模拟天然病毒感染暴露的免疫优势表位，诱导高亲和力抗体产生，避免非中和抗体介导的抗体依赖增强（ADE）效应。研究通过小牛动物模型验证，Ad26.RSV.preF免疫后肺部病理未见嗜酸性粒细胞浸润，且肺泡炎、支气管炎评分较安慰剂组降低99%，证实其免疫应答模式与VAERD无关。这一结果不仅为Ad26.RSV.preF的婴幼儿临床开发扫除核心安全性疑虑，也为RSV疫苗设计提供了关键范式——通过载体与抗原的协同优化，平衡免疫保护与病理风险。</p>   <section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>van der Fits, L., de Jong, R., Dijkman, K. <em>et al.</em> Ad26.RSV.preF completely protects calves from severe respiratory disease induced by bovine RSV challenge. <em>npj Vaccines</em> <strong>9</strong>, 235 (2024). <a href="https://doi.org/10.1038/s41541-024-01024-6">https://doi.org/10.1038/s41541-024-01024-6</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span>Antonis, A. F. et al. Vaccine-induced immunopathology during bovine respiratory syncytial virus infection: exploring the parameters of pathogenesis. J. Virol. 77, 12067–12073 (2003)<a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>RSV</tag>
+      
+    </tags>
     
   </entry>
   
