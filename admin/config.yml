@@ -46,9 +46,9 @@ collections:
     name: pages
     delete: false
     files:
-      - name: hello-world.md
+      - name: 随记25.3.md
         label: Hello World
-        file: source\hello-world.md
+        file: source\随记25.3.md
         editor:
           preview: true
         fields: *ref_0
@@ -58,9 +58,9 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: 随记25.3.md
+      - name: hello-world.md
         label: Hello World
-        file: source\随记25.3.md
+        file: source\hello-world.md
         editor:
           preview: true
         fields: *ref_0
