@@ -1,0 +1,722 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/duola.png">
+  <link rel="icon" href="/img/lmlogo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Lee">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动” STING（Stimulator of Interferon Genes）是一类可以激活先天免疫反应、诱导干扰素产生并促进肿瘤微环境“转热”的小分子激动剂。它们对于“冷”肿瘤（免疫细胞渗透低、对免疫治疗响应差的肿瘤）尤其具有潜在治疗价值。 但现实是——STING 激动剂有如下关键难点：💨 体内清除快：循环半衰期短；🧠 肿瘤蓄">
+<meta property="og:type" content="article">
+<meta property="og:title" content="模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动”">
+<meta property="og:url" content="http://example.com/2025/08/01/STING%E6%BF%80%E5%8A%A8%E5%89%82+%E7%99%BD%E8%9B%8B%E7%99%BD%E6%90%AD%E4%BE%BF%E8%BD%A6+aPD-L1%EF%BC%88%E8%8C%83%E5%BE%B7%E5%A0%A1%E5%A4%A7%E5%AD%A6Nat.BME%202025.07%EF%BC%89/index.html">
+<meta property="og:site_name" content="LeeM&#39;s Blog">
+<meta property="og:description" content="模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动” STING（Stimulator of Interferon Genes）是一类可以激活先天免疫反应、诱导干扰素产生并促进肿瘤微环境“转热”的小分子激动剂。它们对于“冷”肿瘤（免疫细胞渗透低、对免疫治疗响应差的肿瘤）尤其具有潜在治疗价值。 但现实是——STING 激动剂有如下关键难点：💨 体内清除快：循环半衰期短；🧠 肿瘤蓄">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801110457561.png">
+<meta property="article:published_time" content="2025-08-01T02:57:08.116Z">
+<meta property="article:modified_time" content="2025-08-01T13:55:32.161Z">
+<meta property="article:author" content="Lee">
+<meta property="article:tag" content="肿瘤免疫疗法">
+<meta property="article:tag" content="STING">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801110457561.png">
+  
+  
+  <title>模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动” - LeeM&#39;s Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":50,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>My Note</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801110238011.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动”"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2025-08-01 10:57" pubdate>
+          2025年8月1日 上午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          4.3k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          37 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动”</h1>
+            
+            <div class="markdown-body">
+              
+              <p><strong>模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动”</strong></p>
+<p>STING（Stimulator of Interferon Genes）是一类可以激活先天免疫反应、诱导干扰素产生并促进肿瘤微环境“转热”的小分子激动剂。它们对于“冷”肿瘤（免疫细胞渗透低、对免疫治疗响应差的肿瘤）尤其具有潜在治疗价值。</p>
+<p>但现实是——STING 激动剂有如下关键难点：💨 <strong>体内清除快</strong>：循环半衰期短；🧠 <strong>肿瘤蓄积差</strong>：难以靶向富集于肿瘤组织；💉 <strong>给药受限</strong>：大多只能局部瘤内注射，无法治疗转移灶或系统性肿瘤；⚠️ <strong>毒副作用大</strong>：全身注射容易激活非特异免疫，副作用强。</p>
+<p>本研究创新性提出一种<strong>模块化纳米抗体偶联 STING 激动剂平台</strong>，通过“白蛋白搭便车”和“PD-L1靶向”双重机制，实现精准、高效、安全的STING系统递送，整体结构包括：</p>
+<ol>
+<li><strong>纳米抗体抗白蛋白（nAlb）</strong>：<ul>
+<li>结合白蛋白，延长血液中半衰期；</li>
+<li>白蛋白天然偏向肿瘤组织（EPR效应），可增强肿瘤蓄积。</li>
+</ul>
+</li>
+<li><strong>偶联STING激动剂（diABZI）</strong>：<ul>
+<li>高效激活STING通路；</li>
+<li>通过点击化学实现精确偶联。</li>
+</ul>
+</li>
+<li><strong>双模块结构（AP-diABZI）</strong>：<ul>
+<li>除nAlb外，还融合<strong>PD-L1抗体片段</strong>，提升肿瘤靶向性和协同免疫效应。</li>
+</ul>
+</li>
+</ol>
+<p><strong>1. 药物设计和制备</strong>【无aPD-L1】</p>
+<p><strong>首先是纳米抗体构建与表达</strong></p>
+<ul>
+<li><strong>纳米抗体序列来源</strong>：<ul>
+<li>抗白蛋白纳米抗体（nAlb）：来源于 llama &#x2F; alpaca 文库，筛选得到与人&#x2F;小鼠白蛋白均有高亲和结合能力的VHH片段</li>
+</ul>
+</li>
+<li><strong>模块串联表达设计</strong>：<ul>
+<li>模块以 linker（如GGGGS)n 串联，保持结构稳定；</li>
+<li>特别引入 C-terminal LPETGG motif（分选酶识别位点）与 His 标签，便于后续偶联与纯化。</li>
+</ul>
+</li>
+<li><strong>表达系统</strong>：<ul>
+<li>采用 <strong>大肠杆菌表达系统（如 BL21）</strong>；</li>
+<li>使用 IPTG 诱导表达，包涵体重折或可溶表达后直接纯化；</li>
+<li>纯化方法：镍亲和柱（Ni-NTA），洗脱后透析去盐。</li>
+</ul>
+</li>
+</ul>
+<p><strong>其次是激动剂diABZI 的偶联</strong>。diABZI 分子经过化学修饰，在其一端引入 <strong>单炔（DBCO）基团</strong>，该基团可用于与偶联蛋白上的氨基或酶识别位点进行点击化学反应**。</p>
+<p><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801111805423.png" srcset="/img/loading.gif" lazyload></p>
+<p>在策略提出后，作者首先用分子模拟和实验验证对 nAlb 的结合能力进行了阐述。<strong>Figure 1b</strong> 展示了 nAlb 与白蛋白（人源和小鼠）结合界面：采用 <strong>Rosetta建模与结构预测</strong>，表明 nAlb 与白蛋白形成高亲和力对接，结合界面结构紧凑，结合能稳定，且同时适用于人和小鼠，具备动物模型和转化基础。</p>
+<p>作者随后用 <strong>ITC 实验</strong>进一步定量验证亲和力（纳摩尔级），确保这一“搭便车”策略在结构和功能上均可行。</p>
+<p>为实现模块化结构的精确构建，作者引入 <strong>Sortase A</strong> 分选酶系统。该酶可识别<strong>LPETGG蛋白末端序列</strong>，并与带有 <strong>N端多G</strong> 的修饰分子（如diABZI）实现定向偶联。</p>
+<p><strong>Figure 1c</strong> 详细描述了偶联反应的流程：在纳米抗体的C端加入LPETGG标签，经过<strong>Sortase A</strong>识别切割，将 diABZI 修饰物偶联到抗体上，得到结构单一、活性保留的偶联蛋白，如 nAlb-diABZI 或 AP-diABZI。</p>
+<p>研究团队表明，该方法可实现 <strong>高偶联效率</strong> 与 <strong>反应温和条件</strong>，适合构建均一的、功能保留的免疫激动剂复合物。</p>
+<p><strong>2. nAlb介导的靶向递送与组织分布</strong></p>
+<p>研究者将人类单核细胞系 <strong>THP-1</strong> 暴露于不同温度条件下的 nAlb–Cy5，以评估其表面结合与细胞内吞能力：在37°C：允许胞吞作用正常进行（代表活性摄取）。而在4°C时细胞代谢及胞吞几乎停止，仅保留被动结合（代表非特异性表面吸附）。这表明nAlb–Cy5 的细胞摄取是一个 <strong>能量依赖的、主动的内吞过程</strong>，并非简单的被动扩散或吸附（Fig.2a）。加入大胞饮抑制剂 EIPA 后，细胞内的 Cy5 荧光强度（MFI）明显下降，说明 nAlb–Cy5 的内吞主要通过非特异性的大胞饮机制而非受体介导的方式完成（Fig.2b）。</p>
+<p>图 2c–d 显示，nAlb–Cy5 与溶酶体染料高度共定位，表明其经胞吞后进入溶酶体途径；图 2e 展示其在小鼠体内的血浆半衰期显著延长（t₁&#x2F;₂ ≈ 56 小时），远超对照组。图 2f–g 利用 IVIS 成像显示 nAlb–Cy5 在肿瘤组织中明显富集，而非特异性组织摄取较低。图 2h–i 定量证实，在 EMT6 和 B16.F10 肿瘤模型中，nAlb–Cy5 在肿瘤中的浓度（%ID&#x2F;g）显著高于其他组织。图 2j 的免疫荧光染色进一步验证其定位于肿瘤血管附近和免疫细胞富集区域。这些结果综合表明，nAlb–Cy5 能有效靶向肿瘤，并通过胞吞进入细胞，具备良好的药代特性和递送效率。</p>
+<p><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801211848824.png" srcset="/img/loading.gif" lazyload alt="Fig. 2 | Anti-albumin nanobodies increase cargo delivery to tumour sites to promote uptake by cancer cells and tumour-associated myeloid cells.  "></p>
+<p><strong>3. nAlb–diABZI</strong> 在乳腺癌模型中（EMT6）治疗效果及其对肿瘤免疫微环境（TME）的重编程能力****</p>
+<p>在小鼠乳腺组织接种 EMT6 肿瘤细胞后，给予 nAlb–diABZI、自由 diABZI 或 PBS（对照）静脉注射，并在终点时对肿瘤进行流式细胞术和基因表达分析。</p>
+<p>结果表明：nAlb–diABZI 显著抑制肿瘤生长，几乎完全阻断肿瘤扩增，自由 diABZI 对肿瘤无显著抑制；</p>
+<p>t-SNE 图（图 3d）显示，nAlb–diABZI 处理组中肿瘤浸润淋巴细胞（如 CD8+ T 细胞和 NK 细胞）呈现更高的活化（CD69+）、增殖（Ki67+）和 PD-1 表达状态。图 3e–g 定量说明这些细胞群体比例和功能表型的变化，而图 3h 显示肿瘤相关巨噬细胞中抗原呈递分子 MHC-II 和免疫抑制分子 PD-L1 表达显著上调。此外，图 3i–j 展示脾脏中也出现与肿瘤局部一致的免疫激活特征。整体结果表明，nAlb–diABZI 通过增强肿瘤及外周免疫细胞的活性，显著提升了 STING 激动剂的治疗潜力，尤其是在免疫“冷”肿瘤模型中。</p>
+<p><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801212418884.png" srcset="/img/loading.gif" lazyload alt="Fig. 3 | Albumin-hitchhiking STING agonist inhibits breast tumour growth by shifting the immune cell profile of the TME.   "></p>
+<p><strong>4. 双特异性纳米抗体偶联物的构建与表征</strong>**</p>
+<p><strong>Fig.4a</strong>展示了 AP–diABZI 的设计思路——将抗白蛋白（nAlb）和抗 PD-L1 纳米抗体（nPD-L1）通过连接肽（linker）融合，C端保留 sortase 酶识别位点以连接 STING 激动剂 diABZI。SDS-PAGE 电泳验证构建产物纯度，显示预期分子量。ESI–MS 质谱确认各中间体及终产物的分子质量准确（包括 AP–Cy5 和 AP–diABZI），偶联效率接近 100%。</p>
+<p>在 A549-Dual 和 THP1-Dual 上清晰显示：<strong>nAlb–diABZI 和 AP–diABZI 都能激活 STING 通路，诱导干扰素产生</strong>；尽管AP–diABZI 活性略低于 nAlb–diABZI，但仍保持纳摩尔级 EC₅₀（图 4d–e）。<strong>Fig4f</strong>表明在 BMDMs 中，AP–diABZI 上调典型 STING 靶基因如 Ifnb、Tnf、Cxcl10，功能未受结构复杂化显著影响。</p>
+<p>在 B16.F10（PD-L1 low）与 EMT6（PD-L1 high）细胞中，AP–Cy5 的结合&#x2F;摄取效率均高于 nAlb–Cy5，尤其在 PD-L1 高表达条件下显著增强。使用 EMT6 的 WT 和 PD-L1 KO 细胞对比结果表明，AP–Cy5 在 WT 细胞中结合显著高于 KO 细胞；表明 <strong>PD-L1 靶向增强了特异性摄取能力</strong>。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801213540460.png" srcset="/img/loading.gif" lazyload alt="Fig. 4 | Design, synthesis and testing of bivalent nanobody–STING agonist conjugate for albumin hitchhiking and targeting of PD-L1.   "></p>
+<ol start="5">
+<li>🧪<strong>双靶向 STING 激动剂偶联物 AP–diABZI 在乳腺癌 EMT6 模型中的 强效抗肿瘤活性、完全缓解能力及免疫记忆建立</strong></li>
+</ol>
+<p>双靶向 STING 激动剂 AP–diABZI 在乳腺癌模型中实现了完全肿瘤缓解（10&#x2F;10），显著优于 ICB 或 nAlb–diABZI，且具备持久的免疫记忆保护能力。流式分析揭示其可增强 CD8+ T 细胞、抑制 Treg；</p>
+<p> 5h–k 展示了通过🧬 <strong>bulk RNA-seq 分析</strong>揭示的 AP–diABZI 在乳腺癌模型中的免疫重编程机制。图 5h 的 PCA 分析显示 AP–diABZI 处理组在转录谱上与其他治疗组明显分离，提示其诱导了独特且强烈的基因表达变化。热图（图 5i）与火山图（图 5j）进一步揭示，大量与 I 型干扰素应答、趋化因子（如 <em>Cxcl10</em>）、抗原处理（如 <em>Tap1</em>）及免疫调节（如 <em>Stat1</em>, <em>Irf7</em>）相关的基因显著上调。GSEA 分析（图 5k）则表明这些差异表达基因高度富集于“干扰素信号通路”“T 细胞活化”“NK 细胞介导毒性作用”等免疫关键通路，说明 AP–diABZI 可通过系统性激活 STING–IFN 轴和效应细胞功能，全面增强抗肿瘤免疫反应。</p>
+<p><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801213833080.png" srcset="/img/loading.gif" lazyload alt="Fig. 5 | Systemic administration of AP–diABZI conjugates enhance antitumour immune and therapeutic responses in EMT6 breast cancer model.  "></p>
+<p><strong>6</strong>.<strong>AP–diABZI 在</strong>乳腺癌 EMT6 模型中 <strong>重塑肿瘤免疫微环境（TME）</strong></p>
+<p>AP–diABZI 能显著提升肿瘤局部 CD8+ T 细胞与 NK 细胞的浸润、增殖与激活，驱动其向效应记忆型和细胞毒型分化（GzmB⁺IFN-γ⁺）。同时伴随 Treg 显著减少，提示肿瘤微环境由免疫抑制状态转变为高效应状态。关键清除实验进一步证明 CD8+ T 细胞与 NK 细胞对 AP–diABZI 的治疗效果缺一不可。</p>
+<p><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801214511796.png" srcset="/img/loading.gif" lazyload alt="Fig. 6 | AP–diABZI activates a tumoricidal NK and T-cell response  "></p>
+<p><strong>7. 黑色素瘤 B16.F10 模型中的治疗效果</strong></p>
+<p>相比免疫检查点抑制剂（ICB）和 nAlb–diABZI，AP–diABZI 显著抑制肿瘤生长，并延长小鼠生存时间（图 7a–b）。流式细胞术分析显示，其显著增强 CD8⁺ T 细胞和 NK 细胞的活化状态（CD69⁺、Ki67⁺），并促进 T 细胞向效应记忆型分化（CD44⁺CD62L⁻）（图 7c–f）。此外，在表达 OVA 抗原的 B16-OVA 模型中，AP–diABZI 可诱导大量 SIINFEKL-MHC-I 四聚体阳性的肿瘤特异性 CD8⁺ T 细胞（图 7h–j），并上调 GzmB 和 IFN-γ，表明其激活了功能成熟的杀伤性 T 细胞反应。这些结果证明 AP–diABZI 能有效扩展至低免疫原性的肿瘤模型，激发强烈的肿瘤抗原特异性免疫应答。</p>
+<p><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801215022585.png" srcset="/img/loading.gif" lazyload alt="Fig. 7 | Nanobody–STING agonist conjugates stimulate antitumour immunity in B16.F10 melanoma tumour model.   "></p>
+<p><strong>8. 晚期肺转移模型中的抗转移能力及其与 adoptive T 细胞疗法的协同效应</strong></p>
+<p>在 B16.F10 静脉注射形成肺转移灶模型中，系统给药的 AP–diABZI 明显减少肺部肿瘤结节数量和重量，疗效显著优于免疫检查点抑制剂（ICB）和 nAlb–diABZI。进一步在 B16-OVA 模型中，研究者将 OT-I CD8⁺ T 细胞输入肿瘤小鼠，并联合使用 AP–diABZI（图 8f–i），结果显示两者联用可显著增强抗肿瘤效应，提高完全缓解率（CR），同时诱导更强的 T 细胞活化和杀伤功能。这表明 AP–diABZI 不仅能控制晚期转移性疾病，还能增强 adoptive T 细胞疗法的效力，为联合免疫策略提供了新的突破口。</p>
+<p><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801215048289.png" srcset="/img/loading.gif" lazyload alt="Fig. 8 | Albumin-hitchhiking STING agonists improve immunotherapy responses in a model of lung metastatic melanoma and adoptive T-cell transfer therapy  "></p>
+<p>综上，本研究开发了一种模块化、系统性可递送的双特异性纳米抗体–STING 激动剂偶联物（AP–diABZI），通过结合白蛋白搭载和 PD-L1 靶向机制，实现了对“免疫冷”肿瘤的高效定位与强力免疫激活。该策略不仅在乳腺癌和黑色素瘤模型中实现完全缓解，还诱导持久免疫记忆，显著优于现有 STING 激动剂或免疫检查点抑制剂。机制上依赖 CD8⁺ T 细胞和 NK 细胞协同发挥抗肿瘤作用。该平台具备可扩展性、稳定性和临床转化潜力，为癌症免疫治疗提供了新路径。</p>
+
+              
+            </div>
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E8%82%BF%E7%98%A4%E5%85%8D%E7%96%AB%E7%96%97%E6%B3%95/">#肿瘤免疫疗法</a>
+      
+        <a href="/tags/STING/">#STING</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动”</div>
+      <div>http://example.com/2025/08/01/STING激动剂+白蛋白搭便车+aPD-L1（范德堡大学Nat.BME 2025.07）/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Lee</div>
+        </div>
+      
+      
+      
+      <div class="license-meta-item">
+        <div>许可协议</div>
+        <div>
+          
+            
+            
+              <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+              <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                <i class="iconfont icon-by"></i>
+              </span>
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2025/07/31/RSV%20pref-EABR%20VLPs%20mRNA%E7%96%AB%E8%8B%97%EF%BC%88CDC%E6%AE%B5%E6%8B%9B%E5%86%9B,npj%20Vaccine%202025.07%EF%BC%89/" title="RSV pref-EABR VLPs mRNA疫苗（CDC段招军,npj Vaccine 2025.07）">
+                        <span class="hidden-mobile">RSV pref-EABR VLPs mRNA疫苗（CDC段招军,npj Vaccine 2025.07）</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      collapseDepth   : CONFIG.toc.collapseDepth || 0,
+      scrollSmooth    : true,
+      headingsOffset  : -boardTop
+    });
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+  });
+</script>
+
+
+  <script>
+  (function() {
+    var enableLang = CONFIG.code_language.enable && CONFIG.code_language.default;
+    var enableCopy = CONFIG.copy_btn;
+    if (!enableLang && !enableCopy) {
+      return;
+    }
+
+    function getBgClass(ele) {
+      return Fluid.utils.getBackgroundLightness(ele) >= 0 ? 'code-widget-light' : 'code-widget-dark';
+    }
+
+    var copyTmpl = '';
+    copyTmpl += '<div class="code-widget">';
+    copyTmpl += 'LANG';
+    copyTmpl += '</div>';
+    jQuery('.markdown-body pre').each(function() {
+      var $pre = jQuery(this);
+      if ($pre.find('code.mermaid').length > 0) {
+        return;
+      }
+      if ($pre.find('span.line').length > 0) {
+        return;
+      }
+
+      var lang = '';
+
+      if (enableLang) {
+        lang = CONFIG.code_language.default;
+        if ($pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2 && $pre.children().hasClass('hljs')) {
+          lang = $pre[0].children[0].classList[1];
+        } else if ($pre[0].getAttribute('data-language')) {
+          lang = $pre[0].getAttribute('data-language');
+        } else if ($pre.parent().hasClass('sourceCode') && $pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2) {
+          lang = $pre[0].children[0].classList[1];
+          $pre.parent().addClass('code-wrapper');
+        } else if ($pre.parent().hasClass('markdown-body') && $pre[0].classList.length === 0) {
+          $pre.wrap('<div class="code-wrapper"></div>');
+        }
+        lang = lang.toUpperCase().replace('NONE', CONFIG.code_language.default);
+      }
+      $pre.append(copyTmpl.replace('LANG', lang).replace('code-widget">',
+        getBgClass($pre[0]) + (enableCopy ? ' code-widget copy-btn" data-clipboard-snippet><i class="iconfont icon-copy"></i>' : ' code-widget">')));
+
+      if (enableCopy) {
+        Fluid.utils.createScript('https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js', function() {
+          var clipboard = new window.ClipboardJS('.copy-btn', {
+            target: function(trigger) {
+              var nodes = trigger.parentNode.childNodes;
+              for (var i = 0; i < nodes.length; i++) {
+                if (nodes[i].tagName === 'CODE') {
+                  return nodes[i];
+                }
+              }
+            }
+          });
+          clipboard.on('success', function(e) {
+            e.clearSelection();
+            e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-copy', 'icon-success');
+            setTimeout(function() {
+              e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-success', 'icon-copy');
+            }, 2000);
+          });
+        });
+      }
+    });
+  })();
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
