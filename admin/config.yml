@@ -52,15 +52,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: about-index.md
-        label: about
-        file: source\about\index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: 随记25.3.md
         label: Hello World
         file: source\随记25.3.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: about-index.md
+        label: about
+        file: source\about\index.md
         editor:
           preview: true
         fields: *ref_0
