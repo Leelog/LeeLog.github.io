@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f7fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2d3748">
+    蛋白质冠表征技术对比
+  </text>
+  
+  <!-- Table header -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="700" height="40" rx="5" fill="url(#headerGradient)"/>
+    <text x="100" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">技术</text>
+    <text x="280" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">原理</text>
+    <text x="450" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">优势</text>
+    <text x="610" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">局限</text>
+  </g>
+  
+  <!-- Row 1: LC-MS/MS -->
+  <g transform="translate(50, 105)">
+    <rect x="0" y="0" width="700" height="55" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3748">LC-MS/MS</text>
+    <text x="100" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#718096">蛋白质组学</text>
+    
+    <text x="280" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#4a5568">液相色谱-质谱联用</text>
+    
+    <text x="450" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#38a169">✓ 鉴定数百种蛋白</text>
+    <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#38a169">✓ 定量分析</text>
+    
+    <text x="610" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e53e3e">低丰度蛋白检测难</text>
+  </g>
+  
+  <!-- Row 2: Cryo-EM -->
+  <g transform="translate(50, 162)">
+    <rect x="0" y="0" width="700" height="55" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3748">Cryo-EM</text>
+    <text x="100" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#718096">冷冻电镜</text>
+    
+    <text x="280" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#4a5568">直接成像纳米颗粒</text>
+    
+    <text x="450" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#38a169">✓ 高分辨率结构</text>
+    <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#38a169">✓ 近天然状态</text>
+    
+    <text x="610" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e53e3e">设备昂贵、制样复杂</text>
+  </g>
+  
+  <!-- Row 3: CD Spectroscopy -->
+  <g transform="translate(50, 219)">
+    <rect x="0" y="0" width="700" height="55" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3748">CD光谱</text>
+    <text x="100" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#718096">圆二色谱</text>
+    
+    <text x="280" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#4a5568">检测二级结构变化</text>
+    
+    <text x="450" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#38a169">✓ 实时监测</text>
+    <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#38a169">✓ 无损检测</text>
+    
+    <text x="610" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e53e3e">需要较高浓度</text>
+  </g>
+  
+  <!-- Row 4: ITC/SPR -->
+  <g transform="translate(50, 276)">
+    <rect x="0" y="0" width="700" height="55" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3748">ITC/SPR</text>
+    <text x="100" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#718096">热力学/动力学</text>
+    
+    <text x="280" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#4a5568">测量结合热力学参数</text>
+    
+    <text x="450" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#38a169">✓ 定量亲和力</text>
+    <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#38a169">✓ 动力学常数</text>
+    
+    <text x="610" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e53e3e">需纯化蛋白</text>
+  </g>
+  
+  <!-- Row 5: Nano-flow cytometry -->
+  <g transform="translate(50, 333)">
+    <rect x="0" y="0" width="700" height="55" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3748">纳米流式</text>
+    <text x="100" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#718096">单颗粒分析</text>
+    
+    <text x="280" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#4a5568">逐个分析颗粒冠组成</text>
+    
+    <text x="450" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#38a169">✓ 揭示异质性</text>
+    <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#38a169">✓ 单颗粒分辨率</text>
+    
+    <text x="610" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e53e3e">新兴技术、标准待建</text>
+  </g>
+  
+  <!-- Bottom summary -->
+  <g transform="translate(50, 405)">
+    <rect x="0" y="0" width="700" height="80" rx="8" fill="#ebf8ff" stroke="#4299e1" stroke-width="1"/>
+    <text x="350" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2b6cb0">
+      🔬 最佳实践建议
+    </text>
+    <text x="350" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+      组合使用多种技术：LC-MS/MS鉴定组成 + Cryo-EM/CD表征结构 + ITC定量亲和力
+    </text>
+    <text x="350" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+      纳米流式等新兴技术正推动从"平均行为"到"单颗粒异质性"的研究范式转变
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="npGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c5aa0;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="proteinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ee5a5a;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">
+    蛋白质冠形成过程 (Vroman效应)
+  </text>
+  
+  <!-- Stage 1: Initial -->
+  <g transform="translate(100, 120)">
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#34495e">0-5秒</text>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">高浓度蛋白快速吸附</text>
+    
+    <!-- Nanoparticle -->
+    <circle cx="0" cy="60" r="35" fill="url(#npGradient)"/>
+    <text x="0" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">NP</text>
+    
+    <!-- Albumin proteins (small, many) -->
+    <ellipse cx="-45" cy="40" rx="12" ry="8" fill="#95a5a6"/>
+    <ellipse cx="45" cy="40" rx="12" ry="8" fill="#95a5a6"/>
+    <ellipse cx="-40" cy="80" rx="12" ry="8" fill="#95a5a6"/>
+    <ellipse cx="40" cy="80" rx="12" ry="8" fill="#95a5a6"/>
+    <ellipse cx="0" cy="105" rx="12" ry="8" fill="#95a5a6"/>
+    
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">白蛋白 (Albumin)</text>
+    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#95a5a6">低亲和力 · 高浓度</text>
+  </g>
+  
+  <!-- Arrow -->
+  <g transform="translate(250, 180)">
+    <path d="M0,0 L60,0 L50,-10 M60,0 L50,10" stroke="#3498db" stroke-width="3" fill="none"/>
+    <text x="30" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#3498db">置换</text>
+  </g>
+  
+  <!-- Stage 2: Intermediate -->
+  <g transform="translate(400, 120)">
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#34495e">5分钟-2小时</text>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">高亲和力蛋白逐渐置换</text>
+    
+    <!-- Nanoparticle -->
+    <circle cx="0" cy="60" r="35" fill="url(#npGradient)"/>
+    
+    <!-- Mixed proteins -->
+    <ellipse cx="-48" cy="35" rx="14" ry="10" fill="url(#proteinGradient)"/>
+    <ellipse cx="48" cy="35" rx="14" ry="10" fill="url(#proteinGradient)"/>
+    <ellipse cx="-45" cy="85" rx="12" ry="8" fill="#95a5a6"/>
+    <ellipse cx="45" cy="85" rx="12" ry="8" fill="#95a5a6"/>
+    <ellipse cx="0" cy="108" rx="14" ry="10" fill="url(#proteinGradient)"/>
+    
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">混合蛋白层</text>
+    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">ApoE, C3b 等</text>
+  </g>
+  
+  <!-- Arrow -->
+  <g transform="translate(550, 180)">
+    <path d="M0,0 L60,0 L50,-10 M60,0 L50,10" stroke="#3498db" stroke-width="3" fill="none"/>
+    <text x="30" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#3498db">稳定</text>
+  </g>
+  
+  <!-- Stage 3: Hard Corona -->
+  <g transform="translate(700, 120)">
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#34495e">&gt;2小时</text>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">形成稳定的"硬冠"</text>
+    
+    <!-- Nanoparticle -->
+    <circle cx="0" cy="60" r="35" fill="url(#npGradient)"/>
+    
+    <!-- Hard corona proteins -->
+    <ellipse cx="-50" cy="30" rx="15" ry="12" fill="#c0392b"/>
+    <ellipse cx="50" cy="30" rx="15" ry="12" fill="#c0392b"/>
+    <ellipse cx="-52" cy="60" rx="15" ry="12" fill="#c0392b"/>
+    <ellipse cx="52" cy="60" rx="15" ry="12" fill="#c0392b"/>
+    <ellipse cx="-48" cy="90" rx="15" ry="12" fill="#c0392b"/>
+    <ellipse cx="48" cy="90" rx="15" ry="12" fill="#c0392b"/>
+    <ellipse cx="0" cy="105" rx="15" ry="12" fill="#c0392b"/>
+    <ellipse cx="0" cy="15" rx="15" ry="12" fill="#c0392b"/>
+    
+    <!-- Corona label -->
+    <circle cx="0" cy="60" r="55" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">硬冠 (Hard Corona)</text>
+    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#c0392b">高亲和力 · 稳定</text>
+  </g>
+  
+  <!-- Bottom annotation -->
+  <text x="400" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50" font-style="italic">
+    纳米颗粒的"生物身份"由硬冠决定，而非原始表面
+  </text>
+  
+  <!-- Key proteins legend -->
+  <g transform="translate(150, 360)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">关键蛋白质：</text>
+    
+    <ellipse cx="10" cy="25" rx="12" ry="8" fill="#95a5a6"/>
+    <text x="35" y="30" font-family="Arial, sans-serif" font-size="11" fill="#34495e">白蛋白 (Albumin) - 血浆中最丰富 (~40 mg/mL)</text>
+    
+    <ellipse cx="10" cy="50" rx="12" ry="8" fill="#e74c3c"/>
+    <text x="35" y="55" font-family="Arial, sans-serif" font-size="11" fill="#34495e">载脂蛋白E (ApoE) - 介导肝脏摄取</text>
+    
+    <ellipse cx="10" cy="75" rx="12" ry="8" fill="#9b59b6"/>
+    <text x="35" y="80" font-family="Arial, sans-serif" font-size="11" fill="#34495e">补体蛋白 (C3b) - 激活免疫系统</text>
+  </g>
+  
+  <!-- Impact box -->
+  <g transform="translate(450, 350)">
+    <rect x="0" y="0" width="300" height="110" rx="8" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="150" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">蛋白质冠的生物学影响</text>
+    
+    <text x="15" y="50" font-family="Arial, sans-serif" font-size="11" fill="#34495e">• 改变颗粒表面电荷和亲疏水性</text>
+    <text x="15" y="70" font-family="Arial, sans-serif" font-size="11" fill="#34495e">• 决定RES系统识别和清除速率</text>
+    <text x="15" y="90" font-family="Arial, sans-serif" font-size="11" fill="#34495e">• 影响靶细胞摄取和细胞内命运</text>
+    <text x="15" y="110" font-family="Arial, sans-serif" font-size="11" fill="#34495e">• 可能触发免疫反应或过敏反应</text>
+  </g>
+</svg>
