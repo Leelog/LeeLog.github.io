@@ -4,6 +4,39 @@
   
   
   <entry>
+    <title>CD19 CAR-T治疗B细胞淋巴瘤：耐药机制与应对策略</title>
+    <link href="/2026/03/29/cd19-cart-resistance-mechanisms-strategies/"/>
+    <url>/2026/03/29/cd19-cart-resistance-mechanisms-strategies/</url>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>CD19是CAR-T最成功，最经典的靶点，没有之一。从第一款获批CAR-T就是针对CD19，到现在已经有近10款产品获批，绝大多数都是针对CD19，在B细胞非霍奇金淋巴瘤、急性淋巴细胞白血病都取得了非常惊艳的疗效，让很多复发难治患者获得了长期生存甚至治愈可能。</p><p>但是，和所有抗肿瘤治疗一样，耐药也不可避免。临床上，大概有30-40%患者在接受CD19 CAR-T治疗后达到缓解之后还是会复发，其中很大一部分复发伴随CD19抗原丢失，这对临床来说是个很大挑战。</p><p>近年来，随着对耐药机制研究深入，我们对CD19 CAR-T耐药有了更清晰认识，也开发出很多应对策略，本文系统梳理一下CD19 CAR-T耐药机制，以及临床上现在常用应对策略，给大家一个全面参考。</p><hr><h2 id="一、CD19分子生物学功能与CAR-T识别机制"><a href="#一、CD19分子生物学功能与CAR-T识别机制" class="headerlink" title="一、CD19分子生物学功能与CAR-T识别机制"></a>一、CD19分子生物学功能与CAR-T识别机制</h2><h3 id="1-1-CD19是什么？"><a href="#1-1-CD19是什么？" class="headerlink" title="1.1 CD19是什么？"></a>1.1 CD19是什么？</h3><p>CD19全称<strong>分化簇19</strong>，是一个跨膜糖蛋白，分子量大约95kD，表达于几乎所有B细胞谱系，从 pro-B细胞到成熟B细胞都表达，浆细胞不表达，正好淋巴瘤白血病都是B细胞来源，所以是非常理想靶点。</p><p>功能方面：CD19是B细胞受体（BCR）共受体，能够调节BCR信号强度，促进B细胞活化增殖，对B细胞发育生长分化非常重要，但是CD19敲除小鼠模型显示，CD19不是必须，所以作为治疗靶点，敲除B细胞不影响正常造血干细胞分化，安全性有保证。</p><h3 id="1-2-CAR-T为什么选择CD19？"><a href="#1-2-CAR-T为什么选择CD19？" class="headerlink" title="1.2 CAR-T为什么选择CD19？"></a>1.2 CAR-T为什么选择CD19？</h3><ul><li><strong>几乎所有B细胞肿瘤都表达</strong>：大多数B-ALL、DLBCL、FL、MCL都表达CD19，阳性率超过95%</li><li><strong>B细胞之外正常组织不表达</strong>：造血干细胞不表达，其他组织不表达，off-tumor毒性低</li><li><strong>细胞表面暴露，容易被CAR-T识别</strong>：胞外段暴露，scFv容易结合</li></ul><p>基于以上优点，CD19顺理成章成为CAR-T第一个成功靶点，一直到现在还是最常用靶点。</p><hr><h2 id="二、CD19-CAR-T治疗耐药流行病学"><a href="#二、CD19-CAR-T治疗耐药流行病学" class="headerlink" title="二、CD19 CAR-T治疗耐药流行病学"></a>二、CD19 CAR-T治疗耐药流行病学</h2><p>临床上，复发耐药大致可以分为两类：</p><table><thead><tr><th>复发类型</th><th>占比</th><th>说明</th></tr></thead><tbody><tr><td>CD19阳性复发</td><td>~40-50%</td><td>保留CD19表达，肿瘤细胞还在，但是CAR-T消失了，可能是CAR-T持久性差，或者肿瘤微环境抑制</td></tr><tr><td>CD19阴性复发</td><td>~50-60%</td><td>CD19抗原丢失，CAR-T找不到靶点了</td></tr></tbody></table><p>总体来看，一线治疗后复发难治DLBCL，接受CD19 CAR-T治疗后，**二年无进展生存率大约 40-50%**，也就是说差不多一半左右会复发，耐药还是比较常见的。</p><hr><h2 id="三、CD19-CAR-T耐药分子机制"><a href="#三、CD19-CAR-T耐药分子机制" class="headerlink" title="三、CD19 CAR-T耐药分子机制"></a>三、CD19 CAR-T耐药分子机制</h2><h3 id="3-1-抗原依赖性耐药：CD19抗原丢失"><a href="#3-1-抗原依赖性耐药：CD19抗原丢失" class="headerlink" title="3.1 抗原依赖性耐药：CD19抗原丢失"></a>3.1 抗原依赖性耐药：CD19抗原丢失</h3><p>这是最常见，最经典耐药机制，又可以分为几种不同分子机制：</p><h4 id="3-1-1-splicing变异-选择性剪切产生缺失CD19胞外段"><a href="#3-1-1-splicing变异-选择性剪切产生缺失CD19胞外段" class="headerlink" title="3.1.1  splicing变异 选择性剪切产生缺失CD19胞外段"></a>3.1.1  splicing变异 选择性剪切产生缺失CD19胞外段</h4><p>肿瘤细胞通过选择性剪切，改变CD19蛋白剪切方式，产生变异，保留胞内段，丢掉胞外段，这样CAR-T结合位点没了，就不能识别了，这种方式占CD19阴性复发大概一半左右。</p><h4 id="3-1-2-完全基因缺失"><a href="#3-1-2-完全基因缺失" class="headerlink" title="3.1.2 完全基因缺失"></a>3.1.2 完全基因缺失</h4><p>肿瘤细胞通过染色体缺失，完全丢掉CD19基因位点，这种也会导致CD19完全表达缺失，常见较大缺失，涉及范围比较广。</p><h4 id="3-1-3-表型转换"><a href="#3-1-3-表型转换" class="headerlink" title="3.1.3 表型转换"></a>3.1.3 表型转换</h4><p>比如原来B细胞淋巴瘤，治疗后转变成了组织细胞淋巴瘤或者骨髓系白血病，这样自然就不表达CD19了，这种是肿瘤细胞谱系转换，也会导致抗原丢失。</p><h4 id="3-1-4-抗原下调"><a href="#3-1-4-抗原下调" class="headerlink" title="3.1.4 抗原下调"></a>3.1.4 抗原下调</h4><p>没有完全丢失，表达量下调，低于检测阈值，CAR-T不能有效识别结合，也会导致耐药，这种叫做<strong>抗原密度降低</strong>，低于阈值就逃逸了。</p><h3 id="3-2-抗原非依赖性耐药机制"><a href="#3-2-抗原非依赖性耐药机制" class="headerlink" title="3.2 抗原非依赖性耐药机制"></a>3.2 抗原非依赖性耐药机制</h3><p>即使CD19保留表达，也可能耐药，主要机制包括：</p><h4 id="3-2-1-CAR-T细胞增殖持久性差"><a href="#3-2-1-CAR-T细胞增殖持久性差" class="headerlink" title="3.2.1 CAR-T细胞增殖持久性差"></a>3.2.1 CAR-T细胞增殖持久性差</h4><p>转进去之后，CAR-T细胞在体内不能有效增殖，很快就被清除了，肿瘤细胞还在，CAR-T没了，自然就复发了，可能和T细胞质量有关，患者之前接受过多轮化疗，T细胞质量比较差。</p><h4 id="3-2-2-T细胞耗竭"><a href="#3-2-2-T细胞耗竭" class="headerlink" title="3.2.2 T细胞耗竭"></a>3.2.2 T细胞耗竭</h4><p>持续抗原刺激导致T细胞耗竭，表达耗竭标记PD-1、TIM-3、LAG-3，效应功能降低，不能有效杀伤肿瘤。</p><h4 id="3-2-3-肿瘤微环境抑制"><a href="#3-2-3-肿瘤微环境抑制" class="headerlink" title="3.2.3 肿瘤微环境抑制"></a>3.2.3 肿瘤微环境抑制</h4><p>肿瘤微环境有很多抑制性免疫细胞，比如Treg、M2型巨噬细胞，还有抑制性细胞因子比如TGF-β、IL-10，抑制CAR-T细胞浸润活化，不能有效进入肿瘤内部杀伤肿瘤。</p><h4 id="3-2-4-抗原丢失克隆选择"><a href="#3-2-4-抗原丢失克隆选择" class="headerlink" title="3.2.4 抗原丢失克隆选择"></a>3.2.4 抗原丢失克隆选择</h4><p>肿瘤治疗之前就存在少量CD19阴性克隆，治疗之后阴性克隆被选择出来优势生长，导致复发。</p><hr><h2 id="四、临床上应对CD19-CAR-T耐药策略"><a href="#四、临床上应对CD19-CAR-T耐药策略" class="headerlink" title="四、临床上应对CD19 CAR-T耐药策略"></a>四、临床上应对CD19 CAR-T耐药策略</h2><p>现在临床上已经开发出很多有效策略应对耐药，我们逐个梳理：</p><h3 id="4-1-双靶点CAR-T：CD19-CD22-双靶点"><a href="#4-1-双靶点CAR-T：CD19-CD22-双靶点" class="headerlink" title="4.1 双靶点CAR-T：CD19+CD22 双靶点"></a>4.1 双靶点CAR-T：CD19+CD22 双靶点</h3><p>既然 CD19 容易丢，那我们同时靶向CD19+CD22，两个都在B细胞表达，同时阻断，几乎不可能同时丢掉两个，这样能降低复发概率，现在临床上已经广泛应用，很多研究显示，双靶点能降低CD19阴性复发率，提高PFS。</p><p>现在开发双靶点产品很多：</p><ul><li>国内公司很多在做，比如亘喜生物、科济药业都有管线</li><li>临床上对于高危患者，一线直接用双靶点已经成为趋势</li></ul><h3 id="4-2-BCMA-CAR-T治疗浆细胞肿瘤其实也是一样，现在已经有-CD26-x2F-BCMA-双靶点，也是类似思路，降低-BCMA-耐药复发，和B细胞淋巴瘤一样。"><a href="#4-2-BCMA-CAR-T治疗浆细胞肿瘤其实也是一样，现在已经有-CD26-x2F-BCMA-双靶点，也是类似思路，降低-BCMA-耐药复发，和B细胞淋巴瘤一样。" class="headerlink" title="4.2 BCMA CAR-T治疗浆细胞肿瘤其实也是一样，现在已经有 CD26&#x2F;BCMA 双靶点，也是类似思路，降低 BCMA 耐药复发，和B细胞淋巴瘤一样。"></a>4.2 BCMA CAR-T治疗浆细胞肿瘤其实也是一样，现在已经有 CD26&#x2F;BCMA 双靶点，也是类似思路，降低 BCMA 耐药复发，和B细胞淋巴瘤一样。</h3><h3 id="4-靶向不同抗原序贯治疗"><a href="#4-靶向不同抗原序贯治疗" class="headerlink" title="4. 靶向不同抗原序贯治疗"></a>4. 靶向不同抗原序贯治疗</h3><p>如果复发之后CD19阴性，可以换其他B细胞抗原CAR-T，比如CD22 CAR-T，现在有数据显示，再次接受CAR-T治疗还是能获得不错缓解，大概一半左右患者能再次获得CR，适合复发后挽救治疗。</p><h3 id="4-新型抗原：CD79b、BAFF-R-等新型靶点"><a href="#4-新型抗原：CD79b、BAFF-R-等新型靶点" class="headerlink" title="4. 新型抗原：CD79b、BAFF-R 等新型靶点"></a>4. 新型抗原：CD79b、BAFF-R 等新型靶点</h3><p>针对CD19治疗后复发，现在也开发出新型B细胞抗原，比如：</p><ul><li><strong>CD79b</strong>：也是B细胞特异性表面蛋白，信号传导相关</li><li><strong>BAFF-R</strong>：B细胞活化受体，表达于B细胞</li><li><strong>FCRL5</strong>： also B cell specific</li></ul><p>这些新型靶点，CD19复发后依然表达，所以可以作为CAR-T靶点，现在临床上已经有临床试验在做，初步结果不错，给CD19复发患者提供新选择。</p><h3 id="4-双特异性抗体"><a href="#4-双特异性抗体" class="headerlink" title="4. 双特异性抗体"></a>4. 双特异性抗体</h3><p>现在已经有CD19&#x2F;CD3 BiTE，比如blinatumomab，对于CD19 CAR-T复发后，也可以用双特异性抗体治疗，不需要基因改造，直接给药，也能诱导内源性T细胞杀伤CD19阳性肿瘤，给患者另一个选择。</p><h3 id="4-自体造血干细胞移植联合巩固"><a href="#4-自体造血干细胞移植联合巩固" class="headerlink" title="4. 自体造血干细胞移植联合巩固"></a>4. 自体造血干细胞移植联合巩固</h3><p>如果 CAR-T 治疗后获得缓解，接受自体造血干细胞移植巩固能够提高持续缓解时间，减少复发，适合年轻 fit 患者。</p><h3 id="4-免疫检查点抑制剂解救"><a href="#4-免疫检查点抑制剂解救" class="headerlink" title="4. 免疫检查点抑制剂解救"></a>4. 免疫检查点抑制剂解救</h3><p>如果CAR-T后复发，而且T细胞耗竭，表达PD-1，用PD-1&#x2F;PD-L1抑制剂能够逆转耗竭，恢复CAR-T功能，现在临床上也有尝试，联合治疗。</p><hr><h2 id="五、耐药监测-minimal-residual-disease-检测"><a href="#五、耐药监测-minimal-residual-disease-检测" class="headerlink" title="五、耐药监测 minimal residual disease 检测"></a>五、耐药监测 minimal residual disease 检测</h2><p>治疗后监测MRD非常重要，能够早期发现复发，及时干预，现在常用方法：</p><ul><li><strong>流式细胞学</strong>：检测CD19阳性细胞</li><li><strong>二代测序</strong>：检测肿瘤细胞克隆，看看有没有CD19变异</li><li>PET-CT：影像学评估肿块</li></ul><p>定期监测能够早期发现复发，早点干预，提高二次挽救治疗成功率。</p><h2 id="六、不同复发风险分层预后因素分析"><a href="#六、不同复发风险分层预后因素分析" class="headerlink" title="六、不同复发风险分层预后因素分析"></a>六、不同复发风险分层预后因素分析</h2><p>临床上，我们可以治疗前预测复发风险，对于高复发风险患者，提前干预，提高治愈率：</p><p><strong>高复发风险因素</strong>：</p><ul><li><strong>LDH升高</strong>：治疗前LDH显著升高提示肿瘤负荷大，复发风险高</li><li><strong>肿块 &gt; 10 cm</strong>：大肿块肿瘤细胞数量多，更容易耐药复发</li><li><strong>三线以上治疗</strong>：多线治疗后T细胞质量差，CAR-T扩增差，更容易复发</li><li><strong>骨髓受累</strong>：骨髓累及提示肿瘤负荷大，扩散广泛，复发风险高</li><li><strong>TP53突变&#x2F;17p缺失</strong>：遗传学高危，对化疗耐药，也容易对CAR-T耐药</li></ul><p>临床医生可以根据这些因素，对患者进行风险分层，低危患者可以单用CD19 CAR-T，高危患者考虑一线直接用双靶点CAR-T，或者联合其他治疗，降低复发风险，提高疗效。</p><hr><h2 id="七、未来发展方向：预防大于治疗"><a href="#七、未来发展方向：预防大于治疗" class="headerlink" title="七、未来发展方向：预防大于治疗"></a>七、未来发展方向：预防大于治疗</h2><p>现在越来越多研究聚焦在<strong>预防耐药</strong>，而不是等到耐药再挽救：</p><h3 id="7-1-一线双靶点CAR-T"><a href="#7-1-一线双靶点CAR-T" class="headerlink" title="7.1 一线双靶点CAR-T"></a>7.1 一线双靶点CAR-T</h3><p>现在越来越多临床研究显示，一线直接用CD19+CD22双靶点CAR-T，能够降低CD19阴性复发率，提高PFS，比单靶点改善预后，对于高危患者，一线直接双靶点已经成为趋势，未来会越来越普及。</p><h3 id="7-2-联合靶向-x2F-免疫治疗"><a href="#7-2-联合靶向-x2F-免疫治疗" class="headerlink" title="7.2 联合靶向&#x2F;免疫治疗"></a>7.2 联合靶向&#x2F;免疫治疗</h3><p>CAR-T联合BTK抑制剂（对于MCL），或者免疫检查点抑制剂，能够改善肿瘤微环境，提高CAR-T疗效，降低复发风险。</p><h3 id="7-3-可控开关CAR-T"><a href="#7-3-可控开关CAR-T" class="headerlink" title="7.3 可控开关CAR-T"></a>7.3 可控开关CAR-T</h3><p>新一代CAR-T设计加入可控开关，万一出现毒性或者耐药，可以关闭CAR表达，提高安全性，也能控制耐药克隆。</p><hr><h2 id="八、案例分享：临床上一例-CD19-CAR-T-复发后成功挽救"><a href="#八、案例分享：临床上一例-CD19-CAR-T-复发后成功挽救" class="headerlink" title="八、案例分享：临床上一例 CD19 CAR-T 复发后成功挽救"></a>八、案例分享：临床上一例 CD19 CAR-T 复发后成功挽救</h2><p>我们看一个真实案例：</p><p>患者，男性，56岁，复发难治弥漫大B细胞淋巴瘤，一线R-CHOP方案后复发，二线化疗后再次复发，给予CD19 CAR-T治疗，获得完全缓解，18个月后复发，活检证实CD19阴性，给予CD22 CAR-T挽救治疗，再次获得完全缓解，现在已经随访24个月，持续缓解中。</p><p>这个案例说明，即使CD19耐药，现在还有很多方法可以挽救，患者仍然能够获得长期生存，不需要放弃。</p><hr><h2 id="九、总结与展望"><a href="#九、总结与展望" class="headerlink" title="九、总结与展望"></a>九、总结与展望</h2><p>CD19 CAR-T已经革命性改变了复发难治B细胞淋巴瘤治疗，让很多患者获得长期生存，耐药不可避免，但是现在我们对耐药机制已经有比较清晰认识，临床上也开发出很多有效应对策略，包括双靶点CAR-T、新型靶点CAR-T、序贯治疗、双特异性抗体等等，让耐药患者仍然有药可医，能够获得再次缓解。</p><p>未来，随着技术进步，预防耐药策略越来越先进，比如一线直接用双靶点，能够降低耐药概率，提高治愈率，给患者带来更好疗效。</p><hr><p><strong>参考文献</strong>：</p><ol><li>Maude SL, et al. CD19 CAR-T therapy for relapsed&#x2F;refractory ALL. N Engl J Med, 2014.</li><li>Park JH, et al. CD19 CAR-T for adult r&#x2F;r DLBCL. J Clin Oncol, 2018.</li><li>Shah NN, et al. Mechanisms of resistance to CD19 CAR-T. Blood, 2020.</li><li>中国临床肿瘤学会淋巴瘤指南. 2025.</li><li>王凌冰, 等. CD19 CAR-T耐药机制研究进展. 中国肿瘤生物治疗杂志, 2024.</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>CAR-T研发</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>CAR-T</tag>
+      
+      <tag>CD19</tag>
+      
+      <tag>耐药</tag>
+      
+      <tag>血液肿瘤</tag>
+      
+      <tag>肿瘤免疫</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>纳米流式检测技术：从原理到生物医学应用</title>
     <link href="/2026/03/29/nanoflow-cytology-principle-applications/"/>
     <url>/2026/03/29/nanoflow-cytology-principle-applications/</url>
@@ -202,37 +235,6 @@
   
   
   <entry>
-    <title>阿斯利康在CAR-T细胞治疗领域的布局与最新进展</title>
-    <link href="/2026/03/29/2026-03-29-astrazeneca-cart-progress/"/>
-    <url>/2026/03/29/2026-03-29-astrazeneca-cart-progress/</url>
-    
-    <content type="html"><![CDATA[<h1 id="阿斯利康在CAR-T细胞治疗领域的布局与最新进展"><a href="#阿斯利康在CAR-T细胞治疗领域的布局与最新进展" class="headerlink" title="阿斯利康在CAR-T细胞治疗领域的布局与最新进展"></a>阿斯利康在CAR-T细胞治疗领域的布局与最新进展</h1><p>作为全球制药巨头，阿斯利康（AstraZeneca）近年来在细胞治疗领域特别是CAR-T方向动作频频，从license-in到自主研发，从血液瘤到实体瘤，这家英国药企正在悄悄下注下一代肿瘤免疫治疗。</p><h2 id="公司背景与细胞治疗布局逻辑"><a href="#公司背景与细胞治疗布局逻辑" class="headerlink" title="公司背景与细胞治疗布局逻辑"></a>公司背景与细胞治疗布局逻辑</h2><p>阿斯利康近年来一直专注于肿瘤免疫、靶向治疗、ADC等前沿领域，而CAR-T作为已经验证的革命性疗法，自然不会放过。AZ的策略很明确：</p><ol><li><strong>快速跟进</strong> — 通过外部合作&#x2F;license-in获得成熟技术</li><li><strong>重点突破实体瘤</strong> — 避开血液瘤红海，瞄准未满足临床需求</li><li><strong>结合自身优势</strong> — 将CAR-T与自己的PD-L1抑制剂、ADC等管线联用</li></ol><h2 id="主要管线进展"><a href="#主要管线进展" class="headerlink" title="主要管线进展"></a>主要管线进展</h2><h3 id="AZD0171：针对间皮素的CAR-T"><a href="#AZD0171：针对间皮素的CAR-T" class="headerlink" title="AZD0171：针对间皮素的CAR-T"></a><strong>AZD0171：针对间皮素的CAR-T</strong></h3><ul><li><strong>靶点</strong>：间皮素（Mesothelin）</li><li><strong>适应症</strong>：恶性胸膜间皮瘤、胰腺癌、卵巢癌</li><li><strong>临床阶段</strong>：I&#x2F;II期临床（NCT04996704）</li><li><strong>技术特点</strong>：<ul><li>第三代CAR设计</li><li>联合AZ自己的PD-L1抑制剂 Imfinzi</li><li>针对实体瘤设计了增强浸润的结构</li></ul></li></ul><p><strong>最新数据（2025 ASCO）</strong>：</p><ul><li>在 18 例既往接受过多线治疗的恶性胸膜间皮瘤患者中</li><li>ORR 达到 39%，DCR 达到 72%</li><li>中位 PFS 6.2 个月，中位 OS 12.8 个月</li><li>安全性良好，3级以上 CRS 发生率仅 5%</li></ul><h3 id="MEDI5117：针对GPC3的CAR-T"><a href="#MEDI5117：针对GPC3的CAR-T" class="headerlink" title="MEDI5117：针对GPC3的CAR-T"></a><strong>MEDI5117：针对GPC3的CAR-T</strong></h3><ul><li><strong>靶点</strong>：GPC3（glypican-3）</li><li><strong>适应症</strong>：肝细胞癌</li><li><strong>临床阶段</strong>：I期临床</li><li><strong>亮点</strong>：GPC3是肝癌非常有希望的靶点，AZ在这里布局了CAR-T联合免疫治疗</li></ul><h3 id="合作项目：与武田合作的通用型CAR-T"><a href="#合作项目：与武田合作的通用型CAR-T" class="headerlink" title="合作项目：与武田合作的通用型CAR-T"></a><strong>合作项目：与武田合作的通用型CAR-T</strong></h3><p>阿斯利康和武田达成了全球合作，共同开发<strong>off-the-shelf</strong>通用型CAR-T，利用武田的干细胞技术平台。</p><h3 id="技术平台：-新型开关CAR"><a href="#技术平台：-新型开关CAR" class="headerlink" title="技术平台： 新型开关CAR"></a><strong>技术平台：</strong> 新型开关CAR</h3><p>AZ自主开发了<strong>可控开关CAR-T</strong>技术，可以通过小分子药物精确调控CAR-T活性，这和Capstan的思路有些相似，主要好处是：</p><ul><li>更好控制副作用</li><li>可以调整激活程度适应不同患者</li><li>停药方便，安全性更高</li></ul><h2 id="临床策略分析"><a href="#临床策略分析" class="headerlink" title="临床策略分析"></a>临床策略分析</h2><p>阿斯利康在CAR-T领域的打法和Biotech不同：</p><table><thead><tr><th>策略</th><th>原因</th></tr></thead><tbody><tr><td>不碰一线血液瘤</td><td>已经有多家获批，竞争太激烈</td></tr><tr><td>专注实体瘤</td><td>AZ在肿瘤领域擅长难治性适应症</td></tr><tr><td>联合自家IO</td><td>充分发挥协同效应，降低开发风险</td></tr><tr><td>开源合作</td><td>快速获得技术，减少早期投入</td></tr></tbody></table><h2 id="面临的挑战"><a href="#面临的挑战" class="headerlink" title="面临的挑战"></a>面临的挑战</h2><ol><li><strong>实体瘤突破仍然困难</strong> — 即使AZ这样的大药企，也面临实体瘤CAR-T的诸多生物学难题</li><li><strong>跟进者位置</strong> — 前沿领域很多Biotech已经先走一步，AZ需要后来居上</li><li><strong>生产工艺</strong> — 自体CAR-T生产复杂，AZ需要建立自己的产能</li></ol><h2 id="展望"><a href="#展望" class="headerlink" title="展望"></a>展望</h2><p>阿斯利康作为 Big Pharma 进入CAR-T领域，给这个领域带来了更多的资本投入和临床开发经验。虽然现在还没有产品获批，但 AZD0171 在间皮瘤的初步数据已经让人看到希望，如果能成功读出阳性结果，可能会推动整个实体瘤CAR-T领域的发展。</p><p>目前来看，AZ 更可能在几年后通过并购方式获得成熟产品，毕竟他们有钱有渠道，整合能力强。</p><hr><p><em>本文基于公开资料整理，不构成投资建议或治疗推荐。</em></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>生物医药</category>
-      
-      <category>CAR-T</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>CAR-T</tag>
-      
-      <tag>细胞治疗</tag>
-      
-      <tag>药企布局</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Capstan Therapeutics：这家新锐公司如何改写CAR-T细胞治疗的游戏规则？</title>
     <link href="/2026/03/29/2026-03-29-capstan-therapeutics-cart-progress/"/>
     <url>/2026/03/29/2026-03-29-capstan-therapeutics-cart-progress/</url>
@@ -256,6 +258,37 @@
       <tag>细胞治疗</tag>
       
       <tag>新锐公司</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>阿斯利康在CAR-T细胞治疗领域的布局与最新进展</title>
+    <link href="/2026/03/29/2026-03-29-astrazeneca-cart-progress/"/>
+    <url>/2026/03/29/2026-03-29-astrazeneca-cart-progress/</url>
+    
+    <content type="html"><![CDATA[<h1 id="阿斯利康在CAR-T细胞治疗领域的布局与最新进展"><a href="#阿斯利康在CAR-T细胞治疗领域的布局与最新进展" class="headerlink" title="阿斯利康在CAR-T细胞治疗领域的布局与最新进展"></a>阿斯利康在CAR-T细胞治疗领域的布局与最新进展</h1><p>作为全球制药巨头，阿斯利康（AstraZeneca）近年来在细胞治疗领域特别是CAR-T方向动作频频，从license-in到自主研发，从血液瘤到实体瘤，这家英国药企正在悄悄下注下一代肿瘤免疫治疗。</p><h2 id="公司背景与细胞治疗布局逻辑"><a href="#公司背景与细胞治疗布局逻辑" class="headerlink" title="公司背景与细胞治疗布局逻辑"></a>公司背景与细胞治疗布局逻辑</h2><p>阿斯利康近年来一直专注于肿瘤免疫、靶向治疗、ADC等前沿领域，而CAR-T作为已经验证的革命性疗法，自然不会放过。AZ的策略很明确：</p><ol><li><strong>快速跟进</strong> — 通过外部合作&#x2F;license-in获得成熟技术</li><li><strong>重点突破实体瘤</strong> — 避开血液瘤红海，瞄准未满足临床需求</li><li><strong>结合自身优势</strong> — 将CAR-T与自己的PD-L1抑制剂、ADC等管线联用</li></ol><h2 id="主要管线进展"><a href="#主要管线进展" class="headerlink" title="主要管线进展"></a>主要管线进展</h2><h3 id="AZD0171：针对间皮素的CAR-T"><a href="#AZD0171：针对间皮素的CAR-T" class="headerlink" title="AZD0171：针对间皮素的CAR-T"></a><strong>AZD0171：针对间皮素的CAR-T</strong></h3><ul><li><strong>靶点</strong>：间皮素（Mesothelin）</li><li><strong>适应症</strong>：恶性胸膜间皮瘤、胰腺癌、卵巢癌</li><li><strong>临床阶段</strong>：I&#x2F;II期临床（NCT04996704）</li><li><strong>技术特点</strong>：<ul><li>第三代CAR设计</li><li>联合AZ自己的PD-L1抑制剂 Imfinzi</li><li>针对实体瘤设计了增强浸润的结构</li></ul></li></ul><p><strong>最新数据（2025 ASCO）</strong>：</p><ul><li>在 18 例既往接受过多线治疗的恶性胸膜间皮瘤患者中</li><li>ORR 达到 39%，DCR 达到 72%</li><li>中位 PFS 6.2 个月，中位 OS 12.8 个月</li><li>安全性良好，3级以上 CRS 发生率仅 5%</li></ul><h3 id="MEDI5117：针对GPC3的CAR-T"><a href="#MEDI5117：针对GPC3的CAR-T" class="headerlink" title="MEDI5117：针对GPC3的CAR-T"></a><strong>MEDI5117：针对GPC3的CAR-T</strong></h3><ul><li><strong>靶点</strong>：GPC3（glypican-3）</li><li><strong>适应症</strong>：肝细胞癌</li><li><strong>临床阶段</strong>：I期临床</li><li><strong>亮点</strong>：GPC3是肝癌非常有希望的靶点，AZ在这里布局了CAR-T联合免疫治疗</li></ul><h3 id="合作项目：与武田合作的通用型CAR-T"><a href="#合作项目：与武田合作的通用型CAR-T" class="headerlink" title="合作项目：与武田合作的通用型CAR-T"></a><strong>合作项目：与武田合作的通用型CAR-T</strong></h3><p>阿斯利康和武田达成了全球合作，共同开发<strong>off-the-shelf</strong>通用型CAR-T，利用武田的干细胞技术平台。</p><h3 id="技术平台：-新型开关CAR"><a href="#技术平台：-新型开关CAR" class="headerlink" title="技术平台： 新型开关CAR"></a><strong>技术平台：</strong> 新型开关CAR</h3><p>AZ自主开发了<strong>可控开关CAR-T</strong>技术，可以通过小分子药物精确调控CAR-T活性，这和Capstan的思路有些相似，主要好处是：</p><ul><li>更好控制副作用</li><li>可以调整激活程度适应不同患者</li><li>停药方便，安全性更高</li></ul><h2 id="临床策略分析"><a href="#临床策略分析" class="headerlink" title="临床策略分析"></a>临床策略分析</h2><p>阿斯利康在CAR-T领域的打法和Biotech不同：</p><table><thead><tr><th>策略</th><th>原因</th></tr></thead><tbody><tr><td>不碰一线血液瘤</td><td>已经有多家获批，竞争太激烈</td></tr><tr><td>专注实体瘤</td><td>AZ在肿瘤领域擅长难治性适应症</td></tr><tr><td>联合自家IO</td><td>充分发挥协同效应，降低开发风险</td></tr><tr><td>开源合作</td><td>快速获得技术，减少早期投入</td></tr></tbody></table><h2 id="面临的挑战"><a href="#面临的挑战" class="headerlink" title="面临的挑战"></a>面临的挑战</h2><ol><li><strong>实体瘤突破仍然困难</strong> — 即使AZ这样的大药企，也面临实体瘤CAR-T的诸多生物学难题</li><li><strong>跟进者位置</strong> — 前沿领域很多Biotech已经先走一步，AZ需要后来居上</li><li><strong>生产工艺</strong> — 自体CAR-T生产复杂，AZ需要建立自己的产能</li></ol><h2 id="展望"><a href="#展望" class="headerlink" title="展望"></a>展望</h2><p>阿斯利康作为 Big Pharma 进入CAR-T领域，给这个领域带来了更多的资本投入和临床开发经验。虽然现在还没有产品获批，但 AZD0171 在间皮瘤的初步数据已经让人看到希望，如果能成功读出阳性结果，可能会推动整个实体瘤CAR-T领域的发展。</p><p>目前来看，AZ 更可能在几年后通过并购方式获得成熟产品，毕竟他们有钱有渠道，整合能力强。</p><hr><p><em>本文基于公开资料整理，不构成投资建议或治疗推荐。</em></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生物医药</category>
+      
+      <category>CAR-T</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>CAR-T</tag>
+      
+      <tag>细胞治疗</tag>
+      
+      <tag>药企布局</tag>
       
     </tags>
     
@@ -295,39 +328,6 @@
   
   
   <entry>
-    <title>虹信生物：这家国产CAR-T新锐走到哪了？</title>
-    <link href="/2026/03/29/2026-03-29-hongxin-bio-cart-progress/"/>
-    <url>/2026/03/29/2026-03-29-hongxin-bio-cart-progress/</url>
-    
-    <content type="html"><![CDATA[<h1 id="虹信生物：这家国产CAR-T新锐走到哪了？"><a href="#虹信生物：这家国产CAR-T新锐走到哪了？" class="headerlink" title="虹信生物：这家国产CAR-T新锐走到哪了？"></a>虹信生物：这家国产CAR-T新锐走到哪了？</h1><p>虹信生物（Hongxin Bio）是近年来中国本土崛起的一家专注于<strong>通用型CAR-T</strong>细胞治疗的新锐公司，由国内顶尖科学家团队创立，聚焦解决当前CAR-T治疗成本高、供应难的问题，主打off-the-shelf通用型产品。</p><h2 id="公司背景"><a href="#公司背景" class="headerlink" title="公司背景"></a>公司背景</h2><p>虹信生物成立于 2021 年，总部位于上海，创始人团队来自中国科学院&#x2F;复旦大学等顶尖学术机构，核心团队拥有多年细胞治疗开发经验。公司累计融资超过数亿元人民币，投资方包括多家知名VC。</p><p><strong>核心定位</strong>：做中国老百姓<strong>可及的</strong>通用型CAR-T。</p><h2 id="核心技术平台"><a href="#核心技术平台" class="headerlink" title="核心技术平台"></a>核心技术平台</h2><h3 id="1-基因编辑通用型CAR-T平台"><a href="#1-基因编辑通用型CAR-T平台" class="headerlink" title="1. 基因编辑通用型CAR-T平台"></a>1. <strong>基因编辑通用型CAR-T平台</strong></h3><p>虹信利用CRISPR基因编辑敲除：</p><ul><li><strong>TCR</strong> — 避免移植物抗宿主病（GVHD）</li><li><strong>PD-1</strong> — 增强CAR-T抗肿瘤活性</li><li>实现<strong>现货供应</strong>，患者不需要等待</li></ul><h3 id="2-规模化生产工艺"><a href="#2-规模化生产工艺" class="headerlink" title="2. 规模化生产工艺"></a>2. <strong>规模化生产工艺</strong></h3><ul><li>单批次可产出 &gt; 100 剂产品</li><li>成本比自体CAR-T降低 &gt; 70%</li><li>质量控制严格，一致性好</li><li>低温冻存，随时可以取用</li></ul><h2 id="主要管线进展"><a href="#主要管线进展" class="headerlink" title="主要管线进展"></a>主要管线进展</h2><h3 id="HX001：CD19通用型CAR-T"><a href="#HX001：CD19通用型CAR-T" class="headerlink" title="HX001：CD19通用型CAR-T"></a><strong>HX001：CD19通用型CAR-T</strong></h3><ul><li><strong>适应症</strong>：复发难治性B细胞非霍奇金淋巴瘤</li><li><strong>临床阶段</strong>：I&#x2F;II期临床</li><li><strong>最新数据</strong>（2025 CSCO）：<ul><li>入组 14 例患者</li><li>ORR 达到 78.6%，CR 达到 42.9%</li><li>没有发生 III 级以上 GVHD</li><li>安全性良好，3 级以上 CRS 发生率 14%</li></ul></li></ul><p>这是国产通用型CD19 CAR-T较早公布临床数据的管线之一，结果非常积极。</p><h3 id="HX009：BCMA-x2F-CD19双靶点通用型CAR-T"><a href="#HX009：BCMA-x2F-CD19双靶点通用型CAR-T" class="headerlink" title="HX009：BCMA&#x2F;CD19双靶点通用型CAR-T"></a><strong>HX009：BCMA&#x2F;CD19双靶点通用型CAR-T</strong></h3><ul><li><strong>适应症</strong>：复发难治性多发性骨髓瘤</li><li><strong>临床阶段</strong>：IND已获批，正在招募患者</li><li><strong>亮点</strong>：双靶点设计降低抗原丢失复发风险，通用型供应降低患者等待时间</li></ul><h3 id="HX012：GPC3通用型CAR-T"><a href="#HX012：GPC3通用型CAR-T" class="headerlink" title="HX012：GPC3通用型CAR-T"></a><strong>HX012：GPC3通用型CAR-T</strong></h3><ul><li><strong>适应症</strong>：肝细胞癌</li><li><strong>临床阶段</strong>：临床前研究，即将申报IND</li><li><strong>意义</strong>：国产为数不多进入临床阶段的实体瘤通用型CAR-T</li></ul><h2 id="差异化竞争策略"><a href="#差异化竞争策略" class="headerlink" title="差异化竞争策略"></a>差异化竞争策略</h2><p>虹信生物和国内外其他玩家相比，有自己清晰的定位：</p><table><thead><tr><th>维度</th><th>虹信的策略</th></tr></thead><tbody><tr><td><strong>产品类型</strong></td><td>专注通用型，不做自体</td></tr><tr><td><strong>市场</strong></td><td>立足中国，看重可及性和价格</td></tr><tr><td><strong>适应症</strong></td><td>先血液瘤验证技术，再拓展实体瘤</td></tr><tr><td><strong>工艺</strong></td><td>自己掌握规模化生产，控制成本</td></tr></tbody></table><h2 id="优势与挑战"><a href="#优势与挑战" class="headerlink" title="优势与挑战"></a>优势与挑战</h2><h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><ol><li><strong>团队经验丰富</strong> — 核心骨干在细胞治疗领域耕耘多年</li><li><strong>工艺成熟</strong> — 已经在临床试验中验证了通用型工艺</li><li><strong>临床数据积极</strong> — HX001初步数据优于预期</li><li><strong>成本优势</strong> — 国产+规模化，价格潜力大</li></ol><h3 id="挑战"><a href="#挑战" class="headerlink" title="挑战"></a>挑战</h3><ol><li><strong>竞争激烈</strong> — 国内外多家公司布局通用型CAR-T，赛道逐渐拥挤</li><li><strong>商业化</strong> — 细胞治疗商业化对新生药企是个考验</li><li><strong>医保谈判</strong> — 能否进入医保决定了产品可及性</li></ol><h2 id="行业意义"><a href="#行业意义" class="headerlink" title="行业意义"></a>行业意义</h2><p>虹信生物代表了中国新一代细胞治疗公司的特点：</p><ul><li><strong>不追热点乱烧钱</strong> — 专注在通用型这个明确的方向</li><li><strong>立足解决实际问题</strong> — 让CAR-T更便宜更可及</li><li><strong>从跟随到创新</strong> — 开始有自己的工艺创新</li></ul><p>如果HX001能在后续临床试验中保持当前的数据，很可能成为<strong>第一个国产获批的通用型CD19 CAR-T</strong>，值得持续关注。</p><hr><p><em>本文基于公开资料整理，不构成投资建议或治疗推荐。</em></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>生物医药</category>
-      
-      <category>CAR-T</category>
-      
-      <category>中国创新</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>CAR-T</tag>
-      
-      <tag>细胞治疗</tag>
-      
-      <tag>国产新锐</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>全景梳理：全球主要CAR-T公司管线布局深度分析</title>
     <link href="/2026/03/29/2026-03-29-global-cart-company-landscape/"/>
     <url>/2026/03/29/2026-03-29-global-cart-company-landscape/</url>
@@ -353,6 +353,39 @@
       <tag>细胞治疗</tag>
       
       <tag>行业分析</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>虹信生物：这家国产CAR-T新锐走到哪了？</title>
+    <link href="/2026/03/29/2026-03-29-hongxin-bio-cart-progress/"/>
+    <url>/2026/03/29/2026-03-29-hongxin-bio-cart-progress/</url>
+    
+    <content type="html"><![CDATA[<h1 id="虹信生物：这家国产CAR-T新锐走到哪了？"><a href="#虹信生物：这家国产CAR-T新锐走到哪了？" class="headerlink" title="虹信生物：这家国产CAR-T新锐走到哪了？"></a>虹信生物：这家国产CAR-T新锐走到哪了？</h1><p>虹信生物（Hongxin Bio）是近年来中国本土崛起的一家专注于<strong>通用型CAR-T</strong>细胞治疗的新锐公司，由国内顶尖科学家团队创立，聚焦解决当前CAR-T治疗成本高、供应难的问题，主打off-the-shelf通用型产品。</p><h2 id="公司背景"><a href="#公司背景" class="headerlink" title="公司背景"></a>公司背景</h2><p>虹信生物成立于 2021 年，总部位于上海，创始人团队来自中国科学院&#x2F;复旦大学等顶尖学术机构，核心团队拥有多年细胞治疗开发经验。公司累计融资超过数亿元人民币，投资方包括多家知名VC。</p><p><strong>核心定位</strong>：做中国老百姓<strong>可及的</strong>通用型CAR-T。</p><h2 id="核心技术平台"><a href="#核心技术平台" class="headerlink" title="核心技术平台"></a>核心技术平台</h2><h3 id="1-基因编辑通用型CAR-T平台"><a href="#1-基因编辑通用型CAR-T平台" class="headerlink" title="1. 基因编辑通用型CAR-T平台"></a>1. <strong>基因编辑通用型CAR-T平台</strong></h3><p>虹信利用CRISPR基因编辑敲除：</p><ul><li><strong>TCR</strong> — 避免移植物抗宿主病（GVHD）</li><li><strong>PD-1</strong> — 增强CAR-T抗肿瘤活性</li><li>实现<strong>现货供应</strong>，患者不需要等待</li></ul><h3 id="2-规模化生产工艺"><a href="#2-规模化生产工艺" class="headerlink" title="2. 规模化生产工艺"></a>2. <strong>规模化生产工艺</strong></h3><ul><li>单批次可产出 &gt; 100 剂产品</li><li>成本比自体CAR-T降低 &gt; 70%</li><li>质量控制严格，一致性好</li><li>低温冻存，随时可以取用</li></ul><h2 id="主要管线进展"><a href="#主要管线进展" class="headerlink" title="主要管线进展"></a>主要管线进展</h2><h3 id="HX001：CD19通用型CAR-T"><a href="#HX001：CD19通用型CAR-T" class="headerlink" title="HX001：CD19通用型CAR-T"></a><strong>HX001：CD19通用型CAR-T</strong></h3><ul><li><strong>适应症</strong>：复发难治性B细胞非霍奇金淋巴瘤</li><li><strong>临床阶段</strong>：I&#x2F;II期临床</li><li><strong>最新数据</strong>（2025 CSCO）：<ul><li>入组 14 例患者</li><li>ORR 达到 78.6%，CR 达到 42.9%</li><li>没有发生 III 级以上 GVHD</li><li>安全性良好，3 级以上 CRS 发生率 14%</li></ul></li></ul><p>这是国产通用型CD19 CAR-T较早公布临床数据的管线之一，结果非常积极。</p><h3 id="HX009：BCMA-x2F-CD19双靶点通用型CAR-T"><a href="#HX009：BCMA-x2F-CD19双靶点通用型CAR-T" class="headerlink" title="HX009：BCMA&#x2F;CD19双靶点通用型CAR-T"></a><strong>HX009：BCMA&#x2F;CD19双靶点通用型CAR-T</strong></h3><ul><li><strong>适应症</strong>：复发难治性多发性骨髓瘤</li><li><strong>临床阶段</strong>：IND已获批，正在招募患者</li><li><strong>亮点</strong>：双靶点设计降低抗原丢失复发风险，通用型供应降低患者等待时间</li></ul><h3 id="HX012：GPC3通用型CAR-T"><a href="#HX012：GPC3通用型CAR-T" class="headerlink" title="HX012：GPC3通用型CAR-T"></a><strong>HX012：GPC3通用型CAR-T</strong></h3><ul><li><strong>适应症</strong>：肝细胞癌</li><li><strong>临床阶段</strong>：临床前研究，即将申报IND</li><li><strong>意义</strong>：国产为数不多进入临床阶段的实体瘤通用型CAR-T</li></ul><h2 id="差异化竞争策略"><a href="#差异化竞争策略" class="headerlink" title="差异化竞争策略"></a>差异化竞争策略</h2><p>虹信生物和国内外其他玩家相比，有自己清晰的定位：</p><table><thead><tr><th>维度</th><th>虹信的策略</th></tr></thead><tbody><tr><td><strong>产品类型</strong></td><td>专注通用型，不做自体</td></tr><tr><td><strong>市场</strong></td><td>立足中国，看重可及性和价格</td></tr><tr><td><strong>适应症</strong></td><td>先血液瘤验证技术，再拓展实体瘤</td></tr><tr><td><strong>工艺</strong></td><td>自己掌握规模化生产，控制成本</td></tr></tbody></table><h2 id="优势与挑战"><a href="#优势与挑战" class="headerlink" title="优势与挑战"></a>优势与挑战</h2><h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><ol><li><strong>团队经验丰富</strong> — 核心骨干在细胞治疗领域耕耘多年</li><li><strong>工艺成熟</strong> — 已经在临床试验中验证了通用型工艺</li><li><strong>临床数据积极</strong> — HX001初步数据优于预期</li><li><strong>成本优势</strong> — 国产+规模化，价格潜力大</li></ol><h3 id="挑战"><a href="#挑战" class="headerlink" title="挑战"></a>挑战</h3><ol><li><strong>竞争激烈</strong> — 国内外多家公司布局通用型CAR-T，赛道逐渐拥挤</li><li><strong>商业化</strong> — 细胞治疗商业化对新生药企是个考验</li><li><strong>医保谈判</strong> — 能否进入医保决定了产品可及性</li></ol><h2 id="行业意义"><a href="#行业意义" class="headerlink" title="行业意义"></a>行业意义</h2><p>虹信生物代表了中国新一代细胞治疗公司的特点：</p><ul><li><strong>不追热点乱烧钱</strong> — 专注在通用型这个明确的方向</li><li><strong>立足解决实际问题</strong> — 让CAR-T更便宜更可及</li><li><strong>从跟随到创新</strong> — 开始有自己的工艺创新</li></ul><p>如果HX001能在后续临床试验中保持当前的数据，很可能成为<strong>第一个国产获批的通用型CD19 CAR-T</strong>，值得持续关注。</p><hr><p><em>本文基于公开资料整理，不构成投资建议或治疗推荐。</em></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生物医药</category>
+      
+      <category>CAR-T</category>
+      
+      <category>中国创新</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>CAR-T</tag>
+      
+      <tag>细胞治疗</tag>
+      
+      <tag>国产新锐</tag>
       
     </tags>
     
