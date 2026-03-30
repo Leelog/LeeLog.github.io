@@ -23,6 +23,23 @@
 <meta property="og:site_name" content="LeeM&#39;s Blog">
 <meta property="og:description" content="深度解读Nature Medicine发表的ESO-T01体内生成抗BCMA CAR-T细胞治疗复发&#x2F;难治多发性骨髓瘤I期临床研究，从技术平台、向量设计、临床数据、安全性、药代药效动力学、临床意义等多维度全面剖析这项具有里程碑意义的研究。">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p22_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p20_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p4_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p21_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p20_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p19_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p4_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p22_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p20_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p21_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p19_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p20_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p14_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p15_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p16_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p17_1.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p18_1.png">
 <meta property="article:published_time" content="2026-03-30T04:20:00.000Z">
 <meta property="article:modified_time" content="2026-03-30T04:20:00.000Z">
 <meta property="article:author" content="Lee">
@@ -35,6 +52,7 @@
 <meta property="article:tag" content="Nature Medicine">
 <meta property="article:tag" content="临床研究">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p22_1.png">
   
   
   <title>Nature Medicine重磅解读：ESO-T01体内生成抗BCMA CAR-T细胞治疗复发/难治多发性骨髓瘤的I期临床研究 - LeeM&#39;s Blog</title>
@@ -401,8 +419,11 @@
 <p>ESO-T01采用的正是<strong>慢病毒载体路线</strong>——这是全球首个在<em>I期临床研究</em>中系统性验证慢病毒体内编程CAR-T人体安全性和疗效的里程碑式研究。</p>
 <hr>
 <h2 id="三、ESO-T01技术平台：工程化慢病毒载体的精密设计"><a href="#三、ESO-T01技术平台：工程化慢病毒载体的精密设计" class="headerlink" title="三、ESO-T01技术平台：工程化慢病毒载体的精密设计"></a>三、ESO-T01技术平台：工程化慢病毒载体的精密设计</h2><h3 id="3-1-向量架构总览"><a href="#3-1-向量架构总览" class="headerlink" title="3.1 向量架构总览"></a>3.1 向量架构总览</h3><p>ESO-T01是一个<strong>第三代、自我失活（SIN）、复制缺陷型慢病毒载体</strong>，其核心工程设计包含以下关键模块：</p>
-<figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs excel">┌─────────────────────────────────────────────────────────┐<br>│                    ESO-<span class="hljs-symbol">T01</span> 向量设计模式图                 │<br>│                                                         │<br>│  ┌────────────┐   ┌────────────┐   ┌────────────┐      │<br>│  │ Anti-TCR  │ → │   <span class="hljs-symbol">CD8</span>α     │ → │   <span class="hljs-symbol">CD8</span>α     │      │<br>│  │  VHH      │   │   Hinge    │   │  TM        │      │<br>│  │(<span class="hljs-built_in">T</span>细胞靶向) │   │            │   │            │      │<br>│  └────────────┘   └────────────┘   └────────────┘      │<br>│          ↓              ↓              ↓               │<br>│  ┌────────────┐   ┌────────────┐   ┌────────────┐      │<br>│  │ Anti-BCMA  │   │  <span class="hljs-number">4</span>-<span class="hljs-number">1</span>BB     │   │   <span class="hljs-symbol">CD3</span>ζ     │      │<br>│  │    VHH     │   │  Co-stim   │   │ Signaling  │      │<br>│  │(BCMA靶向)  │   │  Domain    │   │  Domain    │      │<br>│  └────────────┘   └────────────┘   └────────────┘      │<br>│                        ↓                                │<br>│           ┌────────────────────────┐                   │<br>│           │   SYN Promoter         │                   │<br>│           │ (合成<span class="hljs-built_in">T</span>细胞特异性启动子) │                   │<br>│           └────────────────────────┘                   │<br>│                                                         │<br>│  ═══════════════════════════════════════════════════   │<br>│  【工程化改造层】                                          │<br>│  • MHC-I敲除（减少免疫原性）                                │<br>│  • <span class="hljs-symbol">CD47</span>高表达（逃逸单核吞噬系统清除）                          │<br>│  • 突变型VSV-G包膜（降低免疫原性，扩大嗜性）                  │<br>│  • 抗TCR VHH（精准<span class="hljs-built_in">T</span>细胞靶向）                               │<br>│  • <span class="hljs-built_in">SIN</span>设计（复制安全）                                      │<br>│  ═══════════════════════════════════════════════════   │<br>└─────────────────────────────────────────────────────────┘<br></code></pre></td></tr></table></figure>
-
+<p><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p22_1.png" srcset="/img/loading.gif" lazyload alt="图2｜ESO-T01慢病毒载体设计图（Extended Data Fig. 9，原文）"></p>
+<p><strong>图2｜ESO-T01 CAR载体与慢病毒构建示意图（Extended Data Fig. 9，原文）</strong></p>
+<blockquote>
+<p><strong>图注</strong>：上图展示了ESO-T01的完整载体设计。a图为CAR构建结构域示意图，显示抗BCMA VHH（纳米抗体）抗原识别区、CD8α铰链区和穿膜域、4-1BB共刺激域和CD3ζ信号链；b图展示完整的第三代SIN慢病毒载体基因组结构，包含工程化改造层（MHC-I敲除、CD47过表达、突变型VSV-G包膜、抗TCR VHH靶向）。</p>
+</blockquote>
 <h3 id="3-2-六大工程改造模块的生物学逻辑"><a href="#3-2-六大工程改造模块的生物学逻辑" class="headerlink" title="3.2 六大工程改造模块的生物学逻辑"></a>3.2 六大工程改造模块的生物学逻辑</h3><p><strong>模块一：抗BCMA纳米抗体（Anti-BCMA VHH）—— 精准抗原识别</strong></p>
 <p>ESO-T01的CAR受体抗原识别区采用的是<strong>纳米抗体（VHH，Variable Domain of Heavy-chain Antibodies）</strong>，即源自羊驼类动物重链抗体的单域抗体片段。相比传统CAR-T使用的scFv（单链抗体），VHH具有以下优势：</p>
 <ul>
@@ -475,25 +496,23 @@
 </tr>
 <tr>
 <td><strong>患者数量</strong></td>
-<td>5例（中位随访6.0个月）</td>
+<td>5例（</td>
 </tr>
 <tr>
-<td><strong>提前终止原因</strong></td>
-<td>申办方EsoBiotec被阿斯利康收购，研究于2025年提前关闭</td>
-</tr>
-<tr>
-<td><strong>给药方案</strong></td>
-<td>单次静脉输注 ESO-T01，剂量 0.2 × 10⁹ 转导单位</td>
-</tr>
-<tr>
-<td><strong>主要终点</strong></td>
-<td>安全性和耐受性（DLT评估窗口：给药后0-28天）</td>
-</tr>
-<tr>
-<td><strong>次要终点</strong></td>
-<td>疗效（ORR、TTR、DOR、PFS、OS）、PK&#x2F;PD</td>
+<td><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p20_1.png" srcset="/img/loading.gif" lazyload alt="图3"></td>
+<td></td>
 </tr>
 </tbody></table>
+<p><strong>图3｜患者临床应答时间线（Fig. 2，原文）</strong></p>
+<blockquote>
+<p><strong>图注</strong>：泳线图（Swimmer plot）展示5例患者自给药至末次随访的临床应答轨迹，颜色表示最佳疗效级别，三角标记表示CAR-T扩增峰值时间。</p>
+</blockquote>
+<p>中位随访6.0个月）|<br>| <strong>提前终止原因</strong> | 申办方EsoBiotec被阿斯利康收购，研究于2025年提前关闭 |<br>| <strong>给药方案</strong> | 单次静脉输注 ESO-T01，剂量 0.2 × 10⁹ 转导单位 |<br>| <strong>主要终点</strong> | 安全性和耐受性（DLT评估窗口：给药后0-28天）|<br>| <strong>次要终点</strong> | 疗效（ORR、TTR、DOR、PFS、OS）、PK&#x2F;PD |</p>
+<p><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p4_1.png" srcset="/img/loading.gif" lazyload alt="图1"></p>
+<p><strong>图1｜CONSORT研究流程图（Fig. 1，原文）</strong></p>
+<blockquote>
+<p><strong>图注</strong>：CONSORT流程图展示患者筛选、入组5例、全部完成治疗及随访的过程。</p>
+</blockquote>
 <p>这项研究的设计极为精炼——单次固定剂量、无白细胞单采、无淋巴细胞清除、无桥接治疗——充分体现了体内CAR-T”极简化治疗流程”的核心理念。</p>
 <h3 id="4-2-患者基线特征"><a href="#4-2-患者基线特征" class="headerlink" title="4.2 患者基线特征"></a>4.2 患者基线特征</h3><p>入组的5例患者均为<strong>男性</strong>，中位年龄52岁（范围：52-68岁），属于中国多发性骨髓瘤患者中相对年轻的人群特征（部分原因可能与中国MM患者整体年龄结构及入组条件有关）。</p>
 <p><strong>表4：5例入组患者详细基线特征</strong></p>
@@ -614,7 +633,12 @@
 </ul>
 <p><strong>预防性激素策略</strong>在后续4例患者中显著降低了严重CRS的发生率，证明其安全性和有效性。</p>
 <hr>
-<h2 id="五、安全性结果：可管理但需高度警惕的毒性特征"><a href="#五、安全性结果：可管理但需高度警惕的毒性特征" class="headerlink" title="五、安全性结果：可管理但需高度警惕的毒性特征"></a>五、安全性结果：可管理但需高度警惕的毒性特征</h2><h3 id="5-1-整体安全性评估"><a href="#5-1-整体安全性评估" class="headerlink" title="5.1 整体安全性评估"></a>5.1 整体安全性评估</h3><p><strong>主要终点达成</strong>：无剂量限制性毒性（DLT）发生，所有5例患者的安全性数据均纳入分析。</p>
+<h2 id="五、安全性结果：可管理但需高度警惕的毒性特征"><a href="#五、安全性结果：可管理但需高度警惕的毒性特征" class="headerlink" title="五、安全性结果：可管理但需高度警惕的毒性特征"></a>五、安全性结果：可管理但需高度警惕的毒性特征</h2><h3 id="5-1-整体安全性评估"><a href="#5-1-整体安全性评估" class="headerlink" title="5.1 整体安全性评估"></a>5.1 整体安全性评估</h3><p>**<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p21_1.png" srcset="/img/loading.gif" lazyload alt="图4"></p>
+<p><strong>图4｜不良事件安全性综合热图（Fig. 5，原文）</strong></p>
+<blockquote>
+<p><strong>图注</strong>：热图展示5例患者各类不良事件发生级别，颜色强度对应毒性级别（浅黄&#x3D;1级，橙&#x3D;2级，深红&#x3D;3-4级）。</p>
+</blockquote>
+<p>主要终点达成**：无剂量限制性毒性（DLT）发生，所有5例患者的安全性数据均纳入分析。</p>
 <p><strong>表5：关键不良事件汇总（按系统分类）</strong></p>
 <table>
 <thead>
@@ -827,7 +851,12 @@
 <li><strong>I005</strong>：IgA-κ型患者，第30天VGPR，第60天加深为sCR</li>
 </ul>
 <hr>
-<h2 id="七、药代动力学与药效动力学：双时相免疫激活模式"><a href="#七、药代动力学与药效动力学：双时相免疫激活模式" class="headerlink" title="七、药代动力学与药效动力学：双时相免疫激活模式"></a>七、药代动力学与药效动力学：双时相免疫激活模式</h2><h3 id="7-1-体内CAR-T扩增动力学"><a href="#7-1-体内CAR-T扩增动力学" class="headerlink" title="7.1 体内CAR-T扩增动力学"></a>7.1 体内CAR-T扩增动力学</h3><p>EOS-T01在所有5例患者中均实现了<strong>强劲的体内扩增</strong>：</p>
+<h2 id="七、药代动力学与药效动力学：双时相免疫激活模式"><a href="#七、药代动力学与药效动力学：双时相免疫激活模式" class="headerlink" title="七、药代动力学与药效动力学：双时相免疫激活模式"></a>七、药代动力学与药效动力学：双时相免疫激活模式</h2><h3 id="7-1-体内CAR-T扩增动力学"><a href="#7-1-体内CAR-T扩增动力学" class="headerlink" title="7.1 体内CAR-T扩增动力学"></a>7.1 体内CAR-T扩增动力学</h3><p>EOS-T01在所有5例患者中均实现了**<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p20_1.png" srcset="/img/loading.gif" lazyload alt="图6"></p>
+<p><strong>图6｜ESO-T01体内扩增动力学（Fig. 4，原文）</strong></p>
+<blockquote>
+<p><strong>图注</strong>：qPCR法检测CAR-T拷贝数（a图）、CD3+ T细胞中CAR+比例（b图）、绝对CAR-T计数（c图），显示扩增峰值10.6%-59.1%。</p>
+</blockquote>
+<p>强劲的体内扩增**：</p>
 <ul>
 <li><strong>CAR-T细胞检测时间</strong>：给药后第6天开始在外周血中可检测到</li>
 <li><strong>峰值扩增时间</strong>：大多数患者在<strong>第10-14天</strong>达到峰值</li>
@@ -845,8 +874,11 @@
 </ul>
 <p>这些数据表明：载体在完成对T细胞的转导后迅速从循环中清除，且未出现系统性”脱靶泄漏”（off-target shedding）；胸腔积液中的CAR-T检出则提示体内生成的CAR-T细胞具有良好的组织穿透和归巢能力。</p>
 <h3 id="7-3-双时相细胞因子激活模式"><a href="#7-3-双时相细胞因子激活模式" class="headerlink" title="7.3 双时相细胞因子激活模式"></a>7.3 双时相细胞因子激活模式</h3><p>这是本研究最重要的药效动力学发现之一。细胞因子谱分析揭示了体内CAR-T独特的<strong>双时相免疫激活模式</strong>：</p>
-<figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><code class="hljs subunit">细胞因子水平<br><br>         【第一时相：超急性固有免疫波】<br>         ↑<br>         │    · IL<span class="hljs-string">-6</span> ⬆️⬆️<br>    高   │    · IL<span class="hljs-string">-8</span> ⬆️⬆️<br>         │    · TNF ⬆️⬆️<br>         │    · IL<span class="hljs-string">-1</span>β ⬆️⬆️<br>         │    · 铁蛋白 ⬆️⬆️<br>         │    (给药后0<span class="hljs-string">-24</span>小时内，<br>         │     载体固有免疫激活，<br>         │     CAR-T未检出)<br>         │<br>────────┼──────────────────────────────→ 时间（天）<br>         0         1         7        14        30<br><br>         【第二时相：适应性免疫波】<br>         ↑<br>         │    · sIL<span class="hljs-string">-2</span>R ⬆️<br>    中   │    · IFNγ ⬆️ (双峰)<br>    等   │    · IL<span class="hljs-string">-10</span> ⬆️<br>         │    · IL<span class="hljs-string">-6</span> ⬆️<br>         │    (第6<span class="hljs-string">-14</span>天，<br>         │     CAR-T扩增峰值期)<br>         │<br>────────┴──────────────────────────────→ 时间（天）<br></code></pre></td></tr></table></figure>
-
+<p><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p19_1.png" srcset="/img/loading.gif" lazyload alt="图5"></p>
+<p><strong>图5｜ESO-T01给药后双时相细胞因子激活反应（Fig. 3，原文）</strong></p>
+<blockquote>
+<p><strong>图注</strong>：血清细胞因子谱（IL-6、IL-8、IL-10、IFNg）显示两波激活——第一时相（给药后0-24h）为载体驱动的超急性固有免疫波；第二时相（第6-14天）为CAR-T介导的适应性免疫波。</p>
+</blockquote>
 <p><strong>第一时相（0-24小时）</strong>：载体输注触发的超急性固有免疫反应</p>
 <ul>
 <li>IL-6、IL-8、TNF、IL-1β和铁蛋白急剧升高</li>
@@ -1019,6 +1051,74 @@
 <li><strong>图6</strong>：<code>/images/eso-t01-analysis/cart-expansion.png</code> —— CAR-T体内扩增动力学图（原文Fig. 4）</li>
 </ol>
 <p><em>如需获取原始高清图片，请访问原文补充材料（Nature Medicine Extended Data）：<a target="_blank" rel="noopener" href="https://doi.org/10.1038/s41591-026-04244-6">https://doi.org/10.1038/s41591-026-04244-6</a></em></p>
+</blockquote>
+<h2 id="原文插图索引"><a href="#原文插图索引" class="headerlink" title="原文插图索引"></a>原文插图索引</h2><p>本文配图已全部替换为论文原文高清图片（来源：Nature Medicine Extended Data，DOI：10.1038&#x2F;s41591-026-04244-6）：</p>
+<table>
+<thead>
+<tr>
+<th align="center">图号</th>
+<th>内容</th>
+<th>图片URL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>图1</strong></td>
+<td>CONSORT流程图（Fig. 1）</td>
+<td><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p4_1.png" srcset="/img/loading.gif" lazyload></td>
+</tr>
+<tr>
+<td align="center"><strong>图2</strong></td>
+<td>ESO-T01向量设计（Extended Data Fig. 9）</td>
+<td><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p22_1.png" srcset="/img/loading.gif" lazyload></td>
+</tr>
+<tr>
+<td align="center"><strong>图3</strong></td>
+<td>患者疗效时间线（Fig. 2）</td>
+<td><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p20_1.png" srcset="/img/loading.gif" lazyload></td>
+</tr>
+<tr>
+<td align="center"><strong>图4</strong></td>
+<td>安全性热图（Fig. 5）</td>
+<td><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p21_1.png" srcset="/img/loading.gif" lazyload></td>
+</tr>
+<tr>
+<td align="center"><strong>图5</strong></td>
+<td>双时相细胞因子激活（Fig. 3）</td>
+<td><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p19_1.png" srcset="/img/loading.gif" lazyload></td>
+</tr>
+<tr>
+<td align="center"><strong>图6</strong></td>
+<td>CAR-T扩增动力学（Fig. 4）</td>
+<td><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p20_1.png" srcset="/img/loading.gif" lazyload></td>
+</tr>
+<tr>
+<td align="center">—</td>
+<td>患者临床时间线（Extended Data Fig. 1）</td>
+<td><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p14_1.png" srcset="/img/loading.gif" lazyload></td>
+</tr>
+<tr>
+<td align="center">—</td>
+<td>外周血细胞计数（Extended Data Fig. 2）</td>
+<td><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p15_1.png" srcset="/img/loading.gif" lazyload></td>
+</tr>
+<tr>
+<td align="center">—</td>
+<td>炎症标志物动态（Extended Data Fig. 3）</td>
+<td><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p16_1.png" srcset="/img/loading.gif" lazyload></td>
+</tr>
+<tr>
+<td align="center">—</td>
+<td>I003患者详细档案（Extended Data Fig. 4）</td>
+<td><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p17_1.png" srcset="/img/loading.gif" lazyload></td>
+</tr>
+<tr>
+<td align="center">—</td>
+<td>流式CAR-T扩增（Extended Data Fig. 5）</td>
+<td><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/fig_p18_1.png" srcset="/img/loading.gif" lazyload></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>配图版权说明</strong>：所有插图均来自原文（Nature Medicine, DOI: 10.1038&#x2F;s41591-026-04244-6），仅供学术解读用途，版权归原出版方所有。</p>
 </blockquote>
 
               
