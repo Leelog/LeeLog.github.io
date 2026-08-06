@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Test Post</title>
+      <link href="/2026/08/06/Test-Post/"/>
+      <url>/2026/08/06/Test-Post/</url>
+      
+        <content type="html"><![CDATA[<p>这是一个测试文章，用于验证 Hexo 博客部署流程是否正常工作。</p><h2 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h2><ul><li>列表项 1</li><li>列表项 2</li><li>列表项 3</li></ul><h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Hello, Hexo!&quot;</span>)<br></code></pre></td></tr></table></figure><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table><thead><tr><th>项目</th><th>状态</th></tr></thead><tbody><tr><td>Hexo 安装</td><td>✅</td></tr><tr><td>Fluid 主题</td><td>✅</td></tr><tr><td>文章生成</td><td>✅</td></tr><tr><td>GitHub 部署</td><td>测试中</td></tr></tbody></table><hr><p>如果这篇文章能正常显示，说明部署流程已经成功打通！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ESO-T01调研报告</title>
       <link href="/2026/04/08/ESO-T01%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/"/>
       <url>/2026/04/08/ESO-T01%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A/</url>
