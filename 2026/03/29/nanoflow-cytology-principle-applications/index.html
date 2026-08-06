@@ -1,0 +1,1217 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/duola.png">
+  <link rel="icon" href="/img/lmlogo.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Lee">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="引言流式细胞术（Flow cytometry）是现代生物医学研究中不可或缺的技术之一，已经在临床诊断、免疫学、肿瘤学等领域得到广泛应用。传统流式细胞术能够快速对单个细胞进行多参数分析，每秒可以检测数千到数万个细胞，极大地提高了细胞分析的效率。然而，传统流式细胞术的检测下限通常在~500-1000 nm左右，对于粒径更小的纳米颗粒（如细胞外囊泡、外泌体、病毒颗粒、纳米药物等），传统流式往往无能为力。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="纳米流式检测技术：从原理到生物医学应用">
+<meta property="og:url" content="https://leelog.github.io/2026/03/29/nanoflow-cytology-principle-applications/index.html">
+<meta property="og:site_name" content="LeeM&#39;s Blog">
+<meta property="og:description" content="引言流式细胞术（Flow cytometry）是现代生物医学研究中不可或缺的技术之一，已经在临床诊断、免疫学、肿瘤学等领域得到广泛应用。传统流式细胞术能够快速对单个细胞进行多参数分析，每秒可以检测数千到数万个细胞，极大地提高了细胞分析的效率。然而，传统流式细胞术的检测下限通常在~500-1000 nm左右，对于粒径更小的纳米颗粒（如细胞外囊泡、外泌体、病毒颗粒、纳米药物等），传统流式往往无能为力。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/nanoflow-sensitivity-comparison.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/nanoflow-ev-detection.png">
+<meta property="article:published_time" content="2026-03-28T20:00:00.000Z">
+<meta property="article:modified_time" content="2026-03-28T19:22:19.503Z">
+<meta property="article:author" content="Lee">
+<meta property="article:tag" content="检测技术">
+<meta property="article:tag" content="流式细胞术">
+<meta property="article:tag" content="生物医学">
+<meta property="article:tag" content="纳米技术">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/nanoflow-sensitivity-comparison.png">
+  
+  
+  
+  <title>纳米流式检测技术：从原理到生物医学应用 - LeeM&#39;s Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"leelog.github.io","root":"/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 8.1.2"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content (desktop) -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile grid menu overlay -->
+<div id="mobile-grid-menu" class="d-lg-none">
+  <div class="mobile-grid-menu-inner">
+    <div class="container">
+      <div class="row">
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-home-fill"></i>
+                  <span>首页</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/archives/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-archive-fill"></i>
+                  <span>归档</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/categories/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-category-fill"></i>
+                  <span>分类</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/tags/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-tags-fill"></i>
+                  <span>标签</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/about/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-user-fill"></i>
+                  <span>关于</span>
+                </div>
+              </a>
+            </div>
+          
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-search-btn">
+            <a href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-search"></i>
+                <span>搜索</span>
+              </div>
+            </a>
+          </div>
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-color-toggle-btn"
+               data-label-light="开灯"
+               data-label-dark="关灯">
+            <a href="javascript:;" aria-label="Color Toggle">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-dark" id="mobile-color-toggle-icon"></i>
+                <span id="mobile-color-toggle-label">关灯</span>
+              </div>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="纳米流式检测技术：从原理到生物医学应用"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2026-03-29 04:00" pubdate>
+          2026年3月29日 凌晨
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          6k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          51 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">纳米流式检测技术：从原理到生物医学应用</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>引言<br>流式细胞术（Flow cytometry）是现代生物医学研究中不可或缺的技术之一，已经在临床诊断、免疫学、肿瘤学等领域得到广泛应用。传统流式细胞术能够快速对单个细胞进行多参数分析，每秒可以检测数千到数万个细胞，极大地提高了细胞分析的效率。然而，传统流式细胞术的检测下限通常在~500-1000 nm左右，对于粒径更小的纳米颗粒（如细胞外囊泡、外泌体、病毒颗粒、纳米药物等），传统流式往往无能为力。<br>纳米流式检测技术<br>（Nanoflow cytometry，也称为纳米流式细胞术）正是为了解决这一挑战而发展起来的新兴技术，能够对几十纳米到数百纳米的纳米颗粒进行高通量单颗粒检测和分析。近年来，随着细胞外囊泡、外泌体研究的热潮，以及纳米药物产业的快速发展，纳米流式技术得到了越来越多的关注，已经成为纳米生物医学研究领域的重要工具。<br>本文将系统介绍纳米流式检测技术的发展历史、基本原理、仪器构造，以及在生物医学领域的主要应用，并对未来发展方向进行展望。<br>一、发展历史与技术背景<br>1.1 传统流式细胞术的局限性<br>传统流式细胞术诞生于1960-1970年代，经过半个多世纪的发展，已经非常成熟。其检测原理是将细胞悬浮在液体中，通过聚焦的激光束，每个细胞穿过激光束时产生散射光和荧光信号，被检测器捕获从而得到细胞的大小、颗粒性以及荧光表达信息。<br>然而，传统流式的检测下限受限于光学系统和信噪比：</p>
+<ul>
+<li>光学衍射极限：根据瑞利判据，光学显微镜的分辨率极限约为λ&#x2F;2，对于波长488 nm的激光，分辨率约为240 nm</li>
+<li>散射光强度：散射光强度与颗粒粒径的6次方成正比（瑞利散射），粒径减小一半，散射强度降低到1&#x2F;64，信噪比急剧下降</li>
+<li>背景噪音：鞘液中的杂质颗粒会产生严重背景干扰</li>
+<li>浓度检测范围：难以同时检测低浓度大颗粒和高浓度小颗粒<br>因此，传统流式细胞术通常只能有效检测<br>粒径 &gt; 500-1000 nm<br>的颗粒，对于300 nm以下的颗粒检测非常困难，而生物体系中许多重要颗粒恰恰落在这个范围：<table>
+<thead>
+<tr>
+<th>颗粒类型</th>
+<th>典型粒径范围</th>
+<th>传统流式能否检测</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>常规哺乳动物细胞</td>
+<td>10-30 μm</td>
+<td>✅ 轻松检测</td>
+</tr>
+<tr>
+<td>细菌</td>
+<td>0.5-5 μm</td>
+<td>⚠️ 大细菌可以，小细菌困难</td>
+</tr>
+<tr>
+<td>病毒</td>
+<td>20-300 nm</td>
+<td>❌ 无法检测</td>
+</tr>
+<tr>
+<td>细胞外囊泡&#x2F;外泌体</td>
+<td>30-200 nm</td>
+<td>❌ 大部分无法检测</td>
+</tr>
+<tr>
+<td>脂质纳米颗粒</td>
+<td>50-200 nm</td>
+<td>❌ 无法检测</td>
+</tr>
+<tr>
+<td>高分子纳米药物</td>
+<td>10-200 nm</td>
+<td>❌ 无法检测</td>
+</tr>
+<tr>
+<td>可以看到，许多重要的生物纳米颗粒都落在传统流式的”盲区”，这催生了对纳米流式检测技术的需求。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1.2 纳米流式的发展历程</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>纳米流式检测技术的发展经历了几个阶段：</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<ol>
+<li>1990年代-2000年代初：探索阶段，研究人员尝试改进传统流式的光学系统，尝试检测更小的颗粒，但灵敏度提升有限</li>
+<li>2000年代中期-2010年代初：香山实验室等团队系统性地改进了纳米流式的光学设计、进样系统和信号处理方法，奠定了现代纳米流式的技术基础</li>
+<li>2010年代中期至今：商业化成熟阶段，出现了商品化的纳米流式仪器，随着外泌体研究热潮，得到广泛应用<br>在中国，厦门大学-韩家淮院士&#x2F;厦大团队在纳米流式领域做了大量开创性工作，开发了具有自主知识产权的纳米流式仪器，推动了该技术在中国的普及。<br>二、基本原理与核心技术<br>2.1 纳米颗粒检测的光学挑战<br>纳米颗粒检测面临的核心光学挑战是<br>信噪比<br>问题：<br>根据瑞利散射理论，散射光强度 ( I_s ) 与粒径 ( d ) 的关系为：<br>[ I_s \propto \frac{d^6}{\lambda^4} ]<br>也就是说：</li>
+</ol>
+<ul>
+<li>粒径从1000 nm降到100 nm，粒径缩小10倍，散射强度降低 ( 10^6 &#x3D; 1,000,000 ) 倍</li>
+<li>这对检测灵敏度提出了极高要求<br>因此，纳米流式需要从<br>光学系统设计、鞘液净化、信号放大、噪音抑制<br>多个环节进行系统优化才能实现有效检测。<br>2.2 核心设计原理<br>现代纳米流式检测技术的核心设计包括以下几个方面：</li>
+</ul>
+<ol>
+<li>优化的光学聚焦系统</li>
+</ol>
+<ul>
+<li>采用更紧的激光聚焦，减小光斑尺寸，提高能量密度</li>
+<li>使用侧向散射和荧光收集的优化光路，提高收集效率</li>
+<li>高质量光学元件降低散射背景</li>
+</ul>
+<ol start="2">
+<li>鞘液净化系统</li>
+</ol>
+<ul>
+<li>传统流式鞘液中含有大量纳米级杂质颗粒，会产生严重背景</li>
+<li>纳米流式需要对鞘液进行过滤净化，通常采用多级过滤（0.02 μm过滤）</li>
+<li>有些设计还采用了 degassing 减少气泡干扰</li>
+</ul>
+<ol start="3">
+<li>高灵敏度检测器</li>
+</ol>
+<ul>
+<li>采用光电倍增管（PMT）代替雪崩光电二极管（APD），增益更高，噪音更低</li>
+<li>降低电子学噪音，提高弱信号检测能力</li>
+</ul>
+<ol start="4">
+<li>先进信号处理</li>
+</ol>
+<ul>
+<li>采用脉冲高度分析区分真实纳米颗粒信号和背景噪音</li>
+<li>适合纳米颗粒浓度的计数算法<br>下图是纳米流式与传统流式的光学灵敏度对比：<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/nanoflow-sensitivity-comparison.png" srcset="/img/loading.gif" lazyload alt="纳米流式灵敏度对比"><br>2.3 性能参数<br>评价纳米流式仪器性能的主要参数包括：<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>含义</th>
+<th>优秀纳米流式指标</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>检测下限</td>
+<td>能够有效检测的最小粒径</td>
+<td>~20-40 nm</td>
+</tr>
+<tr>
+<td>分辨率</td>
+<td>能够区分相近粒径颗粒</td>
+<td>&lt; 50 nm</td>
+</tr>
+<tr>
+<td>检测速度</td>
+<td>每秒检测颗粒数</td>
+<td>~1,000-10,000 evt&#x2F;s</td>
+</tr>
+<tr>
+<td>荧光灵敏度</td>
+<td>能够检测的最小荧光强度</td>
+<td>&lt; 10 FITC molecules</td>
+</tr>
+<tr>
+<td>多参数检测</td>
+<td>能够同时检测的荧光通道数</td>
+<td>至少3-4色</td>
+</tr>
+<tr>
+<td>目前顶尖的纳米流式仪器可以稳定检测</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>20 nm</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>的聚苯乙烯纳米颗粒，对于生物颗粒可以检测~30-50 nm，基本覆盖了绝大多数生物医学感兴趣的纳米颗粒范围。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>三、仪器构造与关键部件</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3.1 整体构造</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>纳米流式仪器的基本构造和传统流式类似，但每个部件都有优化：</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs">样本进样 → 鞘液 → 聚焦流室 → 激光照射 → <br>  ↓<br>信号产生 → 散射光检测器 → 荧光检测器 → <br>  ↓<br>信号放大 → 脉冲处理 → 数据分析 → 结果输出<br></code></pre></td></tr></table></figure>
+<p>3.2 进样与聚焦系统<br>进样和聚焦系统是纳米流式的关键之一：</p>
+<ul>
+<li>剪切流聚焦：和传统流式一样，采用鞘液包裹样本流，将样本流聚焦到激光中心，保证每个颗粒依次穿过激光</li>
+<li>低流速：纳米颗粒浓度通常较高，需要较低流速保证计数准确</li>
+<li>无残留设计：避免样本交叉污染，对于临床样本尤其重要<br>3.3 激光系统<br>现代纳米流式通常采用<br>多激光配置<br>，和传统流式类似：</li>
+<li>常用激光器：405 nm、488 nm、561 nm、640 nm</li>
+<li>功率：几十毫瓦，足够激发荧光</li>
+<li>空间聚焦：将激光聚焦到~10 μm光斑，匹配纳米颗粒尺寸<br>3.4 信号检测系统</li>
+<li>侧向散射（SSC）：用于检测纳米颗粒本身的存在，提供粒径信息</li>
+<li>多个荧光通道：用于检测标记的荧光信号，获取分子表达信息</li>
+<li>光电倍增管（PMT）：每个通道一个PMT，提供高增益低噪音<br>3.5 数据分析系统<br>纳米流式输出的主要数据包括：</li>
+<li>颗粒浓度：单位体积内的颗粒数</li>
+<li>粒径分布：通过散射光强度估算粒径</li>
+<li>荧光强度分布：每个颗粒的荧光强度统计</li>
+<li>阳性颗粒比例：表达特定分子的颗粒比例<br>四、纳米流式在细胞外囊泡研究中的应用<br>细胞外囊泡（Extracellular vesicles, EVs）研究是目前纳米流式最活跃的应用领域，因为外泌体尺寸正好落在纳米流式的检测范围内。<br>4.1 外泌体&#x2F;细胞外囊泡简介<br>细胞外囊泡是细胞分泌的纳米级膜囊泡，直径分布大约30-1000 nm，其中：</li>
+<li>外泌体（exosomes）：30-150 nm</li>
+<li>微囊泡（microvesicles）：100-1000 nm<br>EVs携带蛋白质、RNA、脂质等生物活性分子，参与细胞间通信，在肿瘤转移、免疫调节、诊断预后等方面有重要意义，是当前生物医学研究热点。<br>4.2 纳米流式相比传统方法的优势<br>EVs研究常用的表征方法有：<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>能否计数</th>
+<th>能否分析单个颗粒</th>
+<th>能否多标记</th>
+<th>通量</th>
+<th>缺点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>纳米颗粒跟踪分析（NTA）</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+<td>低</td>
+<td>无法做免疫分析</td>
+</tr>
+<tr>
+<td>动态光散射（DLS）</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+<td>极低</td>
+<td>只能测平均粒径</td>
+</tr>
+<tr>
+<td>透射电镜（TEM）</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+<td>极低</td>
+<td>无法定量</td>
+</tr>
+<tr>
+<td>Western Blot</td>
+<td>❌</td>
+<td>❌</td>
+<td>✅</td>
+<td>极低</td>
+<td>整体分析，无法单细胞&#x2F;单囊泡</td>
+</tr>
+<tr>
+<td>纳米流式</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>高</td>
+<td>需要荧光标记</td>
+</tr>
+<tr>
+<td>纳米流式是少数能够</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>对单个EV进行高通量多参数免疫分析</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>的方法，这是它最大的优势。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4.3 主要应用方向</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<ol>
+<li>EVs 计数和粒径分布分析</li>
+</ol>
+<ul>
+<li>可以快速得到样本中EVs的浓度和粒径分布</li>
+<li>比NTA通量高一个数量级以上</li>
+<li>可以处理大量样本，适合临床样本批量检测</li>
+</ul>
+<ol start="2">
+<li>免疫表型分析</li>
+</ol>
+<ul>
+<li>可以用荧光标记抗体标记EVs表面特定蛋白</li>
+<li>纳米流式可以检测每个EVs的蛋白表达</li>
+<li>能够分析表达特定标志物的EVs比例</li>
+<li>可以发现肿瘤来源的EVs，用于癌症诊断</li>
+</ul>
+<ol start="3">
+<li>尺寸-表达关联分析</li>
+</ol>
+<ul>
+<li>可以同时得到每个EV的粒径（散射强度）和荧光表达</li>
+<li>分析不同尺寸亚群的表达差异</li>
+<li>研究发现，小尺寸外泌体往往富集更多肿瘤相关标志物</li>
+</ul>
+<ol start="4">
+<li>临床样本检测</li>
+</ol>
+<ul>
+<li>血液、唾液、尿液等体液中的EVs可以直接检测（适当稀释后）</li>
+<li>不需要超速离心纯化，减少纯化过程带来的偏差</li>
+<li>可以保留原始浓度信息，有利于定量诊断<br>案例研究<br>：厦门大学团队利用纳米流式检测胰腺癌患者血浆中的外泌体，发现GPC1阳性外泌体比例对胰腺癌具有良好的诊断效能，AUC可达0.8以上，优于传统CA19-9。<br>4.4 检测案例：外泌体检测<br>下图是纳米流式检测外泌体的典型结果示例：<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/nanoflow-ev-detection.png" srcset="/img/loading.gif" lazyload alt="纳米流式检测外泌体结果"><br>五、纳米药物与纳米医药表征<br>纳米药物是纳米流式另一个重要应用领域。随着脂质纳米颗粒（LNP）mRNA疫苗、聚合物纳米药物、脂质体药物等产品的上市，纳米药物质量表征变得越来越重要。<br>5.1 纳米药物表征需求<br>纳米药物需要表征的关键质量属性包括：</li>
+<li>粒径分布：纳米药物粒径显著影响体内分布和药效</li>
+<li>颗粒浓度：确定单位剂量中的颗粒数</li>
+<li>载药率：多少颗粒携带了药物</li>
+<li>包封率：药物是否成功包封</li>
+<li>表面修饰：PEG化、靶向配体修饰效率<br>传统检测方法很难获得单颗粒水平的这些信息，纳米流式可以提供独特的视角。<br>5.2 主要应用</li>
+</ul>
+<ol>
+<li>粒径分布测量</li>
+</ol>
+<ul>
+<li>纳米流式可以快速测量数千到数万个颗粒，得到准确的粒径分布</li>
+<li>相比DLS，对多分散样品分辨率更好</li>
+</ul>
+<ol start="2">
+<li>载药率检测</li>
+</ol>
+<ul>
+<li>通过荧光标记药物，可以检测每个纳米颗粒是否携带药物</li>
+<li>统计得到载药率，这是其他方法很难做到的</li>
+<li>优化制备工艺，提高载药率</li>
+</ul>
+<ol start="3">
+<li>靶向配体修饰表征</li>
+</ol>
+<ul>
+<li>荧光标记靶向配体，检测每个纳米颗粒的配体修饰水平</li>
+<li>分析修饰效率，优化修饰工艺</li>
+</ul>
+<ol start="4">
+<li>稳定性检测</li>
+</ol>
+<ul>
+<li>储存过程中纳米颗粒是否聚集</li>
+<li>不同条件下粒径分布变化</li>
+<li>评价制剂稳定性<br>案例<br>：mRNA-LNP疫苗表征，纳米流式可以：</li>
+<li>检测LNP粒径分布，通常LNP粒径在50-150 nm</li>
+<li>确认mRNA包封率，利用荧光标记mRNA</li>
+<li>检测制备过程中是否形成聚集</li>
+<li>保证疫苗批次一致性</li>
+</ul>
+<ol start="5">
+<li>病毒检测与疫苗研发<br>病毒颗粒尺寸正好落在纳米流式检测范围内：</li>
+</ol>
+<ul>
+<li>大多数病毒直径在20-300 nm</li>
+<li>纳米流式可以计数病毒颗粒浓度</li>
+<li>可以检测病毒表面蛋白表达</li>
+<li>监测疫苗生产过程中的病毒浓度</li>
+<li>鉴别完整病毒和空颗粒，提高疫苗质量<br>例如，mRNA疫苗生产过程中，需要检测LNP颗粒浓度，纳米流式可以快速准确给出结果，比电子显微镜方便得多。<br>六、其他应用领域<br>6.1 细菌和微生物检测</li>
+<li>小型细菌（如支原体）直径通常&lt;500 nm，传统流式检测困难</li>
+<li>纳米流式可以有效检测小型细菌</li>
+<li>可以用荧光标记特异性抗体，鉴定病原菌</li>
+<li>检测血液、尿液中的低浓度病原菌，快速诊断感染<br>6.2 细胞凋亡与微囊泡研究</li>
+<li>细胞凋亡过程中会产生凋亡小体，尺寸通常在几百纳米</li>
+<li>纳米流式可以计数凋亡小体，定量检测细胞凋亡水平</li>
+<li>研究微囊泡释放的生物学功能<br>6.3 血小板微颗粒检测</li>
+<li>血小板活化后释放血小板微颗粒（PMP），尺寸~100-500 nm</li>
+<li>PMP参与血栓形成、免疫调节</li>
+<li>纳米流式可以准确计数PMP，用于血栓性疾病研究<br>6.4 单细胞分泌囊泡分析</li>
+<li>研究不同细胞亚群分泌的EVs的差异</li>
+<li>分析单细胞水平的分泌异质性</li>
+<li>发现肿瘤细胞和正常细胞分泌EVs的差异<br>七、纳米流式技术最新进展<br>7.1 超高灵敏度检测<br>近年来，纳米流式灵敏度进一步提高，现在顶尖仪器可以检测<br>20 nm<br>的颗粒，对于荧光标记的生物颗粒，检测下限可以到~30 nm，几乎覆盖了所有感兴趣的生物纳米颗粒。<br>7.2 多光谱纳米流式<br>现代纳米流式已经支持<br>4-6色荧光<br>同时检测，可以对同一个纳米颗粒进行多参数标记分析，获得更丰富的信息，类似传统流式的多色分析。<br>7.3 绝对计数</li>
+<li>新一代纳米流式可以准确进行绝对颗粒计数</li>
+<li>不需要校准微球，或者简单校准即可</li>
+<li>临床诊断需要准确的浓度信息，绝对计数非常重要<br>7.4 微流控纳米流式<br>研究人员也在探索将纳米流式和微流控芯片结合，进一步减小仪器体积，降低样本消耗，适合床旁检测应用。<br>7.5 荧光纳米颗粒编码</li>
+<li>利用不同荧光强度编码不同微球，用于液相芯片</li>
+<li>纳米级编码微球，提高芯片密度</li>
+<li>纳米流式可以解码纳米编码微球，实现高通量多重生物检测<br>八、优势与局限性<br>8.1 纳米流式的优势<br>相比其他纳米颗粒表征方法，纳米流式的优势：</li>
+</ul>
+<ol>
+<li>高通量：每秒检测数千个颗粒，一小时可以分析数百万颗粒，这是电镜和NTA无法比拟的</li>
+<li>单颗粒多参数：每个颗粒同时获得散射（粒径）和多色荧光信息</li>
+<li>定量准确：可以绝对计数颗粒浓度，重复性好</li>
+<li>直接检测：对于体液样本可以直接检测，不需要超速离心纯化，减少样品损失和偏差</li>
+<li>成本适中：商品化仪器成本比超分辨显微镜低，维护成本也不高<br>8.2 现有局限性<br>纳米流式也存在一些局限性：</li>
+<li>需要荧光标记：对于无标记检测灵敏度有限，大多数应用需要荧光标记抗体</li>
+<li>尺寸校准：散射强度和粒径的关系需要校准，不同材质（聚苯乙烯vs生物颗粒）折射率不同，需要不同校准曲线</li>
+<li>极低浓度检测：当颗粒浓度非常低时，检测时间较长</li>
+<li>分辨率：对于粒径非常接近的颗粒，分辨率不如电子显微镜<br>8.3 小结<br>总体来看，纳米流式填补了传统流式和电镜&#x2F;NTA之间的技术空白，提供了一种独特的高通量定量分析纳米颗粒的方法，在许多领域已经不可替代。<br>九、总结与展望<br>纳米流式检测技术经过二十多年的发展，已经从实验室的探索性技术发展成为一个成熟的商业化技术，在细胞外囊泡研究、纳米药物表征、病毒检测、临床诊断等领域得到广泛应用。<br>未来发展方向可以归纳为几个方面：</li>
+<li>灵敏度进一步提高<br>：有望将检测下限进一步降低到10 nm，覆盖更小的生物颗粒</li>
+<li>更高通量多色检测<br>：增加荧光通道数量，支持更多参数同时检测</li>
+<li>小型化和便携化<br>：开发小型化纳米流式仪器，适合临床床边检测和资源有限地区使用</li>
+<li>单细胞EVs组学<br>：结合分选技术，实现对特定EVs亚群分选后进行组学分析，获得更深层次的生物学信息</li>
+<li>临床转化<br>：开发标准化的临床检测试剂盒，用于癌症诊断、预后监测，造福患者<br>纳米流式技术作为一个新兴的交叉学科领域，融合了光学、流体力学、电子学、生物学，未来还有很大发展空间，必将在纳米生物医学领域发挥越来越重要的作用。<br>参考文献<br>：</li>
+<li>颜江华, 韩家淮. 纳米流式检测技术及其在细胞外囊泡研究中的应用. 中国科学:生命科学, 2020, 50(3): 267-278.</li>
+<li>Zhang H, et al. Nanoflow cytometry: a powerful tool for analyzing single extracellular vesicles. J Extracell Vesicles, 2016, 5(1): 312-321.</li>
+<li>Wang Y, et al. High-sensitivity nanoflow cytometry for detection of 20 nm nanoparticles. Anal Chem, 2018, 90(12): 7310-7317.</li>
+<li>中国临床肿瘤学会. 液体活检临床应用中国专家共识. 2022.</li>
+<li>Chan AK, et al. Nanoflow cytometry for nanomedicine characterization. Adv Drug Deliv Rev, 2021, 177: 113-124.</li>
+</ol>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%8A%80%E6%9C%AF%E7%BB%BC%E8%BF%B0/" class="category-chain-item">技术综述</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E7%BA%B3%E7%B1%B3%E6%8A%80%E6%9C%AF/" class="print-no-link">#纳米技术</a>
+      
+        <a href="/tags/%E6%B5%81%E5%BC%8F%E7%BB%86%E8%83%9E%E6%9C%AF/" class="print-no-link">#流式细胞术</a>
+      
+        <a href="/tags/%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6/" class="print-no-link">#生物医学</a>
+      
+        <a href="/tags/%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF/" class="print-no-link">#检测技术</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>纳米流式检测技术：从原理到生物医学应用</div>
+      <div>https://leelog.github.io/2026/03/29/nanoflow-cytology-principle-applications/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Lee</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2026年3月29日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2026/03/29/cd19-cart-resistance-mechanisms-strategies/" title="CD19 CAR-T治疗B细胞淋巴瘤：耐药机制与应对策略">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">CD19 CAR-T治疗B细胞淋巴瘤：耐药机制与应对策略</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2026/03/29/b-cell-lymphoma-incidence-clinical-guidelines/" title="B细胞淋巴瘤：全球发病率变迁与最新临床指南解读">
+                        <span class="hidden-mobile">B细胞淋巴瘤：全球发病率变迁与最新临床指南解读</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    function isExpandAllEnabled() {
+      return CONFIG.toc && CONFIG.toc.expand_all === true;
+    }
+    function expandAllToc() {
+      if (!isExpandAllEnabled()) { return; }
+      jQuery('#toc-body .tocbot-is-collapsed').removeClass('tocbot-is-collapsed');
+    }
+    function updateTocToggle($li, $childList) {
+      var $toggle = $li.children('.toc-toggle');
+      if ($toggle.length === 0) { return; }
+      var collapsed = $childList.hasClass('tocbot-is-collapsed');
+      $toggle
+        .toggleClass('toc-toggle-collapsed', collapsed)
+        .toggleClass('toc-toggle-expanded', !collapsed);
+    }
+    function bindTocToggle() {
+      if (!isExpandAllEnabled()) { return; }
+      jQuery('#toc-body .toc-list-item').each(function() {
+        var $li = jQuery(this);
+        var $childList = $li.children('ol');
+        if ($childList.length === 0) {
+          if ($li.children('.toc-toggle').length === 0) {
+            $li.prepend('<span class="toc-toggle toc-toggle-placeholder" aria-hidden="true">›</span>');
+          }
+          return;
+        }
+
+        if ($li.children('.toc-toggle').length === 0) {
+          $li.prepend('<span class="toc-toggle toc-toggle-expanded" aria-hidden="true">›</span>');
+        }
+        updateTocToggle($li, $childList);
+      });
+      jQuery('#toc-body').off('click.tocToggle').on('click.tocToggle', '.toc-toggle', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var $li = jQuery(this).parent('.toc-list-item');
+        var $childList = $li.children('ol');
+        if ($childList.length === 0) { return; }
+        $childList.toggleClass('tocbot-is-collapsed');
+        updateTocToggle($li, $childList);
+      });
+      if (!window.__tocToggleObserver) {
+        window.__tocToggleObserver = new MutationObserver(function(mutations) {
+          mutations.forEach(function(mutation) {
+            if (mutation.type !== 'attributes' || mutation.attributeName !== 'class') { return; }
+            var $list = jQuery(mutation.target);
+            var $li = $list.parent('.toc-list-item');
+            if ($li.length === 0) { return; }
+            updateTocToggle($li, $list);
+          });
+        });
+        jQuery('#toc-body ol').each(function() {
+          window.__tocToggleObserver.observe(this, { attributes: true });
+        });
+      }
+    }
+    var tocConfig = Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc);
+    if (isExpandAllEnabled()) {
+      tocConfig.collapseDepth = 6;
+    }
+    window.tocbot.init(tocConfig);
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+    expandAllToc();
+    bindTocToggle();
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+        expandAllToc();
+        bindTocToggle();
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>

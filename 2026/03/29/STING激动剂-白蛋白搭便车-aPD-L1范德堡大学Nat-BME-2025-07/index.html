@@ -1,0 +1,837 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/duola.png">
+  <link rel="icon" href="/img/lmlogo.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Lee">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动”STING（Stimulator of Interferon Genes）是一类可以激活先天免疫反应、诱导干扰素产生并促进肿瘤微环境“转热”的小分子激动剂。它们对于“冷”肿瘤（免疫细胞渗透低、对免疫治疗响应差的肿瘤）尤其具有潜在治疗价值。但现实是——STING 激动剂有如下关键难点：💨体内清除快：循环半衰期短；🧠肿瘤蓄积差：难">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Nat.BME模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动”">
+<meta property="og:url" content="https://leelog.github.io/2026/03/29/STING%E6%BF%80%E5%8A%A8%E5%89%82-%E7%99%BD%E8%9B%8B%E7%99%BD%E6%90%AD%E4%BE%BF%E8%BD%A6-aPD-L1%E8%8C%83%E5%BE%B7%E5%A0%A1%E5%A4%A7%E5%AD%A6Nat-BME-2025-07/index.html">
+<meta property="og:site_name" content="LeeM&#39;s Blog">
+<meta property="og:description" content="模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动”STING（Stimulator of Interferon Genes）是一类可以激活先天免疫反应、诱导干扰素产生并促进肿瘤微环境“转热”的小分子激动剂。它们对于“冷”肿瘤（免疫细胞渗透低、对免疫治疗响应差的肿瘤）尤其具有潜在治疗价值。但现实是——STING 激动剂有如下关键难点：💨体内清除快：循环半衰期短；🧠肿瘤蓄积差：难">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801111805423.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801211848824.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801212418884.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801213540460.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801213833080.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801214511796.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801215022585.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801215048289.png">
+<meta property="article:published_time" content="2026-03-28T17:49:24.560Z">
+<meta property="article:modified_time" content="2026-03-16T03:25:16.000Z">
+<meta property="article:author" content="Lee">
+<meta property="article:tag" content="STING">
+<meta property="article:tag" content="肿瘤免疫疗法">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801111805423.png">
+  
+  
+  
+  <title>Nat.BME模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动” - LeeM&#39;s Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"leelog.github.io","root":"/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 8.1.2"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content (desktop) -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile grid menu overlay -->
+<div id="mobile-grid-menu" class="d-lg-none">
+  <div class="mobile-grid-menu-inner">
+    <div class="container">
+      <div class="row">
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-home-fill"></i>
+                  <span>首页</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/archives/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-archive-fill"></i>
+                  <span>归档</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/categories/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-category-fill"></i>
+                  <span>分类</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/tags/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-tags-fill"></i>
+                  <span>标签</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/about/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-user-fill"></i>
+                  <span>关于</span>
+                </div>
+              </a>
+            </div>
+          
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-search-btn">
+            <a href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-search"></i>
+                <span>搜索</span>
+              </div>
+            </a>
+          </div>
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-color-toggle-btn"
+               data-label-light="开灯"
+               data-label-dark="关灯">
+            <a href="javascript:;" aria-label="Color Toggle">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-dark" id="mobile-color-toggle-icon"></i>
+                <span id="mobile-color-toggle-label">关灯</span>
+              </div>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Nat.BME模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动”"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2026-03-29 01:49" pubdate>
+          2026年3月29日 凌晨
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          4.3k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          36 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">Nat.BME模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动”</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动”<br>STING（Stimulator of Interferon Genes）是一类可以激活先天免疫反应、诱导干扰素产生并促进肿瘤微环境“转热”的小分子激动剂。它们对于“冷”肿瘤（免疫细胞渗透低、对免疫治疗响应差的肿瘤）尤其具有潜在治疗价值。<br>但现实是——STING 激动剂有如下关键难点：💨<br>体内清除快<br>：循环半衰期短；🧠<br>肿瘤蓄积差<br>：难以靶向富集于肿瘤组织；💉<br>给药受限<br>：大多只能局部瘤内注射，无法治疗转移灶或系统性肿瘤；⚠️<br>毒副作用大<br>：全身注射容易激活非特异免疫，副作用强。<br>本研究创新性提出一种<br>模块化纳米抗体偶联 STING 激动剂平台<br>，通过“白蛋白搭便车”和“PD-L1靶向”双重机制，实现精准、高效、安全的STING系统递送，整体结构包括：</p>
+<ol>
+<li>纳米抗体抗白蛋白（nAlb）：- 结合白蛋白，延长血液中半衰期；</li>
+</ol>
+<ul>
+<li>白蛋白天然偏向肿瘤组织（EPR效应），可增强肿瘤蓄积。</li>
+</ul>
+<ol start="2">
+<li>偶联STING激动剂（diABZI）：- 高效激活STING通路；</li>
+</ol>
+<ul>
+<li>通过点击化学实现精确偶联。</li>
+</ul>
+<ol start="3">
+<li>双模块结构（AP-diABZI）：- 除nAlb外，还融合PD-L1抗体片段，提升肿瘤靶向性和协同免疫效应。</li>
+<li>药物设计和制备<br>【无aPD-L1】<br>首先是纳米抗体构建与表达</li>
+</ol>
+<ul>
+<li>纳米抗体序列来源：抗白蛋白纳米抗体（nAlb）：来源于 llama &#x2F; alpaca 文库，筛选得到与人&#x2F;小鼠白蛋白均有高亲和结合能力的VHH片段</li>
+<li>模块串联表达设计：模块以 linker（如GGGGS)n 串联，保持结构稳定；特别引入 C-terminal LPETGG motif（分选酶识别位点）与 His 标签，便于后续偶联与纯化。</li>
+<li>表达系统：采用大肠杆菌表达系统（如 BL21）；使用 IPTG 诱导表达，包涵体重折或可溶表达后直接纯化；纯化方法：镍亲和柱（Ni-NTA），洗脱后透析去盐。<br>其次是激动剂diABZI 的偶联<br>。diABZI 分子经过化学修饰，在其一端引入<br>单炔（DBCO）基团<br>，该基团可用于与偶联蛋白上的氨基或酶识别位点进行点击化学反应**。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801111805423.png" srcset="/img/loading.gif" lazyload><br>在策略提出后，作者首先用分子模拟和实验验证对 nAlb 的结合能力进行了阐述。<br>Figure 1b<br>展示了 nAlb 与白蛋白（人源和小鼠）结合界面：采用<br>Rosetta建模与结构预测<br>，表明 nAlb 与白蛋白形成高亲和力对接，结合界面结构紧凑，结合能稳定，且同时适用于人和小鼠，具备动物模型和转化基础。<br>作者随后用<br>ITC 实验<br>进一步定量验证亲和力（纳摩尔级），确保这一“搭便车”策略在结构和功能上均可行。<br>为实现模块化结构的精确构建，作者引入<br>Sortase A<br>分选酶系统。该酶可识别<br>LPETGG蛋白末端序列<br>，并与带有<br>N端多G<br>的修饰分子（如diABZI）实现定向偶联。<br>Figure 1c<br>详细描述了偶联反应的流程：在纳米抗体的C端加入LPETGG标签，经过<br>Sortase A<br>识别切割，将 diABZI 修饰物偶联到抗体上，得到结构单一、活性保留的偶联蛋白，如 nAlb-diABZI 或 AP-diABZI。<br>研究团队表明，该方法可实现<br>高偶联效率<br>与<br>反应温和条件<br>，适合构建均一的、功能保留的免疫激动剂复合物。</li>
+</ul>
+<ol start="2">
+<li>nAlb介导的靶向递送与组织分布<br>研究者将人类单核细胞系<br>THP-1<br>暴露于不同温度条件下的 nAlb–Cy5，以评估其表面结合与细胞内吞能力：在37°C：允许胞吞作用正常进行（代表活性摄取）。而在4°C时细胞代谢及胞吞几乎停止，仅保留被动结合（代表非特异性表面吸附）。这表明nAlb–Cy5 的细胞摄取是一个<br>能量依赖的、主动的内吞过程<br>，并非简单的被动扩散或吸附（Fig.2a）。加入大胞饮抑制剂 EIPA 后，细胞内的 Cy5 荧光强度（MFI）明显下降，说明 nAlb–Cy5 的内吞主要通过非特异性的大胞饮机制而非受体介导的方式完成（Fig.2b）。<br>图 2c–d 显示，nAlb–Cy5 与溶酶体染料高度共定位，表明其经胞吞后进入溶酶体途径；图 2e 展示其在小鼠体内的血浆半衰期显著延长（t₁&#x2F;₂ ≈ 56 小时），远超对照组。图 2f–g 利用 IVIS 成像显示 nAlb–Cy5 在肿瘤组织中明显富集，而非特异性组织摄取较低。图 2h–i 定量证实，在 EMT6 和 B16.F10 肿瘤模型中，nAlb–Cy5 在肿瘤中的浓度（%ID&#x2F;g）显著高于其他组织。图 2j 的免疫荧光染色进一步验证其定位于肿瘤血管附近和免疫细胞富集区域。这些结果综合表明，nAlb–Cy5 能有效靶向肿瘤，并通过胞吞进入细胞，具备良好的药代特性和递送效率。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801211848824.png" srcset="/img/loading.gif" lazyload alt="Fig. 2 | Anti-albumin nanobodies increase cargo delivery to tumour sites to promote uptake by cancer cells and tumour-associated myeloid cells.  "></li>
+<li>nAlb–diABZI<br>在乳腺癌模型中（EMT6）治疗效果及其对肿瘤免疫微环境（TME）的重编程能力****<br>在小鼠乳腺组织接种 EMT6 肿瘤细胞后，给予 nAlb–diABZI、自由 diABZI 或 PBS（对照）静脉注射，并在终点时对肿瘤进行流式细胞术和基因表达分析。<br>结果表明：nAlb–diABZI 显著抑制肿瘤生长，几乎完全阻断肿瘤扩增，自由 diABZI 对肿瘤无显著抑制；<br>t-SNE 图（图 3d）显示，nAlb–diABZI 处理组中肿瘤浸润淋巴细胞（如 CD8+ T 细胞和 NK 细胞）呈现更高的活化（CD69+）、增殖（Ki67+）和 PD-1 表达状态。图 3e–g 定量说明这些细胞群体比例和功能表型的变化，而图 3h 显示肿瘤相关巨噬细胞中抗原呈递分子 MHC-II 和免疫抑制分子 PD-L1 表达显著上调。此外，图 3i–j 展示脾脏中也出现与肿瘤局部一致的免疫激活特征。整体结果表明，nAlb–diABZI 通过增强肿瘤及外周免疫细胞的活性，显著提升了 STING 激动剂的治疗潜力，尤其是在免疫“冷”肿瘤模型中。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801212418884.png" srcset="/img/loading.gif" lazyload alt="Fig. 3 | Albumin-hitchhiking STING agonist inhibits breast tumour growth by shifting the immune cell profile of the TME.   "></li>
+<li>双特异性纳米抗体偶联物的构建与表征<br>**<br>Fig.4a<br>展示了 AP–diABZI 的设计思路——将抗白蛋白（nAlb）和抗 PD-L1 纳米抗体（nPD-L1）通过连接肽（linker）融合，C端保留 sortase 酶识别位点以连接 STING 激动剂 diABZI。SDS-PAGE 电泳验证构建产物纯度，显示预期分子量。ESI–MS 质谱确认各中间体及终产物的分子质量准确（包括 AP–Cy5 和 AP–diABZI），偶联效率接近 100%。<br>在 A549-Dual 和 THP1-Dual 上清晰显示：<br>nAlb–diABZI 和 AP–diABZI 都能激活 STING 通路，诱导干扰素产生<br>；尽管AP–diABZI 活性略低于 nAlb–diABZI，但仍保持纳摩尔级 EC₅₀（图 4d–e）。<br>Fig4f<br>表明在 BMDMs 中，AP–diABZI 上调典型 STING 靶基因如 Ifnb、Tnf、Cxcl10，功能未受结构复杂化显著影响。<br>在 B16.F10（PD-L1 low）与 EMT6（PD-L1 high）细胞中，AP–Cy5 的结合&#x2F;摄取效率均高于 nAlb–Cy5，尤其在 PD-L1 高表达条件下显著增强。使用 EMT6 的 WT 和 PD-L1 KO 细胞对比结果表明，AP–Cy5 在 WT 细胞中结合显著高于 KO 细胞；表明<br>PD-L1 靶向增强了特异性摄取能力<br>。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801213540460.png" srcset="/img/loading.gif" lazyload alt="Fig. 4 | Design, synthesis and testing of bivalent nanobody–STING agonist conjugate for albumin hitchhiking and targeting of PD-L1.   "></li>
+<li>🧪双靶向 STING 激动剂偶联物 AP–diABZI 在乳腺癌 EMT6 模型中的 强效抗肿瘤活性、完全缓解能力及免疫记忆建立<br>双靶向 STING 激动剂 AP–diABZI 在乳腺癌模型中实现了完全肿瘤缓解（10&#x2F;10），显著优于 ICB 或 nAlb–diABZI，且具备持久的免疫记忆保护能力。流式分析揭示其可增强 CD8+ T 细胞、抑制 Treg；<br>5h–k 展示了通过🧬<br>bulk RNA-seq 分析<br>揭示的 AP–diABZI 在乳腺癌模型中的免疫重编程机制。图 5h 的 PCA 分析显示 AP–diABZI 处理组在转录谱上与其他治疗组明显分离，提示其诱导了独特且强烈的基因表达变化。热图（图 5i）与火山图（图 5j）进一步揭示，大量与 I 型干扰素应答、趋化因子（如<br>Cxcl10<br>）、抗原处理（如<br>Tap1<br>）及免疫调节（如<br>Stat1<br>,<br>Irf7<br>）相关的基因显著上调。GSEA 分析（图 5k）则表明这些差异表达基因高度富集于“干扰素信号通路”“T 细胞活化”“NK 细胞介导毒性作用”等免疫关键通路，说明 AP–diABZI 可通过系统性激活 STING–IFN 轴和效应细胞功能，全面增强抗肿瘤免疫反应。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801213833080.png" srcset="/img/loading.gif" lazyload alt="Fig. 5 | Systemic administration of AP–diABZI conjugates enhance antitumour immune and therapeutic responses in EMT6 breast cancer model.  "><br>6<br>.<br>AP–diABZI 在<br>乳腺癌 EMT6 模型中<br>重塑肿瘤免疫微环境（TME）<br>AP–diABZI 能显著提升肿瘤局部 CD8+ T 细胞与 NK 细胞的浸润、增殖与激活，驱动其向效应记忆型和细胞毒型分化（GzmB⁺IFN-γ⁺）。同时伴随 Treg 显著减少，提示肿瘤微环境由免疫抑制状态转变为高效应状态。关键清除实验进一步证明 CD8+ T 细胞与 NK 细胞对 AP–diABZI 的治疗效果缺一不可。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801214511796.png" srcset="/img/loading.gif" lazyload alt="Fig. 6 | AP–diABZI activates a tumoricidal NK and T-cell response  "></li>
+<li>黑色素瘤 B16.F10 模型中的治疗效果<br>相比免疫检查点抑制剂（ICB）和 nAlb–diABZI，AP–diABZI 显著抑制肿瘤生长，并延长小鼠生存时间（图 7a–b）。流式细胞术分析显示，其显著增强 CD8⁺ T 细胞和 NK 细胞的活化状态（CD69⁺、Ki67⁺），并促进 T 细胞向效应记忆型分化（CD44⁺CD62L⁻）（图 7c–f）。此外，在表达 OVA 抗原的 B16-OVA 模型中，AP–diABZI 可诱导大量 SIINFEKL-MHC-I 四聚体阳性的肿瘤特异性 CD8⁺ T 细胞（图 7h–j），并上调 GzmB 和 IFN-γ，表明其激活了功能成熟的杀伤性 T 细胞反应。这些结果证明 AP–diABZI 能有效扩展至低免疫原性的肿瘤模型，激发强烈的肿瘤抗原特异性免疫应答。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801215022585.png" srcset="/img/loading.gif" lazyload alt="Fig. 7 | Nanobody–STING agonist conjugates stimulate antitumour immunity in B16.F10 melanoma tumour model.   "></li>
+<li>晚期肺转移模型中的抗转移能力及其与 adoptive T 细胞疗法的协同效应<br>在 B16.F10 静脉注射形成肺转移灶模型中，系统给药的 AP–diABZI 明显减少肺部肿瘤结节数量和重量，疗效显著优于免疫检查点抑制剂（ICB）和 nAlb–diABZI。进一步在 B16-OVA 模型中，研究者将 OT-I CD8⁺ T 细胞输入肿瘤小鼠，并联合使用 AP–diABZI（图 8f–i），结果显示两者联用可显著增强抗肿瘤效应，提高完全缓解率（CR），同时诱导更强的 T 细胞活化和杀伤功能。这表明 AP–diABZI 不仅能控制晚期转移性疾病，还能增强 adoptive T 细胞疗法的效力，为联合免疫策略提供了新的突破口。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250801215048289.png" srcset="/img/loading.gif" lazyload alt="Fig. 8 | Albumin-hitchhiking STING agonists improve immunotherapy responses in a model of lung metastatic melanoma and adoptive T-cell transfer therapy  "><br>综上，本研究开发了一种模块化、系统性可递送的双特异性纳米抗体–STING 激动剂偶联物（AP–diABZI），通过结合白蛋白搭载和 PD-L1 靶向机制，实现了对“免疫冷”肿瘤的高效定位与强力免疫激活。该策略不仅在乳腺癌和黑色素瘤模型中实现完全缓解，还诱导持久免疫记忆，显著优于现有 STING 激动剂或免疫检查点抑制剂。机制上依赖 CD8⁺ T 细胞和 NK 细胞协同发挥抗肿瘤作用。该平台具备可扩展性、稳定性和临床转化潜力，为癌症免疫治疗提供了新路径。</li>
+</ol>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E8%82%BF%E7%98%A4%E5%85%8D%E7%96%AB%E7%96%97%E6%B3%95/" class="print-no-link">#肿瘤免疫疗法</a>
+      
+        <a href="/tags/STING/" class="print-no-link">#STING</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Nat.BME模块化纳米抗体偶联STING激动剂实现系统性给药与肿瘤免疫“热启动”</div>
+      <div>https://leelog.github.io/2026/03/29/STING激动剂-白蛋白搭便车-aPD-L1范德堡大学Nat-BME-2025-07/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Lee</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2026年3月29日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2026/03/29/%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A6%E9%99%88%E5%A6%8D_%E5%BA%8F%E8%B4%AF%E5%85%8D%E7%96%AB%E7%8B%82%E7%8A%AC%E7%97%85%E7%81%AD%E6%B4%BB%E7%96%AB%E8%8B%97%E4%B8%8EmRNA%E7%96%AB%E8%8B%97/" title="吉林大学陈妍_序贯免疫狂犬病灭活疫苗与mRNA疫苗">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">吉林大学陈妍_序贯免疫狂犬病灭活疫苗与mRNA疫苗</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2026/03/29/SARS-CoV-2%E5%AF%B9%E4%BA%BA%E7%B1%BB%E7%A5%9E%E7%BB%8F%E5%85%83%E7%9A%84%E6%84%9F%E6%9F%93%E4%B8%8ETMPRSS2%E6%97%A0%E5%85%B3-%E9%9C%80%E8%A6%81%E8%BF%9B%E5%85%A5%E5%86%85%E4%BD%93%E7%BB%86%E8%83%9E-%E5%B9%B6%E8%83%BD%E8%A2%AB%E5%AE%BF%E4%B8%BB%E7%A3%B7%E9%85%B8%E8%82%8C%E9%86%87-5%E6%BF%80%E9%85%B6%E7%9A%84%E6%8A%91%E5%88%B6%E5%89%82%E6%89%80%E9%98%BB%E6%AD%A2/" title="LeeM&#39;s Blog">
+                        <span class="hidden-mobile">LeeM&#39;s Blog</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    function isExpandAllEnabled() {
+      return CONFIG.toc && CONFIG.toc.expand_all === true;
+    }
+    function expandAllToc() {
+      if (!isExpandAllEnabled()) { return; }
+      jQuery('#toc-body .tocbot-is-collapsed').removeClass('tocbot-is-collapsed');
+    }
+    function updateTocToggle($li, $childList) {
+      var $toggle = $li.children('.toc-toggle');
+      if ($toggle.length === 0) { return; }
+      var collapsed = $childList.hasClass('tocbot-is-collapsed');
+      $toggle
+        .toggleClass('toc-toggle-collapsed', collapsed)
+        .toggleClass('toc-toggle-expanded', !collapsed);
+    }
+    function bindTocToggle() {
+      if (!isExpandAllEnabled()) { return; }
+      jQuery('#toc-body .toc-list-item').each(function() {
+        var $li = jQuery(this);
+        var $childList = $li.children('ol');
+        if ($childList.length === 0) {
+          if ($li.children('.toc-toggle').length === 0) {
+            $li.prepend('<span class="toc-toggle toc-toggle-placeholder" aria-hidden="true">›</span>');
+          }
+          return;
+        }
+
+        if ($li.children('.toc-toggle').length === 0) {
+          $li.prepend('<span class="toc-toggle toc-toggle-expanded" aria-hidden="true">›</span>');
+        }
+        updateTocToggle($li, $childList);
+      });
+      jQuery('#toc-body').off('click.tocToggle').on('click.tocToggle', '.toc-toggle', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var $li = jQuery(this).parent('.toc-list-item');
+        var $childList = $li.children('ol');
+        if ($childList.length === 0) { return; }
+        $childList.toggleClass('tocbot-is-collapsed');
+        updateTocToggle($li, $childList);
+      });
+      if (!window.__tocToggleObserver) {
+        window.__tocToggleObserver = new MutationObserver(function(mutations) {
+          mutations.forEach(function(mutation) {
+            if (mutation.type !== 'attributes' || mutation.attributeName !== 'class') { return; }
+            var $list = jQuery(mutation.target);
+            var $li = $list.parent('.toc-list-item');
+            if ($li.length === 0) { return; }
+            updateTocToggle($li, $list);
+          });
+        });
+        jQuery('#toc-body ol').each(function() {
+          window.__tocToggleObserver.observe(this, { attributes: true });
+        });
+      }
+    }
+    var tocConfig = Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc);
+    if (isExpandAllEnabled()) {
+      tocConfig.collapseDepth = 6;
+    }
+    window.tocbot.init(tocConfig);
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+    expandAllToc();
+    bindTocToggle();
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+        expandAllToc();
+        bindTocToggle();
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>

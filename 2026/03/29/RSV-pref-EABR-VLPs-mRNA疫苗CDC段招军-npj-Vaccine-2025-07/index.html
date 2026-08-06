@@ -1,0 +1,843 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/duola.png">
+  <link rel="icon" href="/img/lmlogo.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Lee">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="呼吸道合胞病毒（RSV）是全球婴幼儿及老年人群体严重呼吸道感染的主因之一。尽管当前已有多个 RSV 疫苗通过审批（包括 mRNA 疫苗 mRESVIA），其保护力在接种后 18 个月下降至约 50%，说明免疫持久性不足是关键瓶颈。为应对这一问题，研究者尝试将 mRNA 疫苗与病毒样颗粒（VLPs）技术结合。VLPs 模拟病毒结构，能显著提升 B 细胞活性与抗体持久性。2023 年，Cell正刊发表">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RSV pref-EABR VLPs mRNA疫苗（CDC段招军,npj Vaccine 2025.07）">
+<meta property="og:url" content="https://leelog.github.io/2026/03/29/RSV-pref-EABR-VLPs-mRNA%E7%96%AB%E8%8B%97CDC%E6%AE%B5%E6%8B%9B%E5%86%9B-npj-Vaccine-2025-07/index.html">
+<meta property="og:site_name" content="LeeM&#39;s Blog">
+<meta property="og:description" content="呼吸道合胞病毒（RSV）是全球婴幼儿及老年人群体严重呼吸道感染的主因之一。尽管当前已有多个 RSV 疫苗通过审批（包括 mRNA 疫苗 mRESVIA），其保护力在接种后 18 个月下降至约 50%，说明免疫持久性不足是关键瓶颈。为应对这一问题，研究者尝试将 mRNA 疫苗与病毒样颗粒（VLPs）技术结合。VLPs 模拟病毒结构，能显著提升 B 细胞活性与抗体持久性。2023 年，Cell正刊发表">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731204711095.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731212710151.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731212739095.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731212809965.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731212835943.png">
+<meta property="og:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731212912709.png">
+<meta property="article:published_time" content="2026-03-28T17:49:24.555Z">
+<meta property="article:modified_time" content="2025-07-31T05:33:41.000Z">
+<meta property="article:author" content="Lee">
+<meta property="article:tag" content="EABR">
+<meta property="article:tag" content="RSV">
+<meta property="article:tag" content="VLP">
+<meta property="article:tag" content="mRNA 疫苗">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731204711095.png">
+  
+  
+  
+  <title>RSV pref-EABR VLPs mRNA疫苗（CDC段招军,npj Vaccine 2025.07） - LeeM&#39;s Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"leelog.github.io","root":"/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 8.1.2"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content (desktop) -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile grid menu overlay -->
+<div id="mobile-grid-menu" class="d-lg-none">
+  <div class="mobile-grid-menu-inner">
+    <div class="container">
+      <div class="row">
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-home-fill"></i>
+                  <span>首页</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/archives/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-archive-fill"></i>
+                  <span>归档</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/categories/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-category-fill"></i>
+                  <span>分类</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/tags/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-tags-fill"></i>
+                  <span>标签</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/about/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-user-fill"></i>
+                  <span>关于</span>
+                </div>
+              </a>
+            </div>
+          
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-search-btn">
+            <a href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-search"></i>
+                <span>搜索</span>
+              </div>
+            </a>
+          </div>
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-color-toggle-btn"
+               data-label-light="开灯"
+               data-label-dark="关灯">
+            <a href="javascript:;" aria-label="Color Toggle">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-dark" id="mobile-color-toggle-icon"></i>
+                <span id="mobile-color-toggle-label">关灯</span>
+              </div>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="RSV pref-EABR VLPs mRNA疫苗（CDC段招军,npj Vaccine 2025.07）"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2026-03-29 01:49" pubdate>
+          2026年3月29日 凌晨
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          3k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          26 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">RSV pref-EABR VLPs mRNA疫苗（CDC段招军,npj Vaccine 2025.07）</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>呼吸道合胞病毒（RSV）是全球婴幼儿及老年人群体严重呼吸道感染的主因之一。尽管当前已有多个 RSV 疫苗通过审批（包括 mRNA 疫苗 mRESVIA），其保护力在接种后 18 个月下降至约 50%，说明<br>免疫持久性不足<br>是关键瓶颈。<br>为应对这一问题，研究者尝试将 mRNA 疫苗与病毒样颗粒（VLPs）技术结合。VLPs 模拟病毒结构，能显著提升 B 细胞活性与抗体持久性。2023 年，<br>Cell正刊发表：EABR 技术首次用于 SARS-CoV-2 疫苗中，通过嵌入 ESCRT&#x2F;ALIX 结合区段（EABR）诱导膜蛋白自组装为包膜 VLP（eVLPs），从而提高免疫效力。<br>本文将EABR诱导包装VLPs的方法引入 RSV mRNA 疫苗中，构建 PreF-EABR 构建体，并在小鼠中系统评估其免疫效果与机制。<br>🧪1. 为形成VLPs，研究团队在RSV疫苗中的<br>PreF蛋白结构尾部<br>加入两个特殊模块：<br>✅<br>EABR<br>（ESCRT&#x2F;ALIX 结合区）——引导疫苗形成“外壳”；<br>✅<br>EPM<br>（内吞抑制区）——让疫苗停留在细胞表面，不易被吞噬回收。<br>这种设计能使疫苗编码的蛋白<br>自组装成“包膜病毒样颗粒”（eVLPs）<br>，模拟天然病毒释放形式，从而实现<br>更强、更久、更全面<br>的免疫激活。<br>使用的PreF来源为<br>RSV A CC14-10<br>株的F蛋白，作者对其进行了以下修改：</p>
+<ul>
+<li>结构稳定突变：引入N67I, R106Q, F137S, S215P 和 E487Q等突变，以稳定PreF构象；【参考Krarup2015NatComm】</li>
+<li>替换区域：用GSGSGR连接肽替换P27段（109–136 aa）；</li>
+<li>信号肽：原始信号肽被tPA信号肽替换，以增强分泌效率；</li>
+<li>胞内尾部CT截断：保留一个关键赖氨酸残基（K），提升膜表达。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731204711095.png" srcset="/img/loading.gif" lazyload></li>
+</ul>
+<ol start="2">
+<li>💥研究团队在小鼠实验中发现，改造后的 PreF-EABR mRNA 疫苗展现出显著优势：</li>
+</ol>
+<ul>
+<li>0.5 μg剂量即可诱导强烈的抗RSV中和抗体反应；</li>
+<li>相同剂量下的传统 mRNA 疫苗几乎无效，需提升至2.5 μg才能达到近似效果。<br>🔬 加强针接种后，PreF-EABR mRNA 诱导的抗体滴度为传统疫苗的<br>2.6–5.3 倍<br>！<br>从细胞免疫水平来看，两种疫苗均能诱导剂量依赖性的<br>Th1 型细胞因子<br>（IL-2、IFN-γ、TNF-α）分泌，但存在差异：</li>
+<li>PreF-EABR 组的IFN-γ⁺CD4⁺ T 细胞比例更高，可能与 eVLPs 通过 MHC II 类分子更高效激活辅助性 T 细胞有关；</li>
+<li>传统疫苗的IFN-γ⁺CD8⁺ T 细胞比例更高，推测因 PreF-EABR 截断了含 CD8⁺ T 细胞表位的 CT 区域（图 2e-j）。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731212710151.png" srcset="/img/loading.gif" lazyload></li>
+</ul>
+<ol>
+<li>在RSV病毒攻毒实验中，PreF-EABR疫苗组的小鼠表现远胜传统疫苗组：<br>在免疫4周后进行RSV病毒攻击实验，小鼠肺部和鼻甲中的病毒载量显著降低（Fig. 3d–e），其中PreF-EABR组即使在低剂量（0.5 μg）下，也可达到与传统疫苗高剂量（2.5 μg）相当的病毒抑制效果；病毒中和抗体水平与组织病毒载量呈强负相关（Fig. 3f–g），进一步验证抗体保护性。<br>组织切片结果显示（Fig. 3h–i），PreF-EABR疫苗显著减轻肺组织炎症，降低了间质性肺炎、支气管炎等病理改变的发生率；而PAS染色（Fig. 3j）进一步证实其能有效抑制呼吸道中粘液分泌。<br>🔎 因此，<br>PreF-EABR mRNA疫苗在低剂量下即可实现有效保护，炎症更轻，组织病变更少，显示出良好的防护优势与剂量经济性。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731212739095.png" srcset="/img/loading.gif" lazyload></li>
+<li>PreF-EABR mRNA疫苗在诱导高质量体液免疫反应方面的优势，特别是在生发中心B细胞（GC B cells）和滤泡辅助T细胞（Tfh cells）上的提升。【关于GC_B】GC B细胞是在淋巴结或脾脏的生发中心内，通过与抗原反复接触并经历体细胞突变与筛选，逐渐产生高亲和力抗体的关键群体。记忆B细胞和长期生存浆细胞的前体, 高质量的GC反应会生成两类后代：- 记忆B细胞（MBCs）：能快速响应二次感染；</li>
+</ol>
+<ul>
+<li>长期生存浆细胞（LLPCs）：定居骨髓，持续分泌抗体，是免疫持久性的保障。Tfh细胞专门定位于B细胞滤泡区，与GC B细胞形成免疫突触，提供CD40L和IL-21等信号，引导B细胞进入生发中心反应。决定抗体质量与记忆深度没有足够数量或功能强的Tfh细胞，B细胞无法高效完成亲和力成熟和分化为记忆细胞。研究者在小鼠免疫后第7天和第14天采集淋巴结和脾脏，流式细胞分析结果表明，PreF-EABR疫苗诱导的总GC B细胞和F蛋白特异性GC B细胞频率显著高于传统PreF mRNA组（Fig. 4d–e, 4g–h），提示其更有利于高亲和力抗体的生成。同时，PreF-EABR疫苗组在两大淋巴器官中均诱导出更高频率的Tfh细胞（Fig. 4f, 4i），这些细胞在促进GC反应、B细胞成熟及记忆建立中发挥核心作用。📌 综合来看，Figure 4提供了强有力的细胞层面证据，说明PreF-EABR疫苗能更有效地激活促进高质量抗体生成的免疫细胞群，从源头提升免疫反应的深度与持久性。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731212809965.png" srcset="/img/loading.gif" lazyload></li>
+</ul>
+<ol>
+<li>PreF-EABR mRNA疫苗能够在小鼠体内诱导长期体液免疫记忆和持久保护能力，通过为期20周的动态追踪和免疫细胞检测，展现出其优于传统PreF mRNA疫苗的显著优势：从第1周至第20周，PreF-EABR mRNA疫苗组的抗PreF IgG（Fig. 5B）和 RSV Long&#x2F;B1中和抗体滴度（Fig. 5C–D）始终维持在显著高于对照组的水平；尤其与传统PreF mRNA相比，PreF-EABR组的抗体下降更缓慢，呈现更好的免疫持久性曲线。虽然两组均可诱导LLPCs（长寿命浆细胞，存在于骨髓、长期分泌抗体），PreF-EABR组在F特异性LLPC数量上略高；<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731212835943.png" srcset="/img/loading.gif" lazyload></li>
+<li>机理<br>研究者在小鼠初次免疫24小时后，通过<br>转录组RNA-Seq<br>与<br>多因子细胞因子（cytokine）检测<br>，比对PreF-EABR、传统PreF mRNA、LNP和Naïve组之间的差异，发现PreF-EABR在多个层面诱导更强烈的免疫反应：<br>转录组分析：</li>
+</ol>
+<ul>
+<li>Figure 6a–b：PreF-EABR mRNA疫苗组显著上调大量差异表达基因（DEGs），数量远超PreF mRNA和LNP组；</li>
+<li>Figure 6c–d：KEGG通路富集分析显示，PreF-EABR激活的免疫信号通路更丰富，表达水平也更强，包括：Toll样受体（TLR）通路；JAK-STAT信号通路；趋化因子信号通路；血小板激活通路（platelet activation）等。</li>
+<li>Figure 6e–f：TLR通路与抗原处理&#x2F;呈递相关基因（如Tlr3、Tap1、H2-Q6）在PreF-EABR组中表达更高；Figure 6g：PreF-EABR显著上调血小板活化相关基因（Gp1ba、Itga2b、Fermt3），提示其可能促进浆细胞生存；Figure 6h：趋化因子信号增强，可能助力免疫细胞更有效迁移和激活。<br><img src="https://blogpicgo-1311924286.cos.ap-nanjing.myqcloud.com/20250731212912709.png" srcset="/img/loading.gif" lazyload><br>因此，<br>PreF-EABR疫苗在分子层面激活更强的先天免疫信号网络<br>，尤其通过血小板活化、JAK-STAT通路和趋化因子网络，为后续的记忆B细胞生成、抗体持续分泌提供重要支持。<br>📚 原文出处<br>Chai, P., Shi, Y., Li, X. et al.<br>Improved mRNA-based RSV vaccine with PreF forming enveloped virus-like particles.<br>npj Vaccines (2025)<br>DOI: 10.1038&#x2F;s41541-025-01205-x</li>
+</ul>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/RSV/" class="print-no-link">#RSV</a>
+      
+        <a href="/tags/mRNA-%E7%96%AB%E8%8B%97/" class="print-no-link">#mRNA 疫苗</a>
+      
+        <a href="/tags/VLP/" class="print-no-link">#VLP</a>
+      
+        <a href="/tags/EABR/" class="print-no-link">#EABR</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>RSV pref-EABR VLPs mRNA疫苗（CDC段招军,npj Vaccine 2025.07）</div>
+      <div>https://leelog.github.io/2026/03/29/RSV-pref-EABR-VLPs-mRNA疫苗CDC段招军-npj-Vaccine-2025-07/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Lee</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2026年3月29日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2026/03/29/SARS-CoV-2%E5%AF%B9%E4%BA%BA%E7%B1%BB%E7%A5%9E%E7%BB%8F%E5%85%83%E7%9A%84%E6%84%9F%E6%9F%93%E4%B8%8ETMPRSS2%E6%97%A0%E5%85%B3-%E9%9C%80%E8%A6%81%E8%BF%9B%E5%85%A5%E5%86%85%E4%BD%93%E7%BB%86%E8%83%9E-%E5%B9%B6%E8%83%BD%E8%A2%AB%E5%AE%BF%E4%B8%BB%E7%A3%B7%E9%85%B8%E8%82%8C%E9%86%87-5%E6%BF%80%E9%85%B6%E7%9A%84%E6%8A%91%E5%88%B6%E5%89%82%E6%89%80%E9%98%BB%E6%AD%A2/" title="LeeM&#39;s Blog">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">LeeM&#39;s Blog</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2026/03/29/Pan-Coronavirus/" title="【学习笔记】新冠变异株疫苗及广谱疫苗研究">
+                        <span class="hidden-mobile">【学习笔记】新冠变异株疫苗及广谱疫苗研究</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    function isExpandAllEnabled() {
+      return CONFIG.toc && CONFIG.toc.expand_all === true;
+    }
+    function expandAllToc() {
+      if (!isExpandAllEnabled()) { return; }
+      jQuery('#toc-body .tocbot-is-collapsed').removeClass('tocbot-is-collapsed');
+    }
+    function updateTocToggle($li, $childList) {
+      var $toggle = $li.children('.toc-toggle');
+      if ($toggle.length === 0) { return; }
+      var collapsed = $childList.hasClass('tocbot-is-collapsed');
+      $toggle
+        .toggleClass('toc-toggle-collapsed', collapsed)
+        .toggleClass('toc-toggle-expanded', !collapsed);
+    }
+    function bindTocToggle() {
+      if (!isExpandAllEnabled()) { return; }
+      jQuery('#toc-body .toc-list-item').each(function() {
+        var $li = jQuery(this);
+        var $childList = $li.children('ol');
+        if ($childList.length === 0) {
+          if ($li.children('.toc-toggle').length === 0) {
+            $li.prepend('<span class="toc-toggle toc-toggle-placeholder" aria-hidden="true">›</span>');
+          }
+          return;
+        }
+
+        if ($li.children('.toc-toggle').length === 0) {
+          $li.prepend('<span class="toc-toggle toc-toggle-expanded" aria-hidden="true">›</span>');
+        }
+        updateTocToggle($li, $childList);
+      });
+      jQuery('#toc-body').off('click.tocToggle').on('click.tocToggle', '.toc-toggle', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var $li = jQuery(this).parent('.toc-list-item');
+        var $childList = $li.children('ol');
+        if ($childList.length === 0) { return; }
+        $childList.toggleClass('tocbot-is-collapsed');
+        updateTocToggle($li, $childList);
+      });
+      if (!window.__tocToggleObserver) {
+        window.__tocToggleObserver = new MutationObserver(function(mutations) {
+          mutations.forEach(function(mutation) {
+            if (mutation.type !== 'attributes' || mutation.attributeName !== 'class') { return; }
+            var $list = jQuery(mutation.target);
+            var $li = $list.parent('.toc-list-item');
+            if ($li.length === 0) { return; }
+            updateTocToggle($li, $list);
+          });
+        });
+        jQuery('#toc-body ol').each(function() {
+          window.__tocToggleObserver.observe(this, { attributes: true });
+        });
+      }
+    }
+    var tocConfig = Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc);
+    if (isExpandAllEnabled()) {
+      tocConfig.collapseDepth = 6;
+    }
+    window.tocbot.init(tocConfig);
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+    expandAllToc();
+    bindTocToggle();
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+        expandAllToc();
+        bindTocToggle();
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
